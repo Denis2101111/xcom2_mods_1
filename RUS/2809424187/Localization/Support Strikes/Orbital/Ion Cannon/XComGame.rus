@@ -1,0 +1,20 @@
+
+[Support_Space_Offensive_IonCannon_T1 X2WeaponTemplate]
+FriendlyName="Огневая поддержка: Ионная Пушка"
+FriendlyNamePlural="Огневая поддержка: Ионная Пушка"
+BriefSummary="Радиостанция дальнего действия, которая позволяет пользователю вызвать удар ионной пушки."
+TacticalText="<Bullet/>Радиоприемник, специально настроенный для вызова определенной огневой поддержки.\n<Bullet/>Ионная Пушка: Разработанный как стратегическое оружие следующего поколения, он находится на геосинхронной орбите, что дает ему коэффициент отвлечения 8 к 1.\n<Bullet/>Не гарантирует точность.\n<Bullet/>Не может использоваться под землей или внутри массивных зданий или строительных комплексов."
+AbilityDescName="Ударная поддержка"
+
+
+
+[Ability_Support_Orbital_Off_IonCannon_Stage1 X2AbilityTemplate]
+LocFriendlyName="Запрос удара: Ионная Пушка"
+LocLongDescription="<Ability:STRIKE_INTELCOST_USAGE_DYN/>\nЗапрашивает удар ионной пушки по указанному месту. Требуется время, чтобы спутник выровнялся в нужном месте, но оружие точное и смертоносное."
+LocHelpText="<Ability:STRIKE_INTELCOST_USAGE_DYN/>\nОтложенный удар ионной пушки по требуемому прицелу."
+LocFlyOverText="Запрос удара: Ионная Пушка"
+
+[Ability_Support_Orbital_Off_IonCannon_Stage2 X2AbilityTemplate]
+;LocFriendlyName="У ВАС НЕ ДОЛЖНО БЫТЬ ЭТОЙ СПОСОБНОСТИ"
+LocLongDescription="Сообщите об этой ошибке в E3, если увидите это сообщение."
+LocHelpText="Сообщите об этой ошибке в E3, если увидите это сообщение."

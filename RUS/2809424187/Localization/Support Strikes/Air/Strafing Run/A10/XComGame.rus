@@ -1,0 +1,35 @@
+
+[Support_Air_Offensive_StrafingRun_A10_T1 X2WeaponTemplate]
+FriendlyName="Огневая поддержка: Точечный удар удар A10"
+FriendlyNamePlural="Огневая поддержка: Точечный удар удар A10"
+BriefSummary="Радиостанция с установленной частотой для вызова огневой поддержки в назначенном районе."
+TacticalText="<Bullet/>Радиоприемник, специально настроенный для вызова определенной огневой поддержки.\n<Bullet/>A10 Пробный запуск: A10 вызывается и выполняет пробный запуск по указанной области.\n<Bullet/>Смертельная точность.\n<Bullet/>Не может использоваться под землей или внутри массивных зданий или строительных комплексов."
+AbilityDescName="Ударная поддержка"
+
+
+[Ability_Support_Air_Off_StrafingRun_A10_Stage1 X2AbilityTemplate]
+LocFriendlyName="Запрос огневой поддержки: A-10"
+;LocLongDescription="<Ability:STRIKE_INTELCOST_USAGE_DYN/>\nЗапрашивает отложенный точный удар по целевому местоположению. A-10 выполнит точный удар после нескольких поворотов."
+LocLongDescription="<Ability:STRIKE_INTELCOST_USAGE_DYN/>\nЗапрос огневой поддержки в район операции. После некоторых ходов, A-10 будет доступен для выполнения стрельб или стрельбы из любого оборудованного оружия."
+LocHelpText="<Ability:STRIKE_INTELCOST_USAGE_DYN/>\nЗапрос огневой задачи A-10 'Thunderbolt II' на территории задания"
+LocFlyOverText="Запрошена огневая поддержка: A-10 'Thunderbolt II'"
+
+[Ability_Support_Air_Off_StrafingRun_A10_Stage2 X2AbilityTemplate]
+LocFlyOverText="A-10 доступен для выполнения!"
+
+[Ability_Support_Air_Off_StrafingRun_A10_Stage3_InitLocation X2AbilityTemplate]
+LocFriendlyName="Запрос удара: Огневой налет A-10 [Location]"
+LocLongDescription="Задает начальное местоположение пробега при стрельбе. Затем игрок должен выбрать угол, прежде чем A10 начнет обстрел."
+LocHelpText="Установите начальное местоположение для запуска A10. Игрок должен выбрать угол сразу после активации этой способности."
+
+[Ability_Support_Air_Off_StrafingRun_A10_Stage3_SelectAngle X2AbilityTemplate]
+LocFriendlyName="Запрос удара: Огневой налет A-10 [Angle]"
+LocHelpText="Выберите вектор для атаки A-10. Активация этой способности подтвердит нанесение удара!"
+
+[]
+LocFlyOverText
+
+[Ability_Support_Air_Off_StrafingRun_A10_Stage2 X2AbilityTemplate]
+LocFriendlyName="Запрос: Удар A10"
+LocLongDescription="Вызовите налет A10 пока есть возможность. <Ability:STRIKE_STRAFINGRUN_A10_STAGE2_DURATION/> ходов осталось."
+LocHelpText="Вызовите налет A10 пока есть возможность. <Ability:STRIKE_STRAFINGRUN_A10_STAGE2_DURATION/> ходов осталось."

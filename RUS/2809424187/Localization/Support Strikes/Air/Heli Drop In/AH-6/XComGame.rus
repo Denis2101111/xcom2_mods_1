@@ -1,0 +1,20 @@
+[Support_Airborne_Defensive_HeliDropIn_T1 X2WeaponTemplate]
+FriendlyName="Воздушная поддержка: Высадка из вертолета"
+FriendlyNamePlural="Воздушная поддержка: Высадки из вертолета"
+BriefSummary="Радиостанция с установленной частотой для вызова огневой поддержки в назначенном районе."
+TacticalText="<Bullet/>Радиоприемник, специально настроенный для вызова определенной огневой поддержки.\n<Bullet/>Мины HE: Наступательная огневая поддержка, которая сбрасывает 3 снаряда на заданную площадь..\n<Bullet/>Нет гарантии точности.\n<Bullet/>Не может использоваться под землей или внутри массивных зданий или строительных комплексов."
+AbilityDescName="Ударная поддержка"
+
+;
+; СПОСОБНОСТИ
+;
+
+[Ability_Support_Air_Def_HeliDropIn_Stage1 X2AbilityTemplate]
+LocFriendlyName="Воздушная поддержка: MH-6 Высадка"
+LocLongDescription="<Ability:STRIKE_INTELCOST_USAGE_DYN/>\nЗапрашивает задержанное подкрепление в назначенном месте.. MH-6 Little Bird сбрасывает 4 единицы LZ после нескольких ходов."
+LocHelpText="<Ability:STRIKE_INTELCOST_USAGE_DYN/>\nЗадержанное подкрепление в запрошенном месте."
+LocFlyOverText="Запрошена Поддержка: Вертолетная Посадка"
+
+[Ability_Support_Air_Def_HeliDropIn_Stage2 X2AbilityTemplate]
+LocLongDescription="Сообщите об этой ошибке в E3, если увидите это сообщение."
+LocHelpText="Сообщите об этой ошибке в E3, если увидите это сообщение."

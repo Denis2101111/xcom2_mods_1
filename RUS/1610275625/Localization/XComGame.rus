@@ -1,0 +1,161 @@
+;Place localized text in this file
+[WOTC_Tactical_Options]
+MOD_NAME="WOTC_Tactical_Options"
+
+
+[GremlinLootProtocol X2AbilityTemplate]
+LocFriendlyName="Захват добычи"
+LocHelpText="Отправьте \"Гремлина\" или \"BIT\" подобрать добычу."
+
+
+[ScoutingProtocol X2AbilityTemplate]
+LocFriendlyName="Протокол разведки"
+LocLongDescription="Отправьте \"Гремлина\" на разведку, в указанную область. Не нарушает маскировку и не предупреждает врагов."
+LocHelpText="Приказ \"Гремлину\" разведать территорию."
+LocFlyOverText="Протокол разведки"
+
+
+[SI_SystemInfiltration X2AbilityTemplate]
+LocFriendlyName="Проникновение в систему"
+LocLongDescription="Потратьте 1 действие, чтобы получить суммирующийся бонус ко взлому. Бонус теряется, если юнит передвигается или получает урон."
+LocHelpText="Проникновение в систему противника, для повышения шанса на успешный взлом."
+
+
+; Remove from "SustainingSphere" to "CombatStims" below to completely disable the NoSingleUseItems description overrides
+[SustainingSphere X2WeaponTemplate]
+BriefSummary="Сохраняющая сфера - это безотказный механизм для чрезвычайных ситуаций. Она автоматически включается, когда солдат оказывается на пороге смерти. Сфера переводит солдата в режим временного сохранения с целью поддержания его жизни. Использовать сферу можно только один раз за бой."
+[SustainingSphereAbility X2AbilityTemplate]
+LocHelpText="Сохраняющая сфера - это безотказный механизм для чрезвычайных ситуаций. Она автоматически включается, когда солдат оказывается на пороге смерти. Сфера переводит солдата в режим временного сохранения с целью поддержания его жизни. Использовать сферу можно только один раз за бой."
+LocLongDescription="Сохраняющая сфера - это безотказный механизм для чрезвычайных ситуаций. Она автоматически включается, когда солдат оказывается на пороге смерти. Сфера переводит солдата в режим временного сохранения с целью поддержания его жизни. Использовать сферу можно только один раз за бой."
+[SustainingSphereTriggeredAbility X2AbilityTemplate]
+LocHelpText="Сохраняющая сфера - это безотказный механизм для чрезвычайных ситуаций. Она автоматически включается, когда солдат оказывается на пороге смерти. Сфера переводит солдата в режим временного сохранения с целью поддержания его жизни. Использовать сферу можно только один раз за бой."
+LocLongDescription="Сохраняющая сфера - это безотказный механизм для чрезвычайных ситуаций. Она автоматически включается, когда солдат оказывается на пороге смерти. Сфера переводит солдата в режим временного сохранения с целью поддержания его жизни. Использовать сферу можно только один раз за бой."
+[RefractionField X2WeaponTemplate]
+BriefSummary="Технология \"Преломляющего поля\", основанная на материале из останков призрака пришельцев, позволяет носителю мгновенно включать маскировку."
+[RefractionFieldAbility X2AbilityTemplate]
+LocHelpText="Мгновенно активирует маскировку."
+LocLongDescription="Технология \"Преломляющего поля\", основанная на материале из останков призрака пришельцев, позволяет носителю мгновенно включать маскировку."
+[CombatStims X2AbilityTemplate]
+LocLongDescription="Солдат, принявший сыворотку, получает дополнительную мобильность, иммунитет к ментальным воздействиям и частичную защиту от урона на следующие <Ability:COMBATSTIMSDURATION/> ходов. Для активации действие не требуется. Сыворотка используется один раз."
+
+; If have set "Rebalance_Sting" to false, remove/comment out the below line to revert back to vanilla
+[Sting X2AbilityTemplate]
+LocPromotionPopupText="<Bullet/> Способность \"Укус\" позволяет Жнецу нанести удар даже тогда, когда раскрывать себя нельзя ни в коем случае.<br/><Bullet/> Требует <Ability:SelfAmmoCost/> ед. боеприпасов, перезарядка <Ability:SelfCooldown/> ход(а).<br/>"
+
+
+[AllHunkerDown X2AbilityTemplate]
+LocFriendlyName="Глухая оборона для всех"
+LocHelpText="Все солдаты включают режим \"глухая оборона\"."
+
+[OthersHunkerDown X2AbilityTemplate]
+LocFriendlyName="Глухая оборона для остальных"
+LocHelpText="Все солдаты кроме выбранного включают режим \"глухая оборона\"."
+
+[AllReload X2AbilityTemplate]
+LocFriendlyName="Перезарядка для всех"
+LocHelpText="Все солдаты перезаряжают оружие."
+
+
+[EvacCarryOnly X2AbilityTemplate]
+LocFriendlyName="Эвакуировать только переносимый объект"
+LocHelpText="Отправить носимый объект. Может использоваться только внутри зоны эвакуации."
+
+
+[BattleScanner_IncreaseVisionRange X2AbilityTemplate]
+LocFriendlyName="Расширитель границ"
+LocHelpText="Увеличивает дальность обзора солдата."
+
+
+[AllyStabilize X2AbilityTemplate]
+LocFriendlyName="Стабилизировать союзника"
+LocHelpText="Используйте аптечку истекающего кровью солдата, чтобы стабилизировать его."
+
+[AllyStabilize_Medikit X2AbilityTemplate]
+LocFriendlyName="Стабилизировать союзника"
+LocHelpText="Используйте аптечку истекающего кровью солдата, чтобы стабилизировать его."
+
+[AllyStabilize_NanoMedikit X2AbilityTemplate]
+LocFriendlyName="Стабилизировать союзника"
+LocHelpText="Используйте аптечку истекающего кровью солдата, чтобы стабилизировать его."
+
+[AllyStabilize_BioMedikit X2AbilityTemplate]
+LocFriendlyName="Стабилизировать союзника"
+LocHelpText="Используйте аптечку истекающего кровью солдата, чтобы стабилизировать его."
+
+[OnSelf_MedikitHeal X2AbilityTemplate]
+LocFriendlyName="Использовать чужую аптечку"
+LocHelpText="Используйте аптечку истекающего кровью или мертвого солдата, чтобы восстановить себе <Ability:MEDIKITPERUSEHP/> ОЗ."
+
+[OnSelf_NanoMedikitHeal X2AbilityTemplate]
+LocFriendlyName="Использовать чужую аптечку"
+LocHelpText="Используйте аптечку истекающего кровью или мертвого солдата, чтобы восстановить себе <Ability:NANOMEDIKITHEALHP/> ОЗ."
+
+[OnSelf_BioMedikitHeal X2AbilityTemplate]
+LocFriendlyName="Использовать чужую аптечку"
+LocHelpText="Используйте аптечку истекающего кровью или мертвого солдата, чтобы восстановить себе <Ability:NANOMEDIKITHEALHP/>+1 ОЗ."
+
+[EvacAll X2AbilityTemplate]
+LocFriendlyName="эвакуировать всех"
+LocHelpText="Эвакуировать всех юнитов, находящихся в зоне эвакуации."
+
+[OverwatchAll X2AbilityTemplate]
+LocFriendlyName="Наблюдение для всех"
+LocHelpText="Все солдаты включают режим \"наблюдения\"."
+
+[OverwatchOthers X2AbilityTemplate]
+LocFriendlyName="Наблюдение для остальных"
+LocHelpText="Все солдаты кроме выбранного включают режим \"наблюдения\"."
+
+
+[SmartOverwatchNormal X2AbilityTemplate]
+LocFriendlyName="Тактическое наблюдение"
+LocLongDescription="Стандартный режим \"наблюдения\" за указанной областью."
+LocHelpText="Наблюдение за выбранной областью."
+LocFlyOverText="Тактическое наблюдение" 
+LocPromotionPopupText="<Bullet/> Размер конуса настраивается в папке > XComGame.ini <br/><Bullet/>  <br/>"
+
+[SmartOverwatchRifle X2Ability_DefaultAbilitySet]
+LocFriendlyName="Тактическое наблюдение"
+LocLongDescription="Режим \"наблюдения\" с винтовкой, за указанной областью."
+LocHelpText="Наблюдение за выбранной областью."
+LocFlyOverText="Тактическое наблюдение" 
+LocPromotionPopupText="<Bullet/> Размер конуса настраивается в папке > XComGame.ini <br/><Bullet/>  <br/>"
+
+[SmartOverwatchSniper X2AbilityTemplate]
+LocFriendlyName="Тактическое наблюдение"
+LocLongDescription="Режим \"наблюдения\" со снайперской винтовкой, за указанной областью."
+LocHelpText="Наблюдение за выбранной областью."
+LocFlyOverText="Тактическое наблюдение" 
+LocPromotionPopupText="<Bullet/> Размер конуса настраивается в папке > XComGame.ini <br/><Bullet/>  <br/>"
+
+[SmartOverwatchSniperLong X2AbilityTemplate]
+LocFriendlyName="Тактическое наблюдение"
+LocLongDescription="Дальний режим \"наблюдения\" со снайперской винтовкой, за указанной областью."
+LocHelpText="Наблюдение за выбранной областью."
+LocFlyOverText="Дальнее наблюдение" 
+LocPromotionPopupText="<Bullet/> Размер конуса настраивается в папке > XComGame.ini <br/><Bullet/>  <br/>"
+
+[SmartOverwatchShotgun X2AbilityTemplate]
+LocFriendlyName="Тактическое наблюдение"
+LocLongDescription="Режим \"наблюдения\" с дробовиком, за указанной областью."
+LocHelpText="Наблюдение за выбранной областью."
+LocFlyOverText="Тактическое наблюдение" 
+LocPromotionPopupText="<Bullet/> Размер конуса настраивается в папке > XComGame.ini <br/><Bullet/>  <br/>"
+
+[SmartOverwatchCannon X2AbilityTemplate]
+LocFriendlyName="Тактическое наблюдение"
+LocLongDescription="Режим \"наблюдения\" с пушкой, за указанной областью."
+LocHelpText="Наблюдение за выбранной областью."
+LocFlyOverText="Тактическое наблюдение" 
+LocPromotionPopupText="<Bullet/> Размер конуса настраивается в папке > XComGame.ini <br/><Bullet/>  <br/>"
+
+[SmartOverwatchGuardian X2AbilityTemplate]
+LocFriendlyName="Тактическое наблюдение"
+LocLongDescription="Режим \"наблюдения\" со способностью \"Страж\", за указанной областью."
+LocHelpText="Наблюдение за выбранной областью."
+LocFlyOverText="Тактическое наблюдение" 
+LocPromotionPopupText="<Bullet/> Размер конуса настраивается в папке > XComGame.ini <br/><Bullet/>  <br/>"
+
+
+
+

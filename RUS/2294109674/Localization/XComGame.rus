@@ -1,0 +1,3033 @@
+[Reward_Sectoid X2RewardTemplate]
+DisplayName="Сектоид"
+RewardDetails="Сектоид присоединяется к ХСОМ."
+
+[Reward_Muton X2RewardTemplate]
+DisplayName="Мутон"
+RewardDetails="Мутон присоединяется к ХСОМ."
+
+[Reward_MutonHunter X2RewardTemplate]
+DisplayName="Мутон-охотник"
+RewardDetails="Мутон-охотник присоединяется к ХСОМ."
+
+[Reward_MutonProwler X2RewardTemplate]
+DisplayName="Мутон-мародер"
+RewardDetails="Мутон-мародер присоединяется к ХСОМ."
+
+[Reward_MutonHarrier X2RewardTemplate]
+DisplayName="Мутон-разоритель"
+RewardDetails="Мутон-разоритель присоединяется к ХСОМ."
+
+[Reward_MutonBeleaguer X2RewardTemplate]
+DisplayName="Осадный мутон"
+RewardDetails="Осадный мутон присоединяется к ХСОМ."
+
+[Reward_Viper X2RewardTemplate]
+DisplayName="Вайпер"
+RewardDetails="Вайпер присоединяется к ХСОМ."
+
+[Reward_Andromedon X2RewardTemplate]
+DisplayName="Андромедон"
+RewardDetails="Андромедон присоединяется к ХСОМ."
+
+[Reward_Berserker X2RewardTemplate]
+DisplayName="Берсерк"
+RewardDetails="Берсерк присоединяется к ХСОМ."
+
+[Reward_Sidewinder X2RewardTemplate]
+DisplayName="Гремучник"
+RewardDetails="Гремучник присоединяется к ХСОМ."
+
+[Reward_Naja X2RewardTemplate]
+DisplayName="Ная"
+RewardDetails="Ная присоединяется к ХСОМ."
+
+[Reward_Archon X2RewardTemplate]
+DisplayName="Архонт"
+RewardDetails="Архонт присоединяется к ХСОМ."
+
+[Reward_Faceless X2RewardTemplate]
+DisplayName="Безликий"
+RewardDetails="Безликий присоединяется к ХСОМ."
+
+[Reward_FrostAdder X2RewardTemplate]
+DisplayName="Морозный змей"
+RewardDetails="Морозный змей присоединяется к ХСОМ."
+
+[Reward_FrostBomber X2RewardTemplate]
+DisplayName="Морозный бомбардировщик"
+RewardDetails="Морозный бомбардировщик присоединяется к ХСОМ."
+
+[Reward_FrostNecromancer X2RewardTemplate]
+DisplayName="Морозный некромант"
+RewardDetails="Морозный некромант присоединяется к ХСОМ."
+
+[Reward_AlienRescue X2RewardTemplate]
+DisplayName="Спасти изгоя"
+RewardDetails="Спасите пришельца-изгоя."
+
+[CovertAction_AlienRescue X2CovertActionTemplate]
+ActionObjective="Спасти изгоя"
+
+[CovertActionNarrative_AlienRescue X2CovertActionNarrativeTemplate]
+ActionName="Спасите пришельца-изгоя"
+ActionPreNarrative="Поступили сообщения о пришельце-изгое, сбежавшем от \"Адвента\", у нас есть достаточно сведений, чтобы подтвердить - это не уловка. Достаточно интригующе чтобы попробовать."
+ActionPostNarrative="Пришелец в порядке: он был захвачен \"Адвентом\". Если поторопимся, сможем начать спасательную операцию."
+
+
+[ArchonClass X2SoldierClassTemplate]
++DisplayName="Архонт"
++ClassSummary="Величественные и разрушительные, архонты преуспели в своем преимуществе - высоте. Поднимите их в воздух с \"Пылающими перьями\" и дождитесь адского дождя сверху."
++LeftAbilityTreeTitle="Петля"
++RightAbilityTreeTitle="Чопер"
++AbilityTreeTitles[0]="Петля"
++AbilityTreeTitles[1]="Воздух"
++AbilityTreeTitles[2]="Чопер"
++AbilityTreeTitles[3]="XCOM"
+;ALPHABETICAL ORDER
++RandomNickNames[0]="Каждый день"
++RandomNickNames[1]="На все"
++RandomNickNames[2]="Животное"
++RandomNickNames[3]="Баллер"
++RandomNickNames[4]="Большая страна"
++RandomNickNames[5]="Большие деньги"
++RandomNickNames[6]="Противный"
++RandomNickNames[7]="Пылающий"
++RandomNickNames[8]="Бум бум"
++RandomNickNames[9]="Бумер"
++RandomNickNames[10]="Бомбардир"
++RandomNickNames[11]="Бульдог"
++RandomNickNames[12]="Бычий натиск"
++RandomNickNames[13]="Клеймор"
++RandomNickNames[14]="Демо"
++RandomNickNames[15]="Дефкон"
++RandomNickNames[16]="Дьявольская собака"
++RandomNickNames[17]="Дизель"
++RandomNickNames[18]="Энкор"
++RandomNickNames[19]="Огненный шар"
++RandomNickNames[20]="Фридж"
++RandomNickNames[21]="Оружейник"
++RandomNickNames[22]="Молот"
++RandomNickNames[23]="Адский огонь"
++RandomNickNames[24]="Высокая башня"
++RandomNickNames[25]="Конь"
++RandomNickNames[26]="Вулкан"
++RandomNickNames[27]="Харикейн"
++RandomNickNames[28]="Свалка"
++RandomNickNames[29]="Джагернаут"
++RandomNickNames[30]="Нокаут"
++RandomNickNames[31]="Конг"
++RandomNickNames[32]="Бешенная собака"
++RandomNickNames[33]="Растоп"
++RandomNickNames[34]="Моузи"
++RandomNickNames[35]="Нова"
++RandomNickNames[36]="Нитро"
++RandomNickNames[37]="Герцог"
++RandomNickNames[38]="Огр"
++RandomNickNames[39]="Питбуль"
++RandomNickNames[40]="Пиро"
++RandomNickNames[41]="Редлайн"
++RandomNickNames[42]="Рино"
++RandomNickNames[43]="Ракета"
++RandomNickNames[44]="Морской бриз"
++RandomNickNames[45]="Слэб"
++RandomNickNames[46]="Разгром"
++RandomNickNames[47]="Огнемет"
++RandomNickNames[48]="Дымовик"
++RandomNickNames[49]="Болотная тварь"
++RandomNickNames[50]="Т-Боун"
++RandomNickNames[51]="Т-Рекс"
++RandomNickNames[52]="Танк"
++RandomNickNames[53]="Топор"
++RandomNickNames[54]="Гром"
++RandomNickNames[55]="Щекотка"
++RandomNickNames[56]="Тини"
++RandomNickNames[57]="Титан"
++RandomNickNames[58]="Динамит"
++RandomNickNames[59]="Факел"
++RandomNickNames[60]="Боевой пес"
++RandomNickNames[61]="Боевой конь"
++RandomNickNames[62]="Дикий"
+;ALPHABETICAL ORDER
++RandomNicknames_Male[0]="Варвар"
++RandomNickNames_Male[1]="Большой мальчик"
++RandomNicknames_Male[2]="Начальник"
++RandomNickNames_Male[3]="Ковбой"
++RandomNickNames_Male[4]="Тупица"
++RandomNickNames_Male[5]="Неро"
++RandomNickNames_Male[6]="Медведь"
++RandomNickNames_Male[7]="Дикарь"
++RandomNickNames_Female[0]="Амазонка"
++RandomNicknames_Female[1]="Леди-босс"
++RandomNickNames_Female[2]="Пастушка"
++RandomNicknames_Female[3]="Домино"
++RandomNickNames_Female[4]="Фрейя"
++RandomNickNames_Female[5]="Медведица"
++RandomNickNames_Female[6]="Шестерка"
++RandomNickNames_Female[7]="Огонь"
+;ALPHABETICAL ORDER
++PhotoboothSoloBLines_Male[0]="Да будет взрыв!"
++PhotoboothSoloBLines_Male[1]="Прогноз предусматривает... ПОБОЧНЫЙ УРОН."
++PhotoboothSoloBLines_Male[2]="Без укрытий. Без пощады."
++PhotoboothSoloBLines_Male[3]="Артиллерия. Опасность близка."
++PhotoboothSoloBLines_Male[4]="Тик, тик, БУУМ!"
++PhotoboothSoloBLines_Male[5]="Бомбы долой!"
++PhotoboothSoloBLines_Male[6]="Пули: чем больше, тем веселей!"
++PhotoboothSoloBLines_Male[7]="Называйте его метеорологом, он призывает дождь."
++PhotoboothSoloBLines_Male[8]="Еще раз в пролом!"
++PhotoboothSoloBLines_Male[9]="Скрытность переоценена."
+
++PhotoboothSoloBLines_Female[0]="Да будет взрыв!"
++PhotoboothSoloBLines_Female[1]="Прогноз предусматривает... ПОБОЧНЫЙ УРОН."
++PhotoboothSoloBLines_Female[2]="Без укрытий. Без пощады."
++PhotoboothSoloBLines_Female[3]="Артиллерия. Опасность близка."
++PhotoboothSoloBLines_Female[4]="Тик, тик, БУУМ!"
++PhotoboothSoloBLines_Female[5]="Бомбы долой!"
++PhotoboothSoloBLines_Female[6]="Пули: чем больше, тем веселей!"
++PhotoboothSoloBLines_Female[7]="Называйте ее метеорологом, он призывает дождь."
++PhotoboothSoloBLines_Female[8]="Еще раз в пролом!"
++PhotoboothSoloBLines_Female[9]="Скрытность переоценена."
+
+
+[AndromedonClass X2SoldierClassTemplate]
++DisplayName="Андромедон"
++ClassSummary="Имеющие ряд разрушительных способностей, андромедоны преуспевают в нанесении урона не меньше, чем в его получении. Их мощные скафандры позволяют им разрушать стены, когда это необходимо, и даже позволяют им вступать в бой, даже будучи ранеными. В результате их массивности и шумного передвижения им требуется гораздо больше времени для проникновения, чем большинству солдат, и их легче обнаружить, когда они скрыты."
++LeftAbilityTreeTitle="Неудержимый"
++RightAbilityTreeTitle="Непоколебимый"
++AbilityTreeTitles[0]="Неудержимый"
++AbilityTreeTitles[1]="Талос"
++AbilityTreeTitles[2]="Непоколебимый"
++AbilityTreeTitles[3]="XCOM"
+;ALPHABETICAL ORDER
++RandomNickNames[0]="Весь день"
++RandomNickNames[1]="Все включено"
++RandomNickNames[2]="Животное"
++RandomNickNames[3]="Улетный"
++RandomNickNames[4]="Большая страна"
++RandomNickNames[5]="Большие деньги"
++RandomNickNames[6]="Большая гадость"
++RandomNickNames[7]="Блейз"
++RandomNickNames[8]="Бум-бум"
++RandomNickNames[9]="Бумер"
++RandomNickNames[10]="Бомбер"
++RandomNickNames[11]="Бульдог"
++RandomNickNames[12]="Бычий натиск"
++RandomNickNames[13]="Клеймор"
++RandomNickNames[14]="Демо"
++RandomNickNames[15]="Боеготовность"
++RandomNickNames[16]="Пес дьявола"
++RandomNickNames[17]="Дизель"
++RandomNickNames[18]="Бис"
++RandomNickNames[19]="Фаербол"
++RandomNickNames[20]="Холодильник"
++RandomNickNames[21]="Оружейник"
++RandomNickNames[22]="Молот"
++RandomNickNames[23]="Адское пламя"
++RandomNickNames[24]="Хайтауэр"
++RandomNickNames[25]="Здоровяк"
++RandomNickNames[26]="Вулкан"
++RandomNickNames[27]="Ураган"
++RandomNickNames[28]="Старый хлам"
++RandomNickNames[29]="Джаггернаут"
++RandomNickNames[30]="Нокаут"
++RandomNickNames[31]="Конг"
++RandomNickNames[32]="Бешеный пес"
++RandomNickNames[33]="Обвал"
++RandomNickNames[34]="Лось"
++RandomNickNames[35]="Нова"
++RandomNickNames[36]="Нитро"
++RandomNickNames[37]="Ядерный взрыв"
++RandomNickNames[38]="Огр"
++RandomNickNames[39]="Питбуль"
++RandomNickNames[40]="Пиро"
++RandomNickNames[41]="Красная линия"
++RandomNickNames[42]="Носорог"
++RandomNickNames[43]="Ракета"
++RandomNickNames[44]="Сибриз"
++RandomNickNames[45]="Плита"
++RandomNickNames[46]="Удар"
++RandomNickNames[47]="Взрыв"
++RandomNickNames[48]="Смоки"
++RandomNickNames[49]="Болотная тварь"
++RandomNickNames[50]="Ти-Бон"
++RandomNickNames[51]="Ти-Рекс"
++RandomNickNames[52]="танк"
++RandomNickNames[53]="Колотушка"
++RandomNickNames[54]="Гром"
++RandomNickNames[55]="Щекотка"
++RandomNickNames[56]="Крошечный"
++RandomNickNames[57]="Титан"
++RandomNickNames[58]="Динамит"
++RandomNickNames[59]="Факел"
++RandomNickNames[60]="Пес войны"
++RandomNickNames[61]="Ратный конь"
++RandomNickNames[62]="Дикарь"
+;ALPHABETICAL ORDER
++RandomNicknames_Male[0]="Варвар"
++RandomNickNames_Male[1]="Большой мальчик"
++RandomNicknames_Male[2]="Человек-босс"
++RandomNickNames_Male[3]="Ковбой"
++RandomNickNames_Male[4]="Мясная голова"
++RandomNickNames_Male[5]="Неро"
++RandomNickNames_Male[6]="Папа-медведь"
++RandomNickNames_Male[7]="Дикий человек"
++RandomNickNames_Female[0]="Амазонка"
++RandomNicknames_Female[1]="Леди-босс"
++RandomNickNames_Female[2]="Ковбойка"
++RandomNicknames_Female[3]="Домино"
++RandomNickNames_Female[4]="Фрея"
++RandomNickNames_Female[5]="Мама-медведица"
++RandomNickNames_Female[6]="Глубокая шесть"
++RandomNickNames_Female[7]="Факельщица"
+;ALPHABETICAL ORDER
++PhotoboothSoloBLines_Male[0]="Сейчас рванет!"
++PhotoboothSoloBLines_Male[1]="Синоптики обещают массированные взрывы!"
++PhotoboothSoloBLines_Male[2]="Не убежать. Не скрыться."
++PhotoboothSoloBLines_Male[3]="Артиллерия. Опасно близко."
++PhotoboothSoloBLines_Male[4]="Тук, тук, БАЦ!"
++PhotoboothSoloBLines_Male[5]="Бомбы в цель!"
++PhotoboothSoloBLines_Male[6]="Пули: чем их больше, тем веселее!"
++PhotoboothSoloBLines_Male[7]="Считайте меня синоптиком, потому что я обещаю дождь!"
++PhotoboothSoloBLines_Male[8]="Труба зовет!"
++PhotoboothSoloBLines_Male[9]="Без маскировки обойдусь!"
+
++PhotoboothSoloBLines_Female[0]="Сейчас рванет!"
++PhotoboothSoloBLines_Female[1]="Синоптики обещают массированные взрывы!"
++PhotoboothSoloBLines_Female[2]="Не убежать. Не скрыться."
++PhotoboothSoloBLines_Female[3]="Артиллерия. Опасно близко."
++PhotoboothSoloBLines_Female[4]="Тук, тук, БАЦ!"
++PhotoboothSoloBLines_Female[5]="Бомбы в цель!"
++PhotoboothSoloBLines_Female[6]="Пули: чем их больше, тем веселее!"
++PhotoboothSoloBLines_Female[7]="Считайте меня синоптиком, потому что я обещаю дождь!"
++PhotoboothSoloBLines_Female[8]="Труба зовет!"
++PhotoboothSoloBLines_Female[9]="Без маскировки обойдусь!"
+
+
+
+[SectoidClass X2SoldierClassTemplate]
++DisplayName = "Сектоид"
++ClassSummary="Сектоиды, хоть и не обладают убойной силой и живучестью, могут использовать свои псионические способностями для управления союзниками, врагами, мертвыми и даже собой."
++LeftAbilityTreeTitle = "Повелитель разума"
++RightAbilityTreeTitle = "Кукловод"
+AbilityTreeTitles[0]="Повелитель разума"
+AbilityTreeTitles[1]="Телекинетик"
+AbilityTreeTitles[2]="Кукловод"
+AbilityTreeTitles[3]="XCOM"
+RandomNickNames[0]="Маг"
+RandomNickNames[1]="Ведьмак"
+RandomNickNames[2]="Колдун"
+RandomNickNames[3]="Психопат"
+RandomNickNames[4]="Плач"
+RandomNickNames[5]="Эхо"
+RandomNickNames[6]="Экто"
+RandomNickNames[7]="Мгла"
+RandomNickNames[8]="Хекс"
+RandomNickNames[9]="Зен"
+RandomNickNames[10]="Омега"
+RandomNickNames[11]="Сумерки"
+RandomNickNames[12]="Вуду"
+RandomNickNames[13]="Озорник"
+RandomNickNames[14]="Судья"
+RandomNickNames[15]="Фрик"
+RandomNickNames[16]="Живчик"
+RandomNickNames[17]="Ужас"
+RandomNickNames[18]="Гуль"
+RandomNickNames[19]="Оз"
+RandomNickNames[20]="Нуль"
+RandomNickNames[21]="Ноль"
+RandomNickNames[22]="Спиритолог"
+RandomNickNames[23]="Пророк"
+RandomNickNames[24]="Кошмар"
+RandomNickNames[25]="Вайпер"
+RandomNickNames[26]="Дух"
+RandomNickNames[27]="Демон"
+RandomNickNames[28]="Ворон"
+RandomNickNames[29]="Вейдер"
+RandomNickNames[30]="Синдром"
+RandomNickNames[31]="Друид"
+RandomNickNames[32]="Триллер"
+RandomNickNames[33]="Феникс"
+RandomNickNames[34]="Полночь"
+RandomNickNames[35]="Ворона"
+RandomNickNames[36]="Пугало"
+RandomNickNames[37]="Вампир"
+RandomNickNames[38]="Оборотень"
+RandomNickNames[39]="Зомби"
+RandomNickNames[40]="Светлячок"
+RandomNickNames[41]="Знамение"
+RandomNickNames[42]="Ворон"
+RandomNickNames[43]="Ксено"
+RandomNickNames[44]="Мрачный"
+RandomNickNames[45]="Шрек"
+
+[FacelessClass X2SoldierClassTemplate]
++DisplayName = "Безликий"
++ClassSummary="Безликий - замечательный инопланетный вид, который способен на свершения, недоступные другим инопланетянам, а также, могут поражать несколько целей одной атакой запрыгивать на недоступные другим высоты и восстанавливать здоровье."
++LeftAbilityTreeTitle = "Двадцать лиц"
++RightAbilityTreeTitle = "Ночной кошмар"
+AbilityTreeTitles[0]="Двадцать лиц"
+AbilityTreeTitles[1]="Тягучий"
+AbilityTreeTitles[2]="Ночной кошмар"
+AbilityTreeTitles[3]="XCOM"
+RandomNickNames[0]="Слайм"
+RandomNickNames[1]="Липкий"
+RandomNickNames[2]="Двадцать"
+RandomNickNames[3]="Психопат"
+RandomNickNames[4]="Плач"
+RandomNickNames[5]="Эхо"
+RandomNickNames[6]="Экто"
+RandomNickNames[7]="Мгла"
+RandomNickNames[8]="Вырезать-и-бежать"
+RandomNickNames[9]="Растяжка"
+RandomNickNames[10]="Омега"
+RandomNickNames[11]="Сумерки"
+RandomNickNames[12]="Вуду"
+RandomNickNames[13]="Озорник"
+RandomNickNames[14]="Судья"
+RandomNickNames[15]="Фрик"
+RandomNickNames[16]="Живчик"
+RandomNickNames[17]="Ужас"
+RandomNickNames[18]="Гуль"
+RandomNickNames[19]="Голем"
+RandomNickNames[20]="Нуль"
+RandomNickNames[21]="Ноль"
+RandomNickNames[22]="Скорпион"
+RandomNickNames[23]="Оползень"
+RandomNickNames[24]="Кошмар"
+RandomNickNames[25]="Осьминог"
+RandomNickNames[26]="Дух"
+RandomNickNames[27]="Демон"
+RandomNickNames[28]="Глиняное лицо"
+RandomNickNames[29]="Вейдер"
+RandomNickNames[30]="Синдром"
+RandomNickNames[31]="Друид"
+RandomNickNames[32]="Триллер"
+RandomNickNames[33]="Феникс"
+RandomNickNames[34]="Полночь"
+RandomNickNames[35]="Ворона"
+RandomNickNames[36]="Пугало"
+RandomNickNames[37]="Вампир"
+RandomNickNames[38]="Оборотень"
+RandomNickNames[39]="Ниньзя"
+RandomNickNames[40]="Светлячок"
+RandomNickNames[41]="Знамение"
+RandomNickNames[42]="Ворон"
+RandomNickNames[43]="Ксено"
+RandomNickNames[44]="Мрачный"
+RandomNickNames[45]="Шрек"
+PhotoboothSoloBLines_Male[0]="Его когти... ИХ КРОВЬ!"
+PhotoboothSoloBLines_Male[1]="Ближний бой без пощады."
+PhotoboothSoloBLines_Male[2]="Его когти несут ПРАВОСУДИЕ!"
+PhotoboothSoloBLines_Male[3]="Близко, лично, СМЕРТЕЛЬНО!"
+PhotoboothSoloBLines_Male[4]="Молотильщик. Вестник смерти."
+PhotoboothSoloBLines_Female[0]="Ее когти... ИХ КРОВЬ!"
+PhotoboothSoloBLines_Female[1]="Ближний бой без пощады."
+PhotoboothSoloBLines_Female[2]="Ее когти несут ПРАВОСУДИЕ!"
+PhotoboothSoloBLines_Female[3]="Близко, лично, СМЕРТЕЛЬНО!"
+PhotoboothSoloBLines_Female[4]="Молотильщик. Вестник смерти."
+
+
+[ViperClass3 X2SoldierClassTemplate]
++DisplayName = "Вайпер"
++ClassSummary="Вайпер - проворный и смертоносный инопланетный юнит, которому больше всех подходит тактика \"Бей и беги\". Вайпер использует способность \"Притягивание языком\", чтобы вытащить врага из укрытия, а затем использовать \"Опутывание и раздавливание\", чтобы вывести его из строя. Также они используют свою способность \"Подтягивание\", чтобы помочь союзнику сократить дистанцию, либо вывести его из под огня"
++LeftAbilityTreeTitle = "Удав"
++RightAbilityTreeTitle = "Ядовитый"
+AbilityTreeTitles[0]="Удав"
+AbilityTreeTitles[1]="Чудовище"
+AbilityTreeTitles[2]="Ядовитый"
+AbilityTreeTitles[3]="XCOM"
+;ALPHABETICAL ORDER
+RandomNickNames[0]="Апекс"
+RandomNickNames[1]="Эйс"
+RandomNickNames[2]="Послесловие"
+RandomNickNames[3]="Альфа"
+RandomNickNames[4]="Блэкджек"
+RandomNickNames[5]="Мишень"
+RandomNickNames[6]="Болт"
+RandomNickNames[7]="Большой выстрел"
+RandomNickNames[8]="Большой сон"
+RandomNickNames[9]="Большое время"
+RandomNickNames[10]="Босс"
+RandomNickNames[11]="Мишень"
+RandomNickNames[12]="Шах-и-мат"
+RandomNickNames[13]="Вождь"
+RandomNickNames[14]="Кольт"
+RandomNickNames[15]="Даллас"
+RandomNickNames[16]="Патрон"
+RandomNickNames[17]="Мертвый глаз"
+RandomNickNames[18]="Тупик"
+RandomNickNames[19]="Дедвуд"
+RandomNickNames[20]="Мертвец-по-прибытии"
+RandomNickNames[21]="Орлиный глаз"
+RandomNickNames[22]="Восьмой шар"
+RandomNickNames[23]="Прямая линия"
+RandomNickNames[24]="Время игры"
+RandomNickNames[25]="Гангстер"
+RandomNickNames[26]="Могильщик"
+RandomNickNames[27]="Хет-трик"
+RandomNickNames[28]="Ястребиный глаз"
+RandomNickNames[29]="Нагреватель"
+RandomNickNames[30]="Высокий полдень"
+RandomNickNames[31]="Хитман"
+RandomNickNames[32]="Голливуд"
+RandomNickNames[33]="Хайп"
+RandomNickNames[34]="Икона"
+RandomNickNames[35]="Шакал"
+RandomNickNames[36]="Судья"
+RandomNickNames[37]="Выключить свет"
+RandomNickNames[38]="Локдаун"
+RandomNickNames[39]="Дальний выстрел"
+RandomNickNames[40]="Дальний ходок"
+RandomNickNames[41]="Игла"
+RandomNickNames[42]="Бледный всадник"
+RandomNickNames[43]="Псарь"
+RandomNickNames[44]="Царапина"
+RandomNickNames[45]="Серийный"
+RandomNickNames[46]="Шериф"
+RandomNickNames[47]="Стрелок"
+RandomNickNames[48]="Шоу тайм"
+RandomNickNames[49]="Пленка"
+RandomNickNames[50]="Стропальщик"
+RandomNickNames[51]="Каменный холод"
+RandomNickNames[52]="Чистильщик"
+RandomNickNames[53]="Малыш"
+RandomNickNames[54]="Правда"
+RandomNickNames[55]="Надгробие"
+RandomNickNames[56]="Высший класс"
+RandomNickNames[57]="Верхняя полка"
+RandomNickNames[58]="Два спуска"
+RandomNickNames[59]="Гробовщик"
+RandomNickNames[60]="Валентин"
+
+RandomNickNames_Female[0]="Баронесса"
+RandomNickNames_Female[1]="Черная вдова"
+RandomNicknames_Female[2]="Каламити"
+RandomNicknames_Female[3]="Королева пчела"
+
+PhotoboothSoloBLines_Female[0]="Смерть издалека"
+PhotoboothSoloBLines_Female[1]="Давай, беги. Ты просто умрешь уставшим."
+PhotoboothSoloBLines_Female[2]="Королева смертоубийств"
+PhotoboothSoloBLines_Female[3]="Ровно между инопланетных ушей"
+PhotoboothSoloBLines_Female[4]="Она чувствует разве что отдачу"
+PhotoboothSoloBLines_Female[5]="Один выстрел - один труп."
+PhotoboothSoloBLines_Female[6]="Дело мастера боится."
+PhotoboothSoloBLines_Female[7]="Сладки плоды терпения."
+PhotoboothSoloBLines_Female[8]="Результат гарантирован."
+PhotoboothSoloBLines_Female[9]="Экономьте пули, дайте работать снайперу."
+
+[SidewinderClass X2SoldierClassTemplate]
++DisplayName = "Гремучник"
++ClassSummary="Гремучник - подвид вайпера, который специализируется на мобильности и избегании вражеского огня, как правило, лучше всего работает на средней дистанции."
++LeftAbilityTreeTitle = "Плотоядный"
++RightAbilityTreeTitle = "Скользкий"
+AbilityTreeTitles[0]="Плотоядный"
+AbilityTreeTitles[1]="Медуза"
+AbilityTreeTitles[2]="Скользкий"
+AbilityTreeTitles[3]="XCOM"
+;ALPHABETICAL ORDER
+RandomNickNames[0]="Апекс"
+RandomNickNames[1]="Эйс"
+RandomNickNames[2]="Послесловие"
+RandomNickNames[3]="Альфа"
+RandomNickNames[4]="Блэкджек"
+RandomNickNames[5]="Мишень"
+RandomNickNames[6]="Болт"
+RandomNickNames[7]="Большой выстрел"
+RandomNickNames[8]="Большой сон"
+RandomNickNames[9]="Большое время"
+RandomNickNames[10]="Босс"
+RandomNickNames[11]="Мишень"
+RandomNickNames[12]="Шах-и-мат"
+RandomNickNames[13]="Вождь"
+RandomNickNames[14]="Кольт"
+RandomNickNames[15]="Даллас"
+RandomNickNames[16]="Патрон"
+RandomNickNames[17]="Мертвый глаз"
+RandomNickNames[18]="Тупик"
+RandomNickNames[19]="Дедвуд"
+RandomNickNames[20]="Мертвец-по-прибытии"
+RandomNickNames[21]="Орлиный глаз"
+RandomNickNames[22]="Восьмой шар"
+RandomNickNames[23]="Прямая линия"
+RandomNickNames[24]="Время игры"
+RandomNickNames[25]="Гангстер"
+RandomNickNames[26]="Могильщик"
+RandomNickNames[27]="Хет-трик"
+RandomNickNames[28]="Ястребиный глаз"
+RandomNickNames[29]="Нагреватель"
+RandomNickNames[30]="Высокий полдень"
+RandomNickNames[31]="Хитман"
+RandomNickNames[32]="Голливуд"
+RandomNickNames[33]="Хайп"
+RandomNickNames[34]="Икона"
+RandomNickNames[35]="Шакал"
+RandomNickNames[36]="Судья"
+RandomNickNames[37]="Выключить свет"
+RandomNickNames[38]="Локдаун"
+RandomNickNames[39]="Дальний выстрел"
+RandomNickNames[40]="Дальний ходок"
+RandomNickNames[41]="Игла"
+RandomNickNames[42]="Бледный всадник"
+RandomNickNames[43]="Псарь"
+RandomNickNames[44]="Царапина"
+RandomNickNames[45]="Серийный"
+RandomNickNames[46]="Шериф"
+RandomNickNames[47]="Стрелок"
+RandomNickNames[48]="Шоу тайм"
+RandomNickNames[49]="Пленка"
+RandomNickNames[50]="Стропальщик"
+RandomNickNames[51]="Каменный холод"
+RandomNickNames[52]="Чистильщик"
+RandomNickNames[53]="Малыш"
+RandomNickNames[54]="Правда"
+RandomNickNames[55]="Надгробие"
+RandomNickNames[56]="Высший класс"
+RandomNickNames[57]="Верхняя полка"
+RandomNickNames[58]="Два спуска"
+RandomNickNames[59]="Гробовщик"
+RandomNickNames[60]="Валентин"
+
+RandomNickNames_Female[0]="Баронесса"
+RandomNickNames_Female[1]="Черная вдова"
+RandomNicknames_Female[2]="Каламити"
+RandomNicknames_Female[3]="Королева пчела"
+
+PhotoboothSoloBLines_Male[0]="Его пушка... ИХ КРОВЬ!"
+PhotoboothSoloBLines_Male[1]="Последнее, что ты никогда не увидишь."
+PhotoboothSoloBLines_Male[2]="Его выстрел принесет СПРАВЕДЛИВОСТЬ!"
+PhotoboothSoloBLines_Male[3]="Близко, лично, и СМЕРТЕЛЬНО!"
+PhotoboothSoloBLines_Male[4]="Отравитель. Торговец смертью."
+PhotoboothSoloBLines_Female[0]="Ее пушка... ИХ КРОВЬ!"
+PhotoboothSoloBLines_Female[1]="Последнее, что ты никогда не увидишь."
+PhotoboothSoloBLines_Female[2]="Ее выстрел принесет СПРАВЕДЛИВОСТЬ!"
+PhotoboothSoloBLines_Female[3]="Близко, лично, и СМЕРТЕЛЬНО!"
+PhotoboothSoloBLines_Female[4]="Отравитель. Торговец смертью."
+
+[NajaClass X2SoldierClassTemplate]
++DisplayName = "Ная"
++ClassSummary="Ная - подвид вайпера, обладающий превосходным зрением и ловкостью, что позволяет им хорошо сражаться на дальних дистанциях."
++LeftAbilityTreeTitle = "Чаша весов"
++RightAbilityTreeTitle = "Плевок"
+AbilityTreeTitles[0]="Чаша весов"
+AbilityTreeTitles[1]="Василиск"
+AbilityTreeTitles[2]="Плевок"
+AbilityTreeTitles[3]="XCOM"
+;ALPHABETICAL ORDER
+RandomNickNames[0]="Апекс"
+RandomNickNames[1]="Эйс"
+RandomNickNames[2]="Послесловие"
+RandomNickNames[3]="Альфа"
+RandomNickNames[4]="Блэкджек"
+RandomNickNames[5]="Мишень"
+RandomNickNames[6]="Болт"
+RandomNickNames[7]="Большой выстрел"
+RandomNickNames[8]="Большой сон"
+RandomNickNames[9]="Большое время"
+RandomNickNames[10]="Босс"
+RandomNickNames[11]="Мишень"
+RandomNickNames[12]="Шах-и-мат"
+RandomNickNames[13]="Вождь"
+RandomNickNames[14]="Кольт"
+RandomNickNames[15]="Даллас"
+RandomNickNames[16]="Патрон"
+RandomNickNames[17]="Мертвый глаз"
+RandomNickNames[18]="Тупик"
+RandomNickNames[19]="Дедвуд"
+RandomNickNames[20]="Мертвец-по-прибытии"
+RandomNickNames[21]="Орлиный глаз"
+RandomNickNames[22]="Восьмой шар"
+RandomNickNames[23]="Прямая линия"
+RandomNickNames[24]="Время игры"
+RandomNickNames[25]="Гангстер"
+RandomNickNames[26]="Могильщик"
+RandomNickNames[27]="Хет-трик"
+RandomNickNames[28]="Ястребиный глаз"
+RandomNickNames[29]="Нагреватель"
+RandomNickNames[30]="Высокий полдень"
+RandomNickNames[31]="Хитман"
+RandomNickNames[32]="Голливуд"
+RandomNickNames[33]="Хайп"
+RandomNickNames[34]="Икона"
+RandomNickNames[35]="Шакал"
+RandomNickNames[36]="Судья"
+RandomNickNames[37]="Выключить свет"
+RandomNickNames[38]="Локдаун"
+RandomNickNames[39]="Дальний выстрел"
+RandomNickNames[40]="Дальний ходок"
+RandomNickNames[41]="Игла"
+RandomNickNames[42]="Бледный всадник"
+RandomNickNames[43]="Псарь"
+RandomNickNames[44]="Царапина"
+RandomNickNames[45]="Серийный"
+RandomNickNames[46]="Шериф"
+RandomNickNames[47]="Стрелок"
+RandomNickNames[48]="Шоу тайм"
+RandomNickNames[49]="Пленка"
+RandomNickNames[50]="Стропальщик"
+RandomNickNames[51]="Каменный холод"
+RandomNickNames[52]="Чистильщик"
+RandomNickNames[53]="Малыш"
+RandomNickNames[54]="Правда"
+RandomNickNames[55]="Надгробие"
+RandomNickNames[56]="Высший класс"
+RandomNickNames[57]="Верхняя полка"
+RandomNickNames[58]="Два спуска"
+RandomNickNames[59]="Гробовщик"
+RandomNickNames[60]="Валентин"
+
+RandomNickNames_Female[0]="Баронесса"
+RandomNickNames_Female[1]="Черная вдова"
+RandomNicknames_Female[2]="Каламити"
+RandomNicknames_Female[3]="Королева пчела"
+
+PhotoboothSoloBLines_Female[0]="Смерть издалека"
+PhotoboothSoloBLines_Female[1]="Давай, беги. Ты просто умрешь уставшим."
+PhotoboothSoloBLines_Female[2]="Королева смертоубийств"
+PhotoboothSoloBLines_Female[3]="Ровно между инопланетных ушей"
+PhotoboothSoloBLines_Female[4]="Она чувствует разве что отдачу"
+PhotoboothSoloBLines_Female[5]="Один выстрел - один труп."
+PhotoboothSoloBLines_Female[6]="Дело мастера боится."
+PhotoboothSoloBLines_Female[7]="Сладки плоды терпения."
+PhotoboothSoloBLines_Female[8]="Результат гарантирован."
+PhotoboothSoloBLines_Female[9]="Экономьте пули, дайте работать снайперу."
+
+[MutonClass X2SoldierClassTemplate]
++DisplayName = "Мутон"
++ClassSummary="Мутоны довольно сильны и способны нанести ощутимый урон, могут обращаться с гранатами также, как и человек. Они могут использовать винтовку для атак с близкого расстояния или пушку для ведения непрерывного огня на средней дистанции."
++LeftAbilityTreeTitle = "Перестрелка"
++RightAbilityTreeTitle = "Слэшер"
+AbilityTreeTitles[0]="Перестрелка"
+AbilityTreeTitles[1]="Силовик"
+AbilityTreeTitles[2]="Слэшер"
+AbilityTreeTitles[3]="XCOM"
+RandomNickNames[0]="Бандит"
+RandomNickNames[1]="Блиц"
+RandomNickNames[2]="Кирпич"
+RandomNickNames[3]="Мясник"
+RandomNickNames[4]="Бензопила"
+RandomNickNames[5]="Каджун"
+RandomNickNames[6]="Челюсти"
+RandomNickNames[7]="Кобра"
+RandomNickNames[8]="Кугуар "
+RandomNickNames[9]="Койот"
+RandomNickNames[10]="Авария"
+RandomNickNames[11]="Алмаз"
+RandomNickNames[12]="Костолом"
+RandomNickNames[13]="Роковой"
+RandomNickNames[14]="Вспышка"
+RandomNickNames[15]="Ярость"
+RandomNickNames[16]="Крокодил"
+RandomNickNames[17]="Призрак"
+RandomNickNames[18]="Оружейник"
+RandomNickNames[19]="Гончая пес"
+RandomNickNames[20]="Лед"
+RandomNickNames[21]="Ледоруб"
+RandomNickNames[22]="Клещи"
+RandomNickNames[23]="Судный день"
+RandomNickNames[24]="Костяшка"
+RandomNickNames[25]="Монстр"
+RandomNickNames[26]="Мустанг"
+RandomNickNames[27]="Паладин"
+RandomNickNames[28]="Питбуль"
+RandomNickNames[29]="Хищник"
+RandomNickNames[30]="Бритва"
+RandomNickNames[31]="Самурай"
+RandomNickNames[32]="Скорпион"
+RandomNickNames[33]="Сёгун"
+RandomNickNames[34]="Тень"
+RandomNickNames[35]="Убийца"
+RandomNickNames[36]="Змея"
+RandomNickNames[37]="Глаза змеи"
+RandomNickNames[38]="Соло"
+RandomNickNames[39]="Спектр"
+RandomNickNames[40]="Паук"
+RandomNickNames[41]="Сталкер"
+RandomNickNames[42]="Сталь"
+RandomNickNames[43]="Жало"
+RandomNickNames[44]="Терминатор"
+RandomNickNames[45]="Троян"
+RandomNickNames[46]="Вандал"
+RandomNickNames[47]="Викинг"
+RandomNickNames[48]="Страж"
+RandomNickNames[49]="Военачальник"
+RandomNickNames[50]="Росомаха"
+RandomNickNames[51]="Дикарь"
+RandomNickNames[52]="Одичалый"
+RandomNickNames[53]="Зулу"
+;ALPHABETICAL ORDER
+RandomNickNames_Male[0]="Топор"
+RandomNickNames_Male[1]="Дюк"
+RandomNickNames_Male[2]="Роки"
+RandomNickNames_Male[3]="Жеребец"
+RandomNickNames_Male[4]="Человек-волк"
+;ALPHABETICAL ORDER
+RandomNickNames_Female[0]="Афина"
+RandomNickNames_Female[1]="Герцогиня"
+RandomNicknames_Female[2]="Железная леди"
+RandomNicknames_Female[3]="Железная дева"
+RandomNicknames_Female[4]="Щитоноска"
+RandomNickNames_Female[5]="Валькирия"
+;ALPHABETICAL ORDER
+PhotoboothSoloBLines_Male[0]="Его клинок... ИХ КРОВЬ!"
+PhotoboothSoloBLines_Male[1]="Последнее, что ты никогда не увидишь."
+PhotoboothSoloBLines_Male[2]="Его клинок принесет СПРАВЕДЛИВОСТЬ!"
+PhotoboothSoloBLines_Male[3]="Близко, лично, и СМЕРТЕЛЬНО!"
+PhotoboothSoloBLines_Male[4]="Мастер клинка. Торговец смертью."
+PhotoboothSoloBLines_Female[0]="Ее клинок...  ИХ КРОВЬ!"
+PhotoboothSoloBLines_Female[1]="Последнее, что ты никогда не увидишь."
+PhotoboothSoloBLines_Female[2]="Ее клинок принесет СПРАВЕДЛИВОСТЬ!"
+PhotoboothSoloBLines_Female[3]="Близко, лично, и СМЕРТЕЛЬНО!"
+PhotoboothSoloBLines_Female[4]="Мастер клинка. Торговец смертью."
+
+[MutonHunterClass X2SoldierClassTemplate]
++DisplayName = "Мутон-охотник"
++ClassSummary="Мутоны-охотники, в отличии от своих более жестоких собратьев , отказались от рукопашного боя и специализируются на средних и дальних дистанциях со своими охотничьими винтовками. У них также есть умение выслеживать цели и справляться с особенно крупной добычей."
++LeftAbilityTreeTitle = "Охота"
++RightAbilityTreeTitle = "Выживание"
+AbilityTreeTitles[0]="Охота"
+AbilityTreeTitles[1]="Отслеживание"
+AbilityTreeTitles[2]="Выживание"
+AbilityTreeTitles[3]="XCOM"
+RandomNickNames[0]="Бандит"
+RandomNickNames[1]="Блиц"
+RandomNickNames[2]="Кирпич"
+RandomNickNames[3]="Мясник"
+RandomNickNames[4]="Бензопила"
+RandomNickNames[5]="Каджун"
+RandomNickNames[6]="Челюсти"
+RandomNickNames[7]="Кобра"
+RandomNickNames[8]="Кугуар "
+RandomNickNames[9]="Койот"
+RandomNickNames[10]="Авария"
+RandomNickNames[11]="Алмаз"
+RandomNickNames[12]="Костолом"
+RandomNickNames[13]="Роковой"
+RandomNickNames[14]="Вспышка"
+RandomNickNames[15]="Ярость"
+RandomNickNames[16]="Крокодил"
+RandomNickNames[17]="Призрак"
+RandomNickNames[18]="Оружейник"
+RandomNickNames[19]="Гончая пес"
+RandomNickNames[20]="Лед"
+RandomNickNames[21]="Ледоруб"
+RandomNickNames[22]="Клещи"
+RandomNickNames[23]="Судный день"
+RandomNickNames[24]="Костяшка"
+RandomNickNames[25]="Монстр"
+RandomNickNames[26]="Мустанг"
+RandomNickNames[27]="Паладин"
+RandomNickNames[28]="Питбуль"
+RandomNickNames[29]="Хищник"
+RandomNickNames[30]="Бритва"
+RandomNickNames[31]="Самурай"
+RandomNickNames[32]="Скорпион"
+RandomNickNames[33]="Сёгун"
+RandomNickNames[34]="Тень"
+RandomNickNames[35]="Убийца"
+RandomNickNames[36]="Змея"
+RandomNickNames[37]="Глаза змеи"
+RandomNickNames[38]="Соло"
+RandomNickNames[39]="Спектр"
+RandomNickNames[40]="Паук"
+RandomNickNames[41]="Сталкер"
+RandomNickNames[42]="Сталь"
+RandomNickNames[43]="Жало"
+RandomNickNames[44]="Терминатор"
+RandomNickNames[45]="Троян"
+RandomNickNames[46]="Вандал"
+RandomNickNames[47]="Викинг"
+RandomNickNames[48]="Страж"
+RandomNickNames[49]="Военачальник"
+RandomNickNames[50]="Росомаха"
+RandomNickNames[51]="Дикарь"
+RandomNickNames[52]="Одичалый"
+RandomNickNames[53]="Зулу"
+;ALPHABETICAL ORDER
+RandomNickNames_Male[0]="Топор"
+RandomNickNames_Male[1]="Дюк"
+RandomNickNames_Male[2]="Роки"
+RandomNickNames_Male[3]="Жеребец"
+RandomNickNames_Male[4]="Человек-волк"
+;ALPHABETICAL ORDER
+RandomNickNames_Female[0]="Афина"
+RandomNickNames_Female[1]="Герцогиня"
+RandomNicknames_Female[2]="Железная леди"
+RandomNicknames_Female[3]="Железная дева"
+RandomNicknames_Female[4]="Щитоноска"
+RandomNickNames_Female[5]="Валькирия"
+;ALPHABETICAL ORDER
+PhotoboothSoloBLines_Male[0]="Смерть издалека"
+PhotoboothSoloBLines_Male[1]="Давай, беги. Ты просто умрешь уставшим."
+PhotoboothSoloBLines_Male[2]="Король смертоубийств"
+PhotoboothSoloBLines_Male[3]="Ровно между инопланетных ушей"
+PhotoboothSoloBLines_Male[4]="Он чувствует разве что отдачу"
+PhotoboothSoloBLines_Male[5]="Один выстрел - один труп."
+PhotoboothSoloBLines_Male[6]="Дело мастера боится."
+PhotoboothSoloBLines_Male[7]="Сладки плоды терпения."
+PhotoboothSoloBLines_Male[8]="Результат гарантирован."
+PhotoboothSoloBLines_Male[9]="Экономьте пули, дайте работать снайперу."
+PhotoboothSoloBLines_Female[0]="Смерть издалека"
+PhotoboothSoloBLines_Female[1]="Давай, беги. Ты просто умрешь уставшим."
+PhotoboothSoloBLines_Female[2]="Королева смертоубийств"
+PhotoboothSoloBLines_Female[3]="Ровно между инопланетных ушей"
+PhotoboothSoloBLines_Female[4]="Она чувствует разве что отдачу"
+PhotoboothSoloBLines_Female[5]="Один выстрел - один труп."
+PhotoboothSoloBLines_Female[6]="Дело мастера боится."
+PhotoboothSoloBLines_Female[7]="Сладки плоды терпения."
+PhotoboothSoloBLines_Female[8]="Результат гарантирован."
+PhotoboothSoloBLines_Female[9]="Экономьте пули, дайте работать снайперу."
+
+[MutonProwlerClass X2SoldierClassTemplate]
++DisplayName = "Мутон-мародер"
++ClassSummary="Мутоны-мародеры не похожи на своих собратьев тем, что им особенно легко слиться с окружающей местностью. Они хорошо обучены стрельбе из винтовки, и предпочитают не ввязываться в рукопашный бой."
++LeftAbilityTreeTitle = "Камуфляж"
++RightAbilityTreeTitle = "Оружейник"
+AbilityTreeTitles[0]="Камуфляж"
+AbilityTreeTitles[1]="Окопаться"
+AbilityTreeTitles[2]="Оружейник"
+AbilityTreeTitles[3]="XCOM"
+RandomNickNames[0]="Бандит"
+RandomNickNames[1]="Блиц"
+RandomNickNames[2]="Кирпич"
+RandomNickNames[3]="Мясник"
+RandomNickNames[4]="Бензопила"
+RandomNickNames[5]="Каджун"
+RandomNickNames[6]="Челюсти"
+RandomNickNames[7]="Кобра"
+RandomNickNames[8]="Кугуар "
+RandomNickNames[9]="Койот"
+RandomNickNames[10]="Авария"
+RandomNickNames[11]="Алмаз"
+RandomNickNames[12]="Костолом"
+RandomNickNames[13]="Роковой"
+RandomNickNames[14]="Вспышка"
+RandomNickNames[15]="Ярость"
+RandomNickNames[16]="Крокодил"
+RandomNickNames[17]="Призрак"
+RandomNickNames[18]="Оружейник"
+RandomNickNames[19]="Гончая пес"
+RandomNickNames[20]="Лед"
+RandomNickNames[21]="Ледоруб"
+RandomNickNames[22]="Клещи"
+RandomNickNames[23]="Судный день"
+RandomNickNames[24]="Костяшка"
+RandomNickNames[25]="Монстр"
+RandomNickNames[26]="Мустанг"
+RandomNickNames[27]="Паладин"
+RandomNickNames[28]="Питбуль"
+RandomNickNames[29]="Хищник"
+RandomNickNames[30]="Бритва"
+RandomNickNames[31]="Самурай"
+RandomNickNames[32]="Скорпион"
+RandomNickNames[33]="Сёгун"
+RandomNickNames[34]="Тень"
+RandomNickNames[35]="Убийца"
+RandomNickNames[36]="Змея"
+RandomNickNames[37]="Глаза змеи"
+RandomNickNames[38]="Соло"
+RandomNickNames[39]="Спектр"
+RandomNickNames[40]="Паук"
+RandomNickNames[41]="Сталкер"
+RandomNickNames[42]="Сталь"
+RandomNickNames[43]="Жало"
+RandomNickNames[44]="Терминатор"
+RandomNickNames[45]="Троян"
+RandomNickNames[46]="Вандал"
+RandomNickNames[47]="Викинг"
+RandomNickNames[48]="Страж"
+RandomNickNames[49]="Военачальник"
+RandomNickNames[50]="Росомаха"
+RandomNickNames[51]="Дикарь"
+RandomNickNames[52]="Одичалый"
+RandomNickNames[53]="Зулу"
+;ALPHABETICAL ORDER
+RandomNickNames_Male[0]="Топор"
+RandomNickNames_Male[1]="Дюк"
+RandomNickNames_Male[2]="Роки"
+RandomNickNames_Male[3]="Жеребец"
+RandomNickNames_Male[4]="Человек-волк"
+;ALPHABETICAL ORDER
+RandomNickNames_Female[0]="Афина"
+RandomNickNames_Female[1]="Герцогиня"
+RandomNicknames_Female[2]="Железная леди"
+RandomNicknames_Female[3]="Железная дева"
+RandomNicknames_Female[4]="Щитоноска"
+RandomNickNames_Female[5]="Валькирия"
+;ALPHABETICAL ORDER
+PhotoboothSoloBLines_Male[0]="Смерть издалека"
+PhotoboothSoloBLines_Male[1]="Давай, беги. Ты просто умрешь уставшим."
+PhotoboothSoloBLines_Male[2]="Король смертоубийств"
+PhotoboothSoloBLines_Male[3]="Ровно между инопланетных ушей"
+PhotoboothSoloBLines_Male[4]="Он чувствует разве что отдачу"
+PhotoboothSoloBLines_Male[5]="Один выстрел - один труп."
+PhotoboothSoloBLines_Male[6]="Дело мастера боится."
+PhotoboothSoloBLines_Male[7]="Сладки плоды терпения."
+PhotoboothSoloBLines_Male[8]="Результат гарантирован."
+PhotoboothSoloBLines_Male[9]="Экономьте пули, дайте работать снайперу."
+PhotoboothSoloBLines_Female[0]="Смерть издалека"
+PhotoboothSoloBLines_Female[1]="Давай, беги. Ты просто умрешь уставшим."
+PhotoboothSoloBLines_Female[2]="Королева смертоубийств"
+PhotoboothSoloBLines_Female[3]="Ровно между инопланетных ушей"
+PhotoboothSoloBLines_Female[4]="Она чувствует разве что отдачу"
+PhotoboothSoloBLines_Female[5]="Один выстрел - один труп."
+PhotoboothSoloBLines_Female[6]="Дело мастера боится."
+PhotoboothSoloBLines_Female[7]="Сладки плоды терпения."
+PhotoboothSoloBLines_Female[8]="Результат гарантирован."
+PhotoboothSoloBLines_Female[9]="Экономьте пули, дайте работать снайперу."
+
+[MutonBeleaguerClass X2SoldierClassTemplate]
++DisplayName="Осадный мутон"
++ClassSummary="Осадные мутоны наиболее известны своим умением владения \"наблюдением\" и другими ответными выстрелами, как в открытом бою так и в засаде. Они не отступят, пока не увидят кровь, либо не израсходуют весь боезапас"
++LeftAbilityTreeTitle="Вскрытие"
++RightAbilityTreeTitle="Многогранный"
++AbilityTreeTitles[0]="Вскрытие"
++AbilityTreeTitles[1]="Наступление"
++AbilityTreeTitles[2]="Многогранный"
++AbilityTreeTitles[3]="XCOM"
+;ALPHABETICAL ORDER
++RandomNickNames[0]="Весь день"
++RandomNickNames[1]="Все включено"
++RandomNickNames[2]="Животное"
++RandomNickNames[3]="Улетный"
++RandomNickNames[4]="Большая страна"
++RandomNickNames[5]="Большие деньги"
++RandomNickNames[6]="Большая гадость"
++RandomNickNames[7]="Блейз"
++RandomNickNames[8]="Бум-бум"
++RandomNickNames[9]="Бумер"
++RandomNickNames[10]="Бомбер"
++RandomNickNames[11]="Бульдог"
++RandomNickNames[12]="Бычий натиск"
++RandomNickNames[13]="Клеймор"
++RandomNickNames[14]="Демо"
++RandomNickNames[15]="Боеготовность"
++RandomNickNames[16]="Пес дьявола"
++RandomNickNames[17]="Дизель"
++RandomNickNames[18]="Бис"
++RandomNickNames[19]="Фаербол"
++RandomNickNames[20]="Холодильник"
++RandomNickNames[21]="Оружейник"
++RandomNickNames[22]="Молот"
++RandomNickNames[23]="Адское пламя"
++RandomNickNames[24]="Хайтауэр"
++RandomNickNames[25]="Здоровяк"
++RandomNickNames[26]="Вулкан"
++RandomNickNames[27]="Ураган"
++RandomNickNames[28]="Старый хлам"
++RandomNickNames[29]="Джаггернаут"
++RandomNickNames[30]="Нокаут"
++RandomNickNames[31]="Конг"
++RandomNickNames[32]="Бешеный пес"
++RandomNickNames[33]="Обвал"
++RandomNickNames[34]="Лось"
++RandomNickNames[35]="Нова"
++RandomNickNames[36]="Нитро"
++RandomNickNames[37]="Ядерный взрыв"
++RandomNickNames[38]="Огр"
++RandomNickNames[39]="Питбуль"
++RandomNickNames[40]="Пиро"
++RandomNickNames[41]="Красная линия"
++RandomNickNames[42]="Носорог"
++RandomNickNames[43]="Ракета"
++RandomNickNames[44]="Сибриз"
++RandomNickNames[45]="Плита"
++RandomNickNames[46]="Удар"
++RandomNickNames[47]="Взрыв"
++RandomNickNames[48]="Смоки"
++RandomNickNames[49]="Болотная тварь"
++RandomNickNames[50]="Ти-Бон"
++RandomNickNames[51]="Ти-Рекс"
++RandomNickNames[52]="танк"
++RandomNickNames[53]="Колотушка"
++RandomNickNames[54]="Гром"
++RandomNickNames[55]="Щекотка"
++RandomNickNames[56]="Крошечный"
++RandomNickNames[57]="Титан"
++RandomNickNames[58]="Динамит"
++RandomNickNames[59]="Факел"
++RandomNickNames[60]="Пес войны"
++RandomNickNames[61]="Ратный конь"
++RandomNickNames[62]="Дикарь"
+;ALPHABETICAL ORDER
++RandomNicknames_Male[0]="Варвар"
++RandomNickNames_Male[1]="Большой мальчик"
++RandomNicknames_Male[2]="Человек-босс"
++RandomNickNames_Male[3]="Ковбой"
++RandomNickNames_Male[4]="Мясная голова"
++RandomNickNames_Male[5]="Неро"
++RandomNickNames_Male[6]="Папа-медведь"
++RandomNickNames_Male[7]="Дикий человек"
++RandomNickNames_Female[0]="Амазон"
++RandomNicknames_Female[1]="Леди-босс"
++RandomNickNames_Female[2]="Ковбойка"
++RandomNicknames_Female[3]="Домино"
++RandomNickNames_Female[4]="Фрея"
++RandomNickNames_Female[5]="Мама-медведица"
++RandomNickNames_Female[6]="Глубокая шесть"
++RandomNickNames_Female[7]="Факельщица"
+;ALPHABETICAL ORDER
+PhotoboothSoloBLines_Male[0]="Его пушка... ИХ КРОВЬ!"
+PhotoboothSoloBLines_Male[1]="Прогнозирую... ПОБОЧНЫЙ УЩЕРБ."
+PhotoboothSoloBLines_Male[2]="Его выстрелы принесут СПРАВЕДЛИВОСТЬ!"
+PhotoboothSoloBLines_Male[3]="Пули: чем больше, тем веселее!"
+PhotoboothSoloBLines_Male[4]="Сидящий в засаде. Торговец смертью."
+PhotoboothSoloBLines_Female[0]="Ее пушка...  ИХ КРОВЬ!"
+PhotoboothSoloBLines_Female[1]="Прогнозирую... ПОБОЧНЫЙ УЩЕРБ."
+PhotoboothSoloBLines_Female[2]="Ее выстрелы принесут СПРАВЕДЛИВОСТЬ!"
+PhotoboothSoloBLines_Female[3]="Пули: чем больше, тем веселее!"
+PhotoboothSoloBLines_Female[4]="Сидящий в засаде. Торговец смертью."
+
+[MutonHarrierClass X2SoldierClassTemplate]
++DisplayName="Мутон-разоритель"
++ClassSummary="Среди мутонов, больше всего выделяются мутоны-разорители, со своим умением обращаться со взрывчаткой. В качестве основного оружия, они используют специальны гранатомет, стреляющий боеголовками воздушного подрыва, игнорирующие укрытия."
++LeftAbilityTreeTitle="Сторонник"
++RightAbilityTreeTitle="Боевик"
++AbilityTreeTitles[0]="Сторонник"
++AbilityTreeTitles[1]="Обитель демонов"
++AbilityTreeTitles[2]="Боевик"
++AbilityTreeTitles[3]="XCOM"
+;ALPHABETICAL ORDER
++RandomNickNames[0]="Весь день"
++RandomNickNames[1]="Все включено"
++RandomNickNames[2]="Животное"
++RandomNickNames[3]="Улетный"
++RandomNickNames[4]="Большая страна"
++RandomNickNames[5]="Большие деньги"
++RandomNickNames[6]="Большая гадость"
++RandomNickNames[7]="Блейз"
++RandomNickNames[8]="Бум-бум"
++RandomNickNames[9]="Бумер"
++RandomNickNames[10]="Бомбер"
++RandomNickNames[11]="Бульдог"
++RandomNickNames[12]="Бычий натиск"
++RandomNickNames[13]="Клеймор"
++RandomNickNames[14]="Демо"
++RandomNickNames[15]="Боеготовность"
++RandomNickNames[16]="Пес дьявола"
++RandomNickNames[17]="Дизель"
++RandomNickNames[18]="Бис"
++RandomNickNames[19]="Фаербол"
++RandomNickNames[20]="Холодильник"
++RandomNickNames[21]="Оружейник"
++RandomNickNames[22]="Молот"
++RandomNickNames[23]="Адское пламя"
++RandomNickNames[24]="Хайтауэр"
++RandomNickNames[25]="Здоровяк"
++RandomNickNames[26]="Вулкан"
++RandomNickNames[27]="Ураган"
++RandomNickNames[28]="Старый хлам"
++RandomNickNames[29]="Джаггернаут"
++RandomNickNames[30]="Нокаут"
++RandomNickNames[31]="Конг"
++RandomNickNames[32]="Бешеный пес"
++RandomNickNames[33]="Обвал"
++RandomNickNames[34]="Лось"
++RandomNickNames[35]="Нова"
++RandomNickNames[36]="Нитро"
++RandomNickNames[37]="Ядерный взрыв"
++RandomNickNames[38]="Огр"
++RandomNickNames[39]="Питбуль"
++RandomNickNames[40]="Пиро"
++RandomNickNames[41]="Красная линия"
++RandomNickNames[42]="Носорог"
++RandomNickNames[43]="Ракета"
++RandomNickNames[44]="Сибриз"
++RandomNickNames[45]="Плита"
++RandomNickNames[46]="Удар"
++RandomNickNames[47]="Взрыв"
++RandomNickNames[48]="Смоки"
++RandomNickNames[49]="Болотная тварь"
++RandomNickNames[50]="Ти-Бон"
++RandomNickNames[51]="Ти-Рекс"
++RandomNickNames[52]="танк"
++RandomNickNames[53]="Колотушка"
++RandomNickNames[54]="Гром"
++RandomNickNames[55]="Щекотка"
++RandomNickNames[56]="Крошечный"
++RandomNickNames[57]="Титан"
++RandomNickNames[58]="Динамит"
++RandomNickNames[59]="Факел"
++RandomNickNames[60]="Пес войны"
++RandomNickNames[61]="Ратный конь"
++RandomNickNames[62]="Дикарь"
+;ALPHABETICAL ORDER
++RandomNicknames_Male[0]="Варвар"
++RandomNickNames_Male[1]="Большой мальчик"
++RandomNicknames_Male[2]="Человек-босс"
++RandomNickNames_Male[3]="Ковбой"
++RandomNickNames_Male[4]="Мясная голова"
++RandomNickNames_Male[5]="Неро"
++RandomNickNames_Male[6]="Папа-медведь"
++RandomNickNames_Male[7]="Дикий человек"
++RandomNickNames_Female[0]="Амазон"
++RandomNicknames_Female[1]="Леди-босс"
++RandomNickNames_Female[2]="Ковбойка"
++RandomNicknames_Female[3]="Домино"
++RandomNickNames_Female[4]="Фрея"
++RandomNickNames_Female[5]="Мама-медведица"
++RandomNickNames_Female[6]="Глубокая шесть"
++RandomNickNames_Female[7]="Факельщица"
+;ALPHABETICAL ORDER
+PhotoboothSoloBLines_Male[0]="Сейчас рванет!"
+PhotoboothSoloBLines_Male[1]="Синоптики обещают массированные взрывы!"
+PhotoboothSoloBLines_Male[2]="Не убежать. Не скрыться."
+PhotoboothSoloBLines_Male[3]="Артиллерия. Опасно близко."
+PhotoboothSoloBLines_Male[4]="Тук, тук, БАЦ!"
+PhotoboothSoloBLines_Male[5]="Бомбы в цель!"
+PhotoboothSoloBLines_Male[6]="Гранаты: чем их больше, тем веселее!"
+PhotoboothSoloBLines_Male[7]="Считайте меня синоптиком, потому что я обещаю дождь!"
+PhotoboothSoloBLines_Male[8]="Труба зовет!"
+PhotoboothSoloBLines_Male[9]="Без маскировки обойдусь!"
+
+PhotoboothSoloBLines_Female[0]="Сейчас рванет!"
+PhotoboothSoloBLines_Female[1]="Синоптики обещают массированные взрывы!"
+PhotoboothSoloBLines_Female[2]="Не убежать. Не скрыться."
+PhotoboothSoloBLines_Female[3]="Артиллерия. Опасно близко."
+PhotoboothSoloBLines_Female[4]="Тук, тук, БАЦ!"
+PhotoboothSoloBLines_Female[5]="Бомбы в цель!"
+PhotoboothSoloBLines_Female[6]="Гранаты: чем их больше, тем веселее!"
+PhotoboothSoloBLines_Female[7]="Считайте меня синоптиком, потому что я обещаю дождь!"
+PhotoboothSoloBLines_Female[8]="Труба зовет!"
+PhotoboothSoloBLines_Female[9]="Без маскировки обойдусь!"
+
+[BerserkerClass X2SoldierClassTemplate]
++DisplayName = "Берсерк"
++ClassSummary="Сила и стойкость берсерка, сравнима только с их всепоглощающей яростью. Она настолько всепоглощающая, что они с радостью несутся в битву, невзирая на травмы и повреждения, и может разрушать стены, когда это необходимо. В результате их массивности и шумного передвижения им требуется гораздо больше времени для проникновения, чем большинству солдат, и их легче обнаружить, когда они скрыты"
++LeftAbilityTreeTitle = "Сокрушитель"
++RightAbilityTreeTitle = "Ужасающий"
+AbilityTreeTitles[0]="Сокрушитель"
+AbilityTreeTitles[1]="Крепость"
+AbilityTreeTitles[2]="Ужасающий"
+AbilityTreeTitles[3]="XCOM"
+RandomNickNames[0]="Бандит"
+RandomNickNames[1]="Блиц"
+RandomNickNames[2]="Кирпич"
+RandomNickNames[3]="Мясник"
+RandomNickNames[4]="Бензопила"
+RandomNickNames[5]="Каджун"
+RandomNickNames[6]="Челюсти"
+RandomNickNames[7]="Кобра"
+RandomNickNames[8]="Кугуар "
+RandomNickNames[9]="Койот"
+RandomNickNames[10]="Авария"
+RandomNickNames[11]="Алмаз"
+RandomNickNames[12]="Костолом"
+RandomNickNames[13]="Роковой"
+RandomNickNames[14]="Вспышка"
+RandomNickNames[15]="Ярость"
+RandomNickNames[16]="Крокодил"
+RandomNickNames[17]="Призрак"
+RandomNickNames[18]="Голем"
+RandomNickNames[19]="Гончая пес"
+RandomNickNames[20]="Лед"
+RandomNickNames[21]="Ледоруб"
+RandomNickNames[22]="Клещи"
+RandomNickNames[23]="Судный день"
+RandomNickNames[24]="Костяшка"
+RandomNickNames[25]="Монстр"
+RandomNickNames[26]="Мустанг"
+RandomNickNames[27]="Паладин"
+RandomNickNames[28]="Питбуль"
+RandomNickNames[29]="Хищник"
+RandomNickNames[30]="Бритва"
+RandomNickNames[31]="Самурай"
+RandomNickNames[32]="Скорпион"
+RandomNickNames[33]="Сёгун"
+RandomNickNames[34]="Тень"
+RandomNickNames[35]="Убийца"
+RandomNickNames[36]="Змея"
+RandomNickNames[37]="Глаза змеи"
+RandomNickNames[38]="Соло"
+RandomNickNames[39]="Спектр"
+RandomNickNames[40]="Паук"
+RandomNickNames[41]="Сталкер"
+RandomNickNames[42]="Сталь"
+RandomNickNames[43]="Жало"
+RandomNickNames[44]="Терминатор"
+RandomNickNames[45]="Троян"
+RandomNickNames[46]="Вандал"
+RandomNickNames[47]="Викинг"
+RandomNickNames[48]="Страж"
+RandomNickNames[49]="Военачальник"
+RandomNickNames[50]="Росомаха"
+RandomNickNames[51]="Дикарь"
+RandomNickNames[52]="Одичалый"
+RandomNickNames[53]="Зулу"
+;ALPHABETICAL ORDER
+PhotoboothSoloBLines_Male[0]="Его кулаки... ИХ КРОВЬ!"
+PhotoboothSoloBLines_Male[1]="Последнее, что ты никогда не увидишь."
+PhotoboothSoloBLines_Male[2]="Его кулаки принесет СПРАВЕДЛИВОСТЬ!"
+PhotoboothSoloBLines_Male[3]="Близко, лично, и СМЕРТЕЛЬНО!"
+PhotoboothSoloBLines_Male[4]="Молотильщик. Торговец смертью."
+PhotoboothSoloBLines_Female[0]="Ее кулаки...  ИХ КРОВЬ!"
+PhotoboothSoloBLines_Female[1]="Последнее, что ты никогда не увидишь."
+PhotoboothSoloBLines_Female[2]="Ее кулаки принесет СПРАВЕДЛИВОСТЬ!"
+PhotoboothSoloBLines_Female[3]="Близко, лично, и СМЕРТЕЛЬНО!"
+PhotoboothSoloBLines_Female[4]="Молотильщик. Торговец смертью."
+
+[FrostAdderClass X2SoldierClassTemplate]
++DisplayName = "Морозный змей"
++ClassSummary="Морозный змей - подвид вайпера, который чувствует себя на передовой как дома. Они вооружены дробовиком и могут броситься к врагу для связывания, а также плеваться ледяными сгустками в группы врагов."
++LeftAbilityTreeTitle = "Мертвая хватка"
++RightAbilityTreeTitle = "Холодный"
+AbilityTreeTitles[0]="Мертвая хватка"
+AbilityTreeTitles[1]="Дробовик"
+AbilityTreeTitles[2]="Холодный"
+AbilityTreeTitles[3]="XCOM"
+;ALPHABETICAL ORDER
+RandomNickNames[0]="Апекс"
+RandomNickNames[1]="Эйс"
+RandomNickNames[2]="Послесловие"
+RandomNickNames[3]="Альфа"
+RandomNickNames[4]="Блэкджек"
+RandomNickNames[5]="Мишень"
+RandomNickNames[6]="Болт"
+RandomNickNames[7]="Большой выстрел"
+RandomNickNames[8]="Большой сон"
+RandomNickNames[9]="Большое время"
+RandomNickNames[10]="Босс"
+RandomNickNames[11]="Мишень"
+RandomNickNames[12]="Шах-и-мат"
+RandomNickNames[13]="Вождь"
+RandomNickNames[14]="Кольт"
+RandomNickNames[15]="Даллас"
+RandomNickNames[16]="Патрон"
+RandomNickNames[17]="Мертвый глаз"
+RandomNickNames[18]="Тупик"
+RandomNickNames[19]="Дедвуд"
+RandomNickNames[20]="Мертвец-по-прибытии"
+RandomNickNames[21]="Орлиный глаз"
+RandomNickNames[22]="Восьмой шар"
+RandomNickNames[23]="Прямая линия"
+RandomNickNames[24]="Время игры"
+RandomNickNames[25]="Гангстер"
+RandomNickNames[26]="Могильщик"
+RandomNickNames[27]="Хет-трик"
+RandomNickNames[28]="Ястребиный глаз"
+RandomNickNames[29]="Нагреватель"
+RandomNickNames[30]="Высокий полдень"
+RandomNickNames[31]="Хитман"
+RandomNickNames[32]="Голливуд"
+RandomNickNames[33]="Хайп"
+RandomNickNames[34]="Икона"
+RandomNickNames[35]="Шакал"
+RandomNickNames[36]="Судья"
+RandomNickNames[37]="Выключить свет"
+RandomNickNames[38]="Локдаун"
+RandomNickNames[39]="Дальний выстрел"
+RandomNickNames[40]="Дальний ходок"
+RandomNickNames[41]="Игла"
+RandomNickNames[42]="Бледный всадник"
+RandomNickNames[43]="Псарь"
+RandomNickNames[44]="Царапина"
+RandomNickNames[45]="Серийный"
+RandomNickNames[46]="Шериф"
+RandomNickNames[47]="Стрелок"
+RandomNickNames[48]="Шоу тайм"
+RandomNickNames[49]="Пленка"
+RandomNickNames[50]="Стропальщик"
+RandomNickNames[51]="Каменный холод"
+RandomNickNames[52]="Чистильщик"
+RandomNickNames[53]="Малыш"
+RandomNickNames[54]="Правда"
+RandomNickNames[55]="Надгробие"
+RandomNickNames[56]="Высший класс"
+RandomNickNames[57]="Верхняя полка"
+RandomNickNames[58]="Два спуска"
+RandomNickNames[59]="Гробовщик"
+RandomNickNames[60]="Валентин"
+
+RandomNickNames_Female[0]="Баронесса"
+RandomNickNames_Female[1]="Черная вдова"
+RandomNicknames_Female[2]="Каламити"
+RandomNicknames_Female[3]="Королева пчела"
+
+PhotoboothSoloBLines_Male[0]="Его дробовик... ИХ КРОВЬ!"
+PhotoboothSoloBLines_Male[1]="Последнее, что ты никогда не увидишь."
+PhotoboothSoloBLines_Male[2]="Боритесь столько, сколько хотите!"
+PhotoboothSoloBLines_Male[3]="Близко, лично, и СМЕРТЕЛЬНО!"
+PhotoboothSoloBLines_Male[4]="Месть это блюдо, которое подают холодным."
+PhotoboothSoloBLines_Female[0]="Ее дробовик...  ИХ КРОВЬ!"
+PhotoboothSoloBLines_Female[1]="Последнее, что ты никогда не увидишь."
+PhotoboothSoloBLines_Female[2]="Боритесь столько, сколько хотите!"
+PhotoboothSoloBLines_Female[3]="Близко, лично, и СМЕРТЕЛЬНО!"
+PhotoboothSoloBLines_Female[4]="Месть это блюдо, которое подают холодным."
+
+[FrostBomberClass X2SoldierClassTemplate]
++DisplayName="Морозный бомбардировщик"
++ClassSummary="Морозный бомбардировщик - подвид мутонов, специализирующийся на ближнем бою, с использованием дробовика и штыка, а также владеющий гранатами. Их морозные атаки затрудняют побег противников."
++LeftAbilityTreeTitle="Хладнокровный"
++RightAbilityTreeTitle="Йети"
++AbilityTreeTitles[0]="Хладнокровный"
++AbilityTreeTitles[1]="Ядерная зима"
++AbilityTreeTitles[2]="Йети"
++AbilityTreeTitles[3]="XCOM"
+;ALPHABETICAL ORDER
++RandomNickNames[0]="Весь день"
++RandomNickNames[1]="Все включено"
++RandomNickNames[2]="Животное"
++RandomNickNames[3]="Улетный"
++RandomNickNames[4]="Большая страна"
++RandomNickNames[5]="Большие деньги"
++RandomNickNames[6]="Большая гадость"
++RandomNickNames[7]="Блейз"
++RandomNickNames[8]="Бум-бум"
++RandomNickNames[9]="Бумер"
++RandomNickNames[10]="Бомбер"
++RandomNickNames[11]="Бульдог"
++RandomNickNames[12]="Бычий натиск"
++RandomNickNames[13]="Клеймор"
++RandomNickNames[14]="Демо"
++RandomNickNames[15]="Боеготовность"
++RandomNickNames[16]="Пес дьявола"
++RandomNickNames[17]="Дизель"
++RandomNickNames[18]="Бис"
++RandomNickNames[19]="Фаербол"
++RandomNickNames[20]="Холодильник"
++RandomNickNames[21]="Оружейник"
++RandomNickNames[22]="Молот"
++RandomNickNames[23]="Адское пламя"
++RandomNickNames[24]="Хайтауэр"
++RandomNickNames[25]="Здоровяк"
++RandomNickNames[26]="Вулкан"
++RandomNickNames[27]="Ураган"
++RandomNickNames[28]="Старый хлам"
++RandomNickNames[29]="Джаггернаут"
++RandomNickNames[30]="Нокаут"
++RandomNickNames[31]="Конг"
++RandomNickNames[32]="Бешеный пес"
++RandomNickNames[33]="Обвал"
++RandomNickNames[34]="Лось"
++RandomNickNames[35]="Нова"
++RandomNickNames[36]="Нитро"
++RandomNickNames[37]="Ядерный взрыв"
++RandomNickNames[38]="Огр"
++RandomNickNames[39]="Питбуль"
++RandomNickNames[40]="Пиро"
++RandomNickNames[41]="Красная линия"
++RandomNickNames[42]="Носорог"
++RandomNickNames[43]="Ракета"
++RandomNickNames[44]="Сибриз"
++RandomNickNames[45]="Плита"
++RandomNickNames[46]="Удар"
++RandomNickNames[47]="Взрыв"
++RandomNickNames[48]="Смоки"
++RandomNickNames[49]="Болотная тварь"
++RandomNickNames[50]="Ти-Бон"
++RandomNickNames[51]="Ти-Рекс"
++RandomNickNames[52]="танк"
++RandomNickNames[53]="Колотушка"
++RandomNickNames[54]="Гром"
++RandomNickNames[55]="Щекотка"
++RandomNickNames[56]="Крошечный"
++RandomNickNames[57]="Титан"
++RandomNickNames[58]="Динамит"
++RandomNickNames[59]="Факел"
++RandomNickNames[60]="Пес войны"
++RandomNickNames[61]="Ратный конь"
++RandomNickNames[62]="Дикарь"
+;ALPHABETICAL ORDER
++RandomNicknames_Male[0]="Варвар"
++RandomNickNames_Male[1]="Большой мальчик"
++RandomNicknames_Male[2]="Человек-босс"
++RandomNickNames_Male[3]="Ковбой"
++RandomNickNames_Male[4]="Мясная голова"
++RandomNickNames_Male[5]="Неро"
++RandomNickNames_Male[6]="Папа-медведь"
++RandomNickNames_Male[7]="Дикий человек"
++RandomNickNames_Female[0]="Амазон"
++RandomNicknames_Female[1]="Леди-босс"
++RandomNickNames_Female[2]="Ковбойка"
++RandomNicknames_Female[3]="Домино"
++RandomNickNames_Female[4]="Фрея"
++RandomNickNames_Female[5]="Мама-медведица"
++RandomNickNames_Female[6]="Глубокая шесть"
++RandomNickNames_Female[7]="Факельщица"
+;ALPHABETICAL ORDER
++PhotoboothSoloBLines_Male[0]="Сейчас рванет!"
++PhotoboothSoloBLines_Male[1]="Синоптики обещают массированные взрывы!"
++PhotoboothSoloBLines_Male[2]="Не убежать. Не скрыться."
++PhotoboothSoloBLines_Male[3]="Артиллерия. Опасно близко."
++PhotoboothSoloBLines_Male[4]="Тук, тук, БАЦ!"
++PhotoboothSoloBLines_Male[5]="Бомбы в цель!"
++PhotoboothSoloBLines_Male[6]="Гранаты: чем их больше, тем веселее!"
++PhotoboothSoloBLines_Male[7]="Считайте меня синоптиком, потому что я обещаю дождь!"
++PhotoboothSoloBLines_Male[8]="Труба зовет!"
++PhotoboothSoloBLines_Male[9]="Без маскировки обойдусь!"
+
++PhotoboothSoloBLines_Female[0]="Сейчас рванет!"
++PhotoboothSoloBLines_Female[1]="Синоптики обещают массированные взрывы!"
++PhotoboothSoloBLines_Female[2]="Не убежать. Не скрыться."
++PhotoboothSoloBLines_Female[3]="Артиллерия. Опасно близко."
++PhotoboothSoloBLines_Female[4]="Тук, тук, БАЦ!"
++PhotoboothSoloBLines_Female[5]="Бомбы в цель!"
++PhotoboothSoloBLines_Female[6]="Гранаты: чем их больше, тем веселее!"
++PhotoboothSoloBLines_Female[7]="Считайте меня синоптиком, потому что я обещаю дождь!"
++PhotoboothSoloBLines_Female[8]="Труба зовет!"
++PhotoboothSoloBLines_Female[9]="Без маскировки обойдусь!"
+
+[FrostNecromancerClass X2SoldierClassTemplate]
++DisplayName = "Морозный некромант"
++ClassSummary="Морозный некромант - подвид сектоида, способный создавать из трупов гуманоидов, медленных но стойких призрачных зомби. И морозный некромант и их созданные зомби, способны вызывать обморожение у целей."
++LeftAbilityTreeTitle = "Абсолютный ноль"
++RightAbilityTreeTitle = "Леденящий кости"
+AbilityTreeTitles[0]="Абсолютный ноль"
+AbilityTreeTitles[1]="Криокинетик"
+AbilityTreeTitles[2]="Леденящий кости"
+AbilityTreeTitles[3]="XCOM"
+RandomNickNames[0]="Маг"
+RandomNickNames[1]="Ведьмак"
+RandomNickNames[2]="Колдун"
+RandomNickNames[3]="Психопат"
+RandomNickNames[4]="Плач"
+RandomNickNames[5]="Эхо"
+RandomNickNames[6]="Экто"
+RandomNickNames[7]="Мгла"
+RandomNickNames[8]="Хекс"
+RandomNickNames[9]="Зен"
+RandomNickNames[10]="Омега"
+RandomNickNames[11]="Сумерки"
+RandomNickNames[12]="Вуду"
+RandomNickNames[13]="Озорник"
+RandomNickNames[14]="Судья"
+RandomNickNames[15]="Фрик"
+RandomNickNames[16]="Живчик"
+RandomNickNames[17]="Ужас"
+RandomNickNames[18]="Гуль"
+RandomNickNames[19]="Оз"
+RandomNickNames[20]="Нуль"
+RandomNickNames[21]="Ноль"
+RandomNickNames[22]="Спиритолог"
+RandomNickNames[23]="Пророк"
+RandomNickNames[24]="Кошмар"
+RandomNickNames[25]="Вайпер"
+RandomNickNames[26]="Дух"
+RandomNickNames[27]="Демон"
+RandomNickNames[28]="Ворон"
+RandomNickNames[29]="Вейдер"
+RandomNickNames[30]="Синдром"
+RandomNickNames[31]="Друид"
+RandomNickNames[32]="Триллер"
+RandomNickNames[33]="Феникс"
+RandomNickNames[34]="Полночь"
+RandomNickNames[35]="Ворона"
+RandomNickNames[36]="Пугало"
+RandomNickNames[37]="Вампир"
+RandomNickNames[38]="Оборотень"
+RandomNickNames[39]="Зомби"
+RandomNickNames[40]="Светлячок"
+RandomNickNames[41]="Знамение"
+RandomNickNames[42]="Ворон"
+RandomNickNames[43]="Ксено"
+RandomNickNames[44]="Мрачный"
+RandomNickNames[45]="Шрек"
+
+[PA_Sectoid X2CharacterTemplate]
+strCharacterName="Сектоид"
+
+[PA_Muton X2CharacterTemplate]
+strCharacterName="Мутон"
+
+[PA_Viper2 X2CharacterTemplate]
+strCharacterName="Вайпер"
+
+[PA_Andromedon X2CharacterTemplate]
+strCharacterName="Андромедон"
+
+[PA_Berserker X2CharacterTemplate]
+strCharacterName="Берсерк"
+
+[PA_Archon X2CharacterTemplate]
+strCharacterName="Архонт"
+
+[PA_MutonHunter X2CharacterTemplate]
+strCharacterName="Мутон-охотник"
+
+[PA_MutonProwler X2CharacterTemplate]
+strCharacterName="Мутон-мародер"
+
+[PA_Sidewinder X2CharacterTemplate]
+strCharacterName="Гремучник"
+
+[PA_Naja X2CharacterTemplate]
+strCharacterName="Ная"
+
+[Country_Mec X2CountryTemplate]
+DisplayName="Мех"
+DisplayNameWithArticle="Мех"
+DisplayNameWithArticleLower="Мех"
+DisplayNamePossessive="Мехи"
+DisplayAdjective="Механический"
+
+[Country_Viper X2CountryTemplate]
+DisplayName="Вайпер"
+DisplayNameWithArticle="Вайпер"
+DisplayNameWithArticleLower="Вайпер"
+DisplayNamePossessive="Вайперы"
+DisplayAdjective="Змеиный"
+
+[Country_Chrys X2CountryTemplate]
+DisplayName="Криссалид"
+DisplayNameWithArticle="Криссалид"
+DisplayNameWithArticleLower="Криссалид"
+DisplayNamePossessive="Криссалиды"
+DisplayAdjective="Криссалид"
+
+[Country_Muton X2CountryTemplate]
+DisplayName="Мутон"
+DisplayNameWithArticle="Мутон"
+DisplayNameWithArticleLower="Мутон"
+DisplayNamePossessive="Мутоны"
+DisplayAdjective="Мутировавший"
+
+;normal weapons
+[PA_SectoidGun X2WeaponTemplate]
+FriendlyName="Истощенный бластер сектоида"
+BriefSummary="Мощность бластера сектоида уменьшена в рамках мер, по борьбе с предателями."
+TacticalText="<Bullet/> Обычный бластер сектоида. Его небольшой размер ограничивает выходную мощность, но делает сектоида хорошим разведчиком.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на сектоида."
+AbilityDescName="бластер сектоида"
+
+[PA_SectoidGunLaser X2WeaponTemplate]
+FriendlyName="Скорректированный бластер сектоида"
+BriefSummary="Бластер сектоида, мощность и точность которого, нам удалось незначительно улучшить, благодаря нашим лазерным технологиям."
+TacticalText="<Bullet/> Обычный бластер сектоида. Его небольшой размер ограничивает выходную мощность, но делает сектоида хорошим разведчиком.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на сектоида."
+AbilityDescName="бластер сектоида"
+
+[PA_SectoidGunMagnetic X2WeaponTemplate]
+FriendlyName="Восстановленный бластер сектоида"
+BriefSummary="Бластер сектоида, который нам удалось восстановить до нормальной рабочей мощности, благодаря лучшему пониманию инопланетного оружия и нашим магнитным технологиям."
+TacticalText="<Bullet/> Обычный бластер сектоида. Его небольшой размер ограничивает выходную мощность, но делает сектоида хорошим разведчиком.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на сектоида."
+AbilityDescName="бластер сектоида"
+
+[PA_SectoidGunCoil X2WeaponTemplate]
+FriendlyName="Улучшенный бластер сектоида"
+BriefSummary="Бластер сектоида, мощность которого нам удалось улучшить благодаря нашим разработкам Гаусс оружия. Как и другое оружие Гаусса, бластер пробивает броню."
+TacticalText="<Bullet/> Обычный бластер сектоида. Его небольшой размер ограничивает выходную мощность, но делает сектоида хорошим разведчиком.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на сектоида."
+AbilityDescName="бластер сектоида"
+
+[PA_SectoidGunBeam X2WeaponTemplate]
+FriendlyName="Превосходный бластер сектоида"
+BriefSummary="Совершенный бластер сектоида, мощность которого нам удалось максимизировать, благодаря нашим разработкам лучевого оружия. Как и другое лучевое оружие, бластер разрывает цель."
+TacticalText="<Bullet/> Обычный бластер сектоида. Его небольшой размер ограничивает выходную мощность, но делает сектоида хорошим разведчиком.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на сектоида."
+AbilityDescName="бластер сектоида"
+
+[PA_AcidBlob X2WeaponTemplate]
+FriendlyName="Система кислотного вооружения"
+BriefSummary="Система кислотного вооружения"
+TacticalText="<Bullet/> Оружейная система, предназначенная для фильтрации внутренней среды андромедона. Также, применяется для опасных кислотных атак."
+AbilityDescName="кислотная бомба"
+
+[PA_ViperGun X2WeaponTemplate]
+FriendlyName="Истощенная винтовка вайпера"
+BriefSummary="Мощность винтовки вайпера уменьшена в рамках мер, по борьбе с предателями."
+TacticalText="<Bullet/> Винтовка вайпера, средней дальности.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на вайпера."
+AbilityDescName="винтовка вайпера"
+
+[PA_ViperGunLaser X2WeaponTemplate]
+FriendlyName="Скорректированная винтовка вайпера"
+BriefSummary="Винтовка вайпера, мощность и точность которой, нам удалось незначительно улучшить, благодаря нашим лазерным технологиям."
+TacticalText="<Bullet/> Винтовка вайпера, средней дальности.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на вайпера."
+AbilityDescName="винтовка вайпера"
+
+[PA_ViperGunMagnetic X2WeaponTemplate]
+FriendlyName="Восстановленная винтовка вайпера"
+BriefSummary="Винтовка вайпера, которую нам удалось восстановить до нормальной рабочей мощности, благодаря лучшему пониманию инопланетного оружия и нашим магнитным технологиям."
+TacticalText="<Bullet/> Винтовка вайпера, средней дальности.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на вайпера."
+AbilityDescName="винтовка вайпера"
+
+[PA_ViperGunCoil X2WeaponTemplate]
+FriendlyName="Улучшенная винтовка вайпера"
+BriefSummary="Винтовка вайпера, мощность которой нам удалось улучшить благодаря нашим разработкам Гаусс оружия. Как и другое оружие Гаусса, винтовка пробивает броню."
+TacticalText="<Bullet/> Винтовка вайпера, средней дальности.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на вайпера."
+AbilityDescName="винтовка вайпера"
+
+[PA_ViperGunBeam X2WeaponTemplate]
+FriendlyName="Превосходная винтовка вайпера"
+BriefSummary="Совершенная винтовка вайпера, мощность которой нам удалось максимизировать, благодаря нашим разработкам лучевого оружия. Как и другое лучевое оружие, винтовка разрывает цель."
+TacticalText="<Bullet/> Винтовка вайпера, средней дальности.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на вайпера."
+AbilityDescName="винтовка вайпера"
+
+[PA_AndromedonGun X2WeaponTemplate]
+FriendlyName="Истощенная винтовка андромедона"
+BriefSummary="Мощность винтовки андромедона уменьшена в рамках мер, по борьбе с предателями."
+TacticalText="<Bullet/> Винтовка андромедона, предназначена для дальнего боя, а также позволяет проводить кислотные атаки, на основе передаваемой из скафандра кислоты.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="винтовка андромедона"
+
+[PA_AndromedonGunLaser X2WeaponTemplate]
+FriendlyName="Скорректированная винтовка андромедона"
+BriefSummary="Винтовка андромедона, мощность и точность которой, нам удалось незначительно улучшить, благодаря нашим лазерным технологиям."
+TacticalText="<Bullet/> Винтовка андромедона, предназначена для дальнего боя, а также позволяет проводить кислотные атаки, на основе передаваемой из скафандра кислоты.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="винтовка андромедона"
+
+[PA_AndromedonGunMagnetic X2WeaponTemplate]
+FriendlyName="Восстановленная винтовка андромедона"
+BriefSummary="Винтовка андромедона, которую нам удалось восстановить до нормальной рабочей мощности, благодаря лучшему пониманию инопланетного оружия и нашим магнитным технологиям."
+TacticalText="<Bullet/> Винтовка андромедона, предназначена для дальнего боя, а также позволяет проводить кислотные атаки, на основе передаваемой из скафандра кислоты.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="винтовка андромедона"
+
+[PA_AndromedonGunCoil X2WeaponTemplate]
+FriendlyName="Улучшенная винтовка андромедона"
+BriefSummary="Винтовка андромедона, мощность которой нам удалось улучшить благодаря нашим разработкам Гаусс оружия. Как и другое оружие Гаусса, винтовка пробивает броню."
+TacticalText="<Bullet/> Винтовка андромедона, предназначена для дальнего боя, а также позволяет проводить кислотные атаки, на основе передаваемой из скафандра кислоты.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="винтовка андромедона"
+
+[PA_AndromedonGunBeam X2WeaponTemplate]
+FriendlyName="Превосходная винтовка андромедона"
+BriefSummary="Совершенная винтовка андромедона, мощность которой нам удалось максимизировать, благодаря нашим разработкам лучевого оружия. Как и другое лучевое оружие, винтовка разрывает цель."
+TacticalText="<Bullet/> Винтовка андромедона, предназначена для дальнего боя, а также позволяет проводить кислотные атаки, на основе передаваемой из скафандра кислоты.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="винтовка андромедона"
+
+[PA_MutonGun X2WeaponTemplate]
+FriendlyName="Истощенная винтовка мутона"
+BriefSummary="Мощность винтовки мутона уменьшена в рамках мер, по борьбе с предателями."
+TacticalText="<Bullet/> Винтовка мутона, предназначена как для дальнего, так и для ближнего боя.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="винтовка мутона"
+
+[PA_MutonGunLaser X2WeaponTemplate]
+FriendlyName="Скорректированная винтовка мутона
+
+BriefSummary="Винтовка мутона, мощность и точность которой, нам удалось незначительно улучшить, благодаря нашим лазерным технологиям."
+TacticalText="<Bullet/> Винтовка мутона, предназначена как для дальнего, так и для ближнего боя.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="винтовка мутона"
+
+[PA_MutonGunMagnetic X2WeaponTemplate]
+FriendlyName="Восстановленная винтовка мутона"
+BriefSummary="Винтовка мутона, которую нам удалось восстановить до нормальной рабочей мощности, благодаря лучшему пониманию инопланетного оружия и нашим магнитным технологиям."
+TacticalText="<Bullet/> Винтовка мутона, предназначена как для дальнего, так и для ближнего боя.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="винтовка мутона"
+
+[PA_MutonGunCoil X2WeaponTemplate]
+FriendlyName="Улучшенная винтовка мутона"
+BriefSummary="Винтовка мутона, мощность которой нам удалось улучшить благодаря нашим разработкам Гаусс оружия. Как и другое оружие Гаусса, винтовка пробивает броню."
+TacticalText="<Bullet/> Винтовка мутона, предназначена как для дальнего, так и для ближнего боя.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="винтовка мутона"
+
+[PA_MutonGunBeam X2WeaponTemplate]
+FriendlyName="Превосходная винтовка мутона"
+BriefSummary="Совершенная винтовка мутона, мощность которой нам удалось максимизировать, благодаря нашим разработкам лучевого оружия. Как и другое лучевое оружие, винтовка разрывает цель."
+TacticalText="<Bullet/> Винтовка мутона, предназначена как для дальнего, так и для ближнего боя.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="винтовка мутона"
+
+[PA_MutonBeleaguerGun X2WeaponTemplate]
+FriendlyName="Истощенная винтовка осадного мутона"
+BriefSummary="Мощность винтовки осадного мутона уменьшена в рамках мер, по борьбе с предателями."
+TacticalText="<Bullet/> Винтовка осадного мутона предназначена для дальнего боя.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="винтовка осадного мутона"
+
+[PA_MutonBeleaguerGunLaser X2WeaponTemplate]
+FriendlyName="Скорректированная винтовка осадного мутона"
+BriefSummary="Винтовка осадного мутона, мощность и точность которой, нам удалось незначительно улучшить, благодаря нашим лазерным технологиям."
+TacticalText="<Bullet/> Винтовка осадного мутона предназначена для дальнего боя.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="винтовка осадного мутона"
+
+[PA_MutonBeleaguerGunMagnetic X2WeaponTemplate]
+FriendlyName="Восстановленная винтовка осадного мутона"
+BriefSummary="Винтовка осадного мутона, которую нам удалось восстановить до нормальной рабочей мощности, благодаря лучшему пониманию инопланетного оружия и нашим магнитным технологиям."
+TacticalText="<Bullet/> Винтовка осадного мутона предназначена для дальнего боя.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="винтовка осадного мутона"
+
+[PA_MutonBeleaguerGunCoil X2WeaponTemplate]
+FriendlyName="Улучшенная винтовка осадного мутона"
+BriefSummary="Винтовка осадного мутона, мощность которой нам удалось улучшить благодаря нашим разработкам Гаусс оружия. Как и другое оружие Гаусса, винтовка пробивает броню."
+TacticalText="<Bullet/> Винтовка осадного мутона предназначена для дальнего боя.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="винтовка осадного мутона"
+
+[PA_MutonBeleaguerGunBeam X2WeaponTemplate]
+FriendlyName="Превосходная винтовка осадного мутона"
+BriefSummary="Совершенная винтовка осадного мутона, мощность которой нам удалось максимизировать, благодаря нашим разработкам лучевого оружия. Как и другое лучевое оружие, винтовка разрывает цель."
+TacticalText="<Bullet/> Винтовка осадного мутона предназначена для дальнего боя.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="винтовка осадного мутона"
+
+[PA_MutonHarrierLauncher X2WeaponTemplate]
+FriendlyName="Истощенный гранатомет мутона-разорителя"
+BriefSummary="Мощность гранатомета мутона-разорителя уменьшена в рамках мер, по борьбе с предателями."
+TacticalText="<Bullet/> Гранатомет мутона-разорителя, предназначен для атак плотных групп врагов на расстоянии.\n<Bullet/> Игнорирует бонус укрытий.\n<Bullet/> Не может использовать специальные боеприпасы.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="гранатомет мутона-разорителя"
+
+[PA_MutonHarrierLauncherLaser X2WeaponTemplate]
+FriendlyName="Скорректированный гранатомет мутона-разорителя"
+BriefSummary="Гранатомет мутона-разорителя, мощность и точность которого, нам удалось незначительно улучшить, благодаря нашим лазерным технологиям. Однако область действия не улучшилась, по сравнению с истощенной версией."
+TacticalText="<Bullet/> Гранатомет мутона-разорителя, предназначен для атак плотных групп врагов на расстоянии.\n<Bullet/> Игнорирует бонус укрытий.\n<Bullet/> Не может использовать специальные боеприпасы.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="гранатомет мутона-разорителя"
+
+[PA_MutonHarrierLauncherMagnetic X2WeaponTemplate]
+FriendlyName="Восстановленный гранатомет мутона-разорителя"
+BriefSummary="Гранатомет мутона-разорителя, который нам удалось восстановить до нормальной рабочей мощности и области действия, благодаря лучшему пониманию инопланетного оружия и нашим магнитным технологиям."
+TacticalText="<Bullet/> Гранатомет мутона-разорителя, предназначен для атак плотных групп врагов на расстоянии.\n<Bullet/> Игнорирует бонус укрытий.\n<Bullet/> Не может использовать специальные боеприпасы.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="гранатомет мутона-разорителя"
+
+[PA_MutonHarrierLauncherCoil X2WeaponTemplate]
+FriendlyName="Улучшенный гранатомет мутона-разорителя"
+BriefSummary="Гранатомет мутона-разорителя, мощность которого нам удалось улучшить благодаря нашим разработкам Гаусс оружия. В отличие от остального оружия Гаусса, гранатомет пробивает больше брони, чем остальные экземпляры оружия."
+TacticalText="<Bullet/> Гранатомет мутона-разорителя, предназначен для атак плотных групп врагов на расстоянии.\n<Bullet/> Игнорирует бонус укрытий.\n<Bullet/> Не может использовать специальные боеприпасы.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="гранатомет мутона-разорителя"
+
+[PA_MutonHarrierLauncherBeam X2WeaponTemplate]
+FriendlyName="Превосходный гранатомет мутона-разорителя"
+BriefSummary="Совершенный гранатомет мутона-разорителя, мощность и площадь поражения которого нам удалось максимизировать, благодаря нашим разработкам лучевого оружия. Как и другое лучевое оружие, гранатомет разрывает цель."
+TacticalText="<Bullet/> Гранатомет мутона-разорителя, предназначен для атак плотных групп врагов на расстоянии.\n<Bullet/> Игнорирует бонус укрытий.\n<Bullet/> Не может использовать специальные боеприпасы.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="гранатомет мутона-разорителя"
+
+[PA_ArchonGun X2WeaponTemplate]
+FriendlyName="Истощенный посох архонта"
+BriefSummary="Мощность посоха архонта уменьшена в рамках мер, по борьбе с предателями."
+TacticalText="<Bullet/> Посох архонта, предназначен для дальнего боя.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="посох архонта"
+
+[PA_ArchonGunLaser X2WeaponTemplate]
+FriendlyName="Скорректированный посох архонта"
+BriefSummary="Посох архонта, мощность и точность которого, нам удалось незначительно улучшить, благодаря нашим лазерным технологиям."
+TacticalText="<Bullet/> Посох архонта, предназначен для дальнего боя.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="посох архонта"
+
+[PA_ArchonGunMagnetic X2WeaponTemplate]
+FriendlyName="Восстановленный посох архонта"
+BriefSummary="Посох архонта, который нам удалось восстановить до нормальной рабочей мощности, благодаря лучшему пониманию инопланетного оружия и нашим магнитным технологиям."
+TacticalText="<Bullet/> Посох архонта, предназначен для дальнего боя.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="посох архонта"
+
+[PA_ArchonGunCoil X2WeaponTemplate]
+FriendlyName="Улучшенный посох архонта"
+BriefSummary="Посох архонта, мощность которого нам удалось улучшить благодаря нашим разработкам Гаусс оружия. Как и другое оружие Гаусса, посох пробивает броню."
+TacticalText="<Bullet/> Посох архонта, предназначен для дальнего боя.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="посох архонта"
+
+[PA_ArchonGunBeam X2WeaponTemplate]
+FriendlyName="Превосходный посох архонта"
+BriefSummary="Совершенный посох архонта, мощность которого нам удалось максимизировать, благодаря нашим разработкам лучевого оружия. Как и другое лучевое оружие, посох разрывает цель."
+TacticalText="<Bullet/> Посох архонта, предназначен для дальнего боя.\n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов."
+AbilityDescName="посох архонта"
+
+[PA_MutonCannon X2WeaponTemplate]
+FriendlyName="Истощенная пушка мутона"
+BriefSummary="Мощность пушки мутона уменьшена в рамках мер, по борьбе с предателями."
+TacticalText="<Bullet/> Пушка предназначенная как для дальнего, так и для ближнего боя, обычно используется элитными мутонами. Проникновение занимает больше времени, чем винтовка мутона и она менее точна, при стрельбе с близкого расстояния.\n<Bullet/> Не может использоваться людьми: конструкция слишком тяжелая для гуманоидов."
+AbilityDescName="пушка мутона"
+
+[PA_MutonCannonLaser X2WeaponTemplate]
+FriendlyName="Скорректированная пушка мутона"
+BriefSummary="Пушка мутона, мощность и точность которой, нам удалось незначительно улучшить, благодаря нашим лазерным технологиям."
+TacticalText="<Bullet/> Пушка предназначенная как для дальнего, так и для ближнего боя, обычно используется элитными мутонами. Проникновение занимает больше времени, чем винтовка мутона и она менее точна, при стрельбе с близкого расстояния.\n<Bullet/> Не может использоваться людьми: конструкция слишком тяжелая для гуманоидов."
+AbilityDescName="пушка мутона"
+
+[PA_MutonCannonMagnetic X2WeaponTemplate]
+FriendlyName="Восстановленная пушка мутона"
+BriefSummary="Пушка мутона, которую нам удалось восстановить до нормальной рабочей мощности, благодаря лучшему пониманию инопланетного оружия и нашим магнитным технологиям."
+TacticalText="<Bullet/> Пушка предназначенная как для дальнего, так и для ближнего боя, обычно используется элитными мутонами. Проникновение занимает больше времени, чем винтовка мутона и она менее точна, при стрельбе с близкого расстояния.\n<Bullet/> Не может использоваться людьми: конструкция слишком тяжелая для гуманоидов."
+AbilityDescName="пушка мутона"
+
+[PA_MutonCannonCoil X2WeaponTemplate]
+FriendlyName="Улучшенная пушка мутона"
+BriefSummary="Пушка мутона, мощность которой нам удалось улучшить благодаря нашим разработкам Гаусс оружия. Как и другое оружие Гаусса, пушка пробивает броню."
+TacticalText="<Bullet/> Пушка предназначенная как для дальнего, так и для ближнего боя, обычно используется элитными мутонами. Проникновение занимает больше времени, чем винтовка мутона и она менее точна, при стрельбе с близкого расстояния.\n<Bullet/> Не может использоваться людьми: конструкция слишком тяжелая для гуманоидов."
+AbilityDescName="пушка мутона"
+
+[PA_MutonCannonBeam X2WeaponTemplate]
+FriendlyName="Превосходная пушка мутона"
+BriefSummary="Совершенная пушка мутона, мощность которой нам удалось максимизировать, благодаря нашим разработкам лучевого оружия. Как и другое лучевое оружие, пушка разрывает цель."
+TacticalText="<Bullet/> Пушка предназначенная как для дальнего, так и для ближнего боя, обычно используется элитными мутонами. Проникновение занимает больше времени, чем винтовка мутона и она менее точна, при стрельбе с близкого расстояния.\n<Bullet/> Не может использоваться людьми: конструкция слишком тяжелая для гуманоидов."
+AbilityDescName="пушка мутона"
+
+[PA_MutonStalkerGun X2WeaponTemplate]
+FriendlyName="Истощенная охотничья винтовка мутона"
+BriefSummary="Мощность охотничьей винтовки мутона уменьшена в рамках мер, по борьбе с предателями."
+TacticalText="<Bullet/> Охотничья винтовка мутона, предназначена для боя на средних и дальних дистанциях, используется мутонами-охотниками и мутонами-мародерами. Разрывает броню, но наносит низкий критический урон и не имеет штыка.\n<Bullet/> Не может использоваться людьми: конструкция слишком тяжелая для гуманоидов."
+AbilityDescName="охотничья винтовка мутона"
+
+[PA_MutonStalkerGunLaser X2WeaponTemplate]
+FriendlyName="Скорректированная охотничья винтовка мутона"
+BriefSummary="Охотничья винтовка мутона, мощность и точность которой, нам удалось незначительно улучшить, благодаря нашим лазерным технологиям."
+TacticalText="<Bullet/> Охотничья винтовка мутона, предназначена для боя на средних и дальних дистанциях, используется мутонами-охотниками и мутонами-мародерами. Разрывает броню, но наносит низкий критический урон и не имеет штыка.\n<Bullet/> Не может использоваться людьми: конструкция слишком тяжелая для гуманоидов."
+AbilityDescName="охотничья винтовка мутона"
+
+[PA_MutonStalkerGunMagnetic X2WeaponTemplate]
+FriendlyName="Восстановленная охотничья винтовка мутона"
+BriefSummary="Охотничья винтовка мутона, которую нам удалось восстановить до нормальной рабочей мощности, благодаря лучшему пониманию инопланетного оружия и нашим магнитным технологиям."
+TacticalText="<Bullet/> Охотничья винтовка мутона, предназначена для боя на средних и дальних дистанциях, используется мутонами-охотниками и мутонами-мародерами. Разрывает броню, но наносит низкий критический урон и не имеет штыка.\n<Bullet/> Не может использоваться людьми: конструкция слишком тяжелая для гуманоидов."
+AbilityDescName="охотничья винтовка мутона"
+
+[PA_MutonStalkerGunCoil X2WeaponTemplate]
+FriendlyName="Улучшенная охотничья винтовка мутона"
+BriefSummary="Охотничья винтовка мутона, мощность которой нам удалось улучшить благодаря нашим разработкам Гаусс оружия. Как и другое оружие Гаусса, винтовка пробивает броню."
+TacticalText="<Bullet/> Охотничья винтовка мутона, предназначена для боя на средних и дальних дистанциях, используется мутонами-охотниками и мутонами-мародерами. Разрывает броню, но наносит низкий критический урон и не имеет штыка.\n<Bullet/> Не может использоваться людьми: конструкция слишком тяжелая для гуманоидов."
+AbilityDescName="охотничья винтовка мутона"
+
+[PA_MutonStalkerGunBeam X2WeaponTemplate]
+FriendlyName="Превосходная охотничья винтовка мутона"
+BriefSummary="Совершенная охотничья винтовка мутона, мощность которой нам удалось максимизировать, благодаря нашим разработкам лучевого оружия. Как и другое лучевое оружие, винтовка разрывает цель."
+TacticalText="<Bullet/> Охотничья винтовка мутона, предназначена для боя на средних и дальних дистанциях, используется мутонами-охотниками и мутонами-мародерами. Разрывает броню, но наносит низкий критический урон и не имеет штыка.\n<Bullet/> Не может использоваться людьми: конструкция слишком тяжелая для гуманоидов."
+AbilityDescName="охотничья винтовка мутона"
+
+[PA_SidewinderGun X2WeaponTemplate]
+FriendlyName="Истощенный пистолет-пулемет гремучника"
+BriefSummary="Мощность пистолета-пулемета гремучника уменьшена в рамках мер, по борьбе с предателями."
+TacticalText="<Bullet/> Пистолет-пулемет гремучника, применяется на ближних и средних дистанциях. Небольшой размер и легкий вес, позволяет гремучникам быстро передвигаться и ускоряет проникновение.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на гремучника."
+AbilityDescName="пистолет-пулемет гремучника"
+
+[PA_SidewinderGunLaser X2WeaponTemplate]
+FriendlyName="Скорректированный пистолет-пулемет гремучника"
+BriefSummary="Пистолет-пулемет гремучника, мощность и точность которого, нам удалось незначительно улучшить, благодаря нашим лазерным технологиям."
+TacticalText="<Bullet/> Пистолет-пулемет гремучника, применяется на ближних и средних дистанциях. Небольшой размер и легкий вес, позволяет гремучникам быстро передвигаться и ускоряет проникновение.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на гремучника."
+AbilityDescName="пистолет-пулемет гремучника"
+
+[PA_SidewinderGunMagnetic X2WeaponTemplate]
+FriendlyName="Восстановленный пистолет-пулемет гремучника"
+BriefSummary="Пистолет-пулемет гремучника, который нам удалось восстановить до нормальной рабочей мощности, благодаря лучшему пониманию инопланетного оружия и нашим магнитным технологиям."
+TacticalText="<Bullet/> Пистолет-пулемет гремучника, применяется на ближних и средних дистанциях. Небольшой размер и легкий вес, позволяет гремучникам быстро передвигаться и ускоряет проникновение.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на гремучника."
+AbilityDescName="пистолет-пулемет гремучника"
+
+[PA_SidewinderGunCoil X2WeaponTemplate]
+FriendlyName="Улучшенный пистолет-пулемет гремучника"
+BriefSummary="Пистолет-пулемет гремучника, мощность которого нам удалось улучшить благодаря нашим разработкам Гаусс оружия. Как и другое оружие Гаусса, пистолет-пулемет пробивает броню."
+TacticalText="<Bullet/> Пистолет-пулемет гремучника, применяется на ближних и средних дистанциях. Небольшой размер и легкий вес, позволяет гремучникам быстро передвигаться и ускоряет проникновение.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на гремучника."
+AbilityDescName="пистолет-пулемет гремучника"
+
+[PA_SidewinderGunBeam X2WeaponTemplate]
+FriendlyName="Превосходный пистолет-пулемет гремучника"
+BriefSummary="Совершенный пистолет-пулемет гремучника, мощность которого нам удалось максимизировать, благодаря нашим разработкам лучевого оружия. Как и другое лучевое оружие, пистолет-пулемет разрывает цель."
+TacticalText="<Bullet/> Пистолет-пулемет гремучника, применяется на ближних и средних дистанциях. Небольшой размер и легкий вес, позволяет гремучникам быстро передвигаться и ускоряет проникновение.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на гремучника."
+AbilityDescName="пистолет-пулемет гремучника"
+
+[PA_NajaGun X2WeaponTemplate]
+FriendlyName="Истощенная снайперская винтовка наи"
+BriefSummary="Мощность снайперской винтовки наи уменьшена в рамках мер, по борьбе с предателями."
+TacticalText="<Bullet/> Снайперская винтовка наи, предназначена для дальнего боя. Ная может стрелять, используя \"общий вид\". Выстрел требует 2 действия, как и стандартные снайперские винтовки.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на наю."
+AbilityDescName="снайперская винтовка наи"
+
+[PA_NajaGunLaser X2WeaponTemplate]
+FriendlyName="Скорректированная снайперская винтовка наи"
+BriefSummary="Снайперская винтовка наи, мощность и точность которой, нам удалось незначительно улучшить, благодаря нашим лазерным технологиям."
+TacticalText="<Bullet/> Снайперская винтовка наи, предназначена для дальнего боя. Ная может стрелять, используя \"общий вид\". Выстрел требует 2 действия, как и стандартные снайперские винтовки.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на наю."
+AbilityDescName="снайперская винтовка наи"
+
+[PA_NajaGunMagnetic X2WeaponTemplate]
+FriendlyName="Восстановленная снайперская винтовка наи"
+BriefSummary="Снайперская винтовка наи, которую нам удалось восстановить до нормальной рабочей мощности, благодаря лучшему пониманию инопланетного оружия и нашим магнитным технологиям."
+TacticalText="<Bullet/> Снайперская винтовка наи, предназначена для дальнего боя. Ная может стрелять, используя \"общий вид\". Выстрел требует 2 действия, как и стандартные снайперские винтовки.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на наю."
+AbilityDescName="снайперская винтовка наи"
+
+[PA_NajaGunCoil X2WeaponTemplate]
+FriendlyName="Улучшенная снайперская винтовка наи"
+BriefSummary="Снайперская винтовка наи, мощность которой нам удалось улучшить благодаря нашим разработкам Гаусс оружия. Как и другое оружие Гаусса, снайперская винтовка пробивает броню."
+TacticalText="<Bullet/> Снайперская винтовка наи, предназначена для дальнего боя. Ная может стрелять, используя \"общий вид\". Выстрел требует 2 действия, как и стандартные снайперские винтовки.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на наю."
+AbilityDescName="снайперская винтовка наи"
+
+[PA_NajaGunBeam X2WeaponTemplate]
+FriendlyName="Превосходная снайперская винтовка наи"
+BriefSummary="Совершенная снайперская винтовка наи, мощность которой нам удалось максимизировать, благодаря нашим разработкам лучевого оружия. Как и другое лучевое оружие, снайперская винтовка разрывает цель."
+TacticalText="<Bullet/> Снайперская винтовка наи, предназначена для дальнего боя. Ная может стрелять, используя \"общий вид\". Выстрел требует 2 действия, как и стандартные снайперские винтовки.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на наю."
+AbilityDescName="снайперская винтовка наи"
+
+[PA_FrostAdderGun X2WeaponTemplate]
+FriendlyName="Истощенный дробовик морозного змея"
+BriefSummary="Мощность дробовика морозного змея уменьшена в рамках мер, по борьбе с предателями."
+TacticalText="<Bullet/> Дробовик морозного змея, предназначен для ближнего боя и имеет высокий шанс критического попадания.\n<Bullet/> Накладывает эффект лютого мороза при попадании.\n<Bullet/> Не может использовать специальные боеприпасы.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на морозного змея."
+AbilityDescName="дробовик морозного змея"
+
+[PA_FrostAdderGunLaser X2WeaponTemplate]
+FriendlyName="Скорректированный дробовик морозного змея"
+BriefSummary="Дробовик морозного змея, мощность и точность которого, нам удалось незначительно улучшить, благодаря нашим лазерным технологиям."
+TacticalText="<Bullet/> Дробовик морозного змея, предназначен для ближнего боя и имеет высокий шанс критического попадания.\n<Bullet/> Накладывает эффект лютого мороза при попадании.\n<Bullet/> Не может использовать специальные боеприпасы.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на морозного змея."
+AbilityDescName="дробовик морозного змея"
+
+[PA_FrostAdderGunMagnetic X2WeaponTemplate]
+FriendlyName="Восстановленный дробовик морозного змея"
+BriefSummary="Дробовик морозного змея, который нам удалось восстановить до нормальной рабочей мощности, благодаря лучшему пониманию инопланетного оружия и нашим магнитным технологиям."
+TacticalText="<Bullet/> Дробовик морозного змея, предназначен для ближнего боя и имеет высокий шанс критического попадания.\n<Bullet/> Накладывает эффект лютого мороза при попадании.\n<Bullet/> Не может использовать специальные боеприпасы.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на морозного змея."
+AbilityDescName="дробовик морозного змея"
+
+[PA_FrostAdderGunCoil X2WeaponTemplate]
+FriendlyName="Улучшенный дробовик морозного змея"
+BriefSummary="Дробовик морозного змея, мощность которого нам удалось улучшить благодаря нашим разработкам Гаусс оружия. Как и другое оружие Гаусса, дробовик пробивает броню."
+TacticalText="<Bullet/> Дробовик морозного змея, предназначен для ближнего боя и имеет высокий шанс критического попадания.\n<Bullet/> Накладывает эффект лютого мороза при попадании.\n<Bullet/> Не может использовать специальные боеприпасы.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на морозного змея."
+AbilityDescName="дробовик морозного змея"
+
+[PA_FrostAdderGunBeam X2WeaponTemplate]
+FriendlyName="Превосходный дробовик морозного змея"
+BriefSummary="Совершенный дробовик морозного змея, мощность которого нам удалось максимизировать, благодаря нашим разработкам лучевого оружия. Как и другое лучевое оружие,дробовик разрывает цель."
+TacticalText="<Bullet/> Дробовик морозного змея, предназначен для ближнего боя и имеет высокий шанс критического попадания.\n<Bullet/> Накладывает эффект лютого мороза при попадании.\n<Bullet/> Не может использовать специальные боеприпасы.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на морозного змея."
+AbilityDescName="дробовик морозного змея"
+
+[PA_FrostBomberGun X2WeaponTemplate]
+FriendlyName="Истощенный дробовик морозного бомбардировщика"
+BriefSummary="Мощность дробовика морозного бомбардировщика уменьшена в рамках мер, по борьбе с предателями."
+TacticalText="<Bullet/> Дробовик морозного бомбардировщика, предназначен для ближнего боя. Имеет более вместительный магазин и слабый критический урон, по сравнению со стандартным дробовиком.\n<Bullet/> Накладывает эффект лютого мороза при попадании.\n<Bullet/> Не может использовать специальные боеприпасы.\n<Bullet/> Не может использоваться людьми: конструкция слишком тяжелая для гуманоидов."
+AbilityDescName="дробовик морозного бомбардировщика"
+
+[PA_FrostBomberGunLaser X2WeaponTemplate]
+FriendlyName="Скорректированный дробовик морозного бомбардировщика"
+BriefSummary="Дробовик морозного бомбардировщика, мощность и точность которого, нам удалось незначительно улучшить, благодаря нашим лазерным технологиям."
+TacticalText="<Bullet/> Дробовик морозного бомбардировщика, предназначен для ближнего боя. Имеет более вместительный магазин и слабый критический урон, по сравнению со стандартным дробовиком.\n<Bullet/> Накладывает эффект лютого мороза при попадании.\n<Bullet/> Не может использовать специальные боеприпасы.\n<Bullet/> Не может использоваться людьми: конструкция слишком тяжелая для гуманоидов."
+AbilityDescName="дробовик морозного бомбардировщика"
+
+[PA_FrostBomberGunMagnetic X2WeaponTemplate]
+FriendlyName="Восстановленный дробовик морозного бомбардировщика"
+BriefSummary="Дробовик морозного бомбардировщика, который нам удалось восстановить до нормальной рабочей мощности, благодаря лучшему пониманию инопланетного оружия и нашим магнитным технологиям."
+TacticalText="<Bullet/> Дробовик морозного бомбардировщика, предназначен для ближнего боя. Имеет более вместительный магазин и слабый критический урон, по сравнению со стандартным дробовиком.\n<Bullet/> Накладывает эффект лютого мороза при попадании.\n<Bullet/> Не может использовать специальные боеприпасы.\n<Bullet/> Не может использоваться людьми: конструкция слишком тяжелая для гуманоидов."
+AbilityDescName="дробовик морозного бомбардировщика"
+
+[PA_FrostBomberGunCoil X2WeaponTemplate]
+FriendlyName="Улучшенный дробовик морозного бомбардировщика"
+BriefSummary="Дробовик морозного бомбардировщика, мощность которого нам удалось улучшить благодаря нашим разработкам Гаусс оружия. Как и другое оружие Гаусса, дробовик пробивает броню."
+TacticalText="<Bullet/> Дробовик морозного бомбардировщика, предназначен для ближнего боя. Имеет более вместительный магазин и слабый критический урон, по сравнению со стандартным дробовиком.\n<Bullet/> Накладывает эффект лютого мороза при попадании.\n<Bullet/> Не может использовать специальные боеприпасы.\n<Bullet/> Не может использоваться людьми: конструкция слишком тяжелая для гуманоидов."
+AbilityDescName="дробовик морозного бомбардировщика"
+
+[PA_FrostBomberGunBeam X2WeaponTemplate]
+FriendlyName="Превосходный дробовик морозного бомбардировщика"
+BriefSummary="Совершенный дробовик морозного бомбардировщика, мощность которого нам удалось максимизировать, благодаря нашим разработкам лучевого оружия. Как и другое лучевое оружие, дробовик разрывает цель."
+TacticalText="<Bullet/> Дробовик морозного бомбардировщика, предназначен для ближнего боя. Имеет более вместительный магазин и слабый критический урон, по сравнению со стандартным дробовиком.\n<Bullet/> Накладывает эффект лютого мороза при попадании.\n<Bullet/> Не может использовать специальные боеприпасы.\n<Bullet/> Не может использоваться людьми: конструкция слишком тяжелая для гуманоидов."
+AbilityDescName="дробовик морозного бомбардировщика"
+
+[PA_FrostNecromancerGun X2WeaponTemplate]
+FriendlyName="Истощенный бластер морозного некроманта"
+BriefSummary="Мощность бластера морозного некроманта уменьшена в рамках мер, по борьбе с предателями."
+TacticalText="<Bullet/> Обычный бластер морозного некроманта. Его небольшой размер ограничивает выходную мощность, но делает морозного некроманта хорошим разведчиком.\n<Bullet/> Накладывает эффект лютого мороза при попадании.\n<Bullet/> Не может использовать специальные боеприпасы.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на морозного некроманта."
+AbilityDescName="бластер морозного некроманта"
+
+[PA_FrostNecromancerGunLaser X2WeaponTemplate]
+FriendlyName="Скорректированный бластер морозного некроманта"
+BriefSummary="Бластер морозного некроманта, мощность и точность которого, нам удалось незначительно улучшить, благодаря нашим лазерным технологиям."
+TacticalText="<Bullet/> Обычный бластер морозного некроманта. Его небольшой размер ограничивает выходную мощность, но делает морозного некроманта хорошим разведчиком.\n<Bullet/> Накладывает эффект лютого мороза при попадании.\n<Bullet/> Не может использовать специальные боеприпасы.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на морозного некроманта."
+AbilityDescName="бластер морозного некроманта"
+
+[PA_FrostNecromancerGunMagnetic X2WeaponTemplate]
+FriendlyName="Восстановленный бластер морозного некроманта"
+BriefSummary="Бластер морозного некроманта, который нам удалось восстановить до нормальной рабочей мощности, благодаря лучшему пониманию инопланетного оружия и нашим магнитным технологиям."
+TacticalText="<Bullet/> Обычный бластер морозного некроманта. Его небольшой размер ограничивает выходную мощность, но делает морозного некроманта хорошим разведчиком.\n<Bullet/> Накладывает эффект лютого мороза при попадании.\n<Bullet/> Не может использовать специальные боеприпасы.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на морозного некроманта."
+AbilityDescName="бластер морозного некроманта"
+
+[PA_FrostNecromancerGunCoil X2WeaponTemplate]
+FriendlyName="Улучшенный бластер морозного некроманта"
+BriefSummary="Бластер морозного некроманта, мощность которого нам удалось улучшить благодаря нашим разработкам Гаусс оружия. Как и другое оружие Гаусса, бластер пробивает броню."
+TacticalText="<Bullet/> Обычный бластер морозного некроманта. Его небольшой размер ограничивает выходную мощность, но делает морозного некроманта хорошим разведчиком.\n<Bullet/> Накладывает эффект лютого мороза при попадании.\n<Bullet/> Не может использовать специальные боеприпасы.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на морозного некроманта."
+AbilityDescName="бластер морозного некроманта"
+
+[PA_FrostNecromancerGunBeam X2WeaponTemplate]
+FriendlyName="Превосходный бластер морозного некроманта"
+BriefSummary="Совершенный бластер морозного некроманта, мощность которого нам удалось максимизировать, благодаря нашим разработкам лучевого оружия. Как и другое лучевое оружие, бластер разрывает цель."
+TacticalText="<Bullet/> Обычный бластер морозного некроманта. Его небольшой размер ограничивает выходную мощность, но делает морозного некроманта хорошим разведчиком.\n<Bullet/> Накладывает эффект лютого мороза при попадании.\n<Bullet/> Не может использовать специальные боеприпасы.\n<Bullet/> Не может использоваться людьми - проверка ДНК настроена на морозного некроманта."
+AbilityDescName="бластер морозного некроманта"
+
+;special weapons
+
+[PA_AdderTail_CV X2PairedWeaponTemplate]
+FriendlyName="Хвост морозного змея"
+BriefSummary="Хвост морозного змея. Несмотря на то, что он уже и так невероятно силен, мы все же можем еще больше увеличить его силу, если проявим изобретательность и отбросим этику."
+TacticalText="<Bullet/> Хвост морозного змея.\n<Bullet/> Не может использоваться людьми - нельзя оторвать хвост у морозного змея!"
+AbilityDescName="хвост морозного змея"
+
+[PA_AdderTail_MG X2PairedWeaponTemplate]
+FriendlyName="Альфа-усилитель хвоста"
+BriefSummary="Этот усилитель автоматически вводит стимулятор быстрого действия каждый раз, когда морозный змей опутывает свою цель, что позволяет ему сдавливать свою цель еще сильнее. Удваивает урон и бронебойность способности \"Ринуться и опутать\". Используемый здесь препарат, основан на одном из препаратов, обнаруженный в кровотоке копейщика \"Адвента\"."
+TacticalText="<Bullet/> Добавляет +2 ед. урона и +2 ед. пробивания брони при использовании способности \"Ринуться и опутать\".\n<Bullet/> Не может использоваться другими видами - химическая смесь подходит только для морозного змея."
+AbilityDescName="хвост морозного змея"
+
+[PA_AdderTail_BM X2PairedWeaponTemplate]
+FriendlyName="Омега-усилитель хвоста"
+BriefSummary="Этот улучшенный усилитель автоматически вводит стимулятор быстрого действия каждый раз, когда морозный змей опутывает свою цель, что позволяет ему сдавливать свою цель еще сильнее. Утраивает урон и бронебойность способности \"Ринуться и опутать\". Используемый здесь препарат, основан на одном из препаратов, обнаруженный в кровотоке берсерка, а также содержит пыль элерия."
+TacticalText="<Bullet/> Добавляет +4 ед. урона и +4 ед. пробивания брони при использовании способности \"Ринуться и опутать\".\n<Bullet/> Не может использоваться другими видами - химическая смесь подходит только для морозного змея."
+AbilityDescName="хвост морозного змея"
+
+[PA_ViperTongue X2PairedWeaponTemplate]
+FriendlyName="Язык вайпера"
+BriefSummary="Вместо того, чтобы носить с собой большое количество оборудования, освобожденные вайперы используют свою биологию, например длинный язык."
+TacticalText="<Bullet/> Язык вайпера.\n<Bullet/> Не может использоваться людьми - нельзя оторвать язык у вайпера!"
+AbilityDescName="Язык вайпера"
+
+[PA_PoisonSpitGlob X2WeaponTemplate]
+FriendlyName="Ядовитый плевок вайпера"
+BriefSummary="Вместо того, чтобы носить с собой большое количество оборудования, освобожденные вайперы используют свою биологию, например ядовитые железы."
+TacticalText="<Bullet/> Ядовитый плевок вайпера.\n<Bullet/> Не может использоваться людьми - нельзя оторвать ядовитые железы у вайпера!"
+AbilityDescName="Ядовитая слюна вайпера"
+
+[PA_FrostSpitGlob X2WeaponTemplate]
+FriendlyName="Плевок морозного змея"
+BriefSummary="Вместо того, чтобы носить с собой большое количество оборудования, освобожденные морозные змеи используют свою биологию, например морозные железы."
+TacticalText="<Bullet/> Плевок морозного змея.\n<Bullet/> Не может использоваться людьми - нельзя оторвать морозные железы у морозного змея!"
+AbilityDescName="Леденящая слюна морозного змея"
+
+[PA_MutonBayonet X2WeaponTemplate]
+FriendlyName="Штык мутона"
+BriefSummary="Штык мутона подчеркивает их племенные обычаи до встречи с эфириалами: они как правило украшаются небольшими отметинами, уникальными для их владельца."
+TacticalText="<Bullet/> Оружие мутонов разработано так, чтобы использовать его и для рукопашного боя: это делает их опасными противниками даже на близком расстоянии."
+AbilityDescName="штык"
+
+[PA_MutonEliteBayonet X2WeaponTemplate]
+FriendlyName="Штык элитного мутона"
+BriefSummary="Штыки элитных мутонов сделаны из более высококачественных материалов, что делает их более смертоносными и легкими в обращении. Предоставляет способность \"Штыковой натиск\", позволяя мутону использовать штыковую атаку в рывке."
+TacticalText="<Bullet/> Оружие мутонов разработано так, чтобы использовать его и для рукопашного боя: это делает их опасными противниками даже на близком расстоянии."
+AbilityDescName="штык"
+
+[PA_FrostBomberBayonet X2WeaponTemplate]
+FriendlyName="Морозный штык"
+BriefSummary="Штык морозного бомбардировщика похоже сделан с использованием магнитных технологий и в отличии от типичного штыка мутона, накладывает эффект лютого мороза, вместо психических расстройств."
+TacticalText="<Bullet/> Удар этим штыком накладывает эффект лютого мороза, вместо психических расстройств, как у стандартного штыка мутона."
+AbilityDescName="штык"
+
+[PA_FrostBomberEliteBayonet X2WeaponTemplate]
+FriendlyName="Элитный морозный штык"
+BriefSummary="Перекованный штык для морозного бомбардировщика, сделанный на основе штыка элитного мутона, делает его более смертоносным и легким в обращении. Предоставляет способность \"Штыковой морозный натиск\", позволяя морозному бомбардировщику использовать штыковую атаку в рывке."
+TacticalText="<Bullet/> Оружие мутонов разработано так, чтобы использовать его и для рукопашного боя: это делает их опасными противниками даже на близком расстоянии."
+AbilityDescName="штык"
+
+[PA_ArchonBayonet X2WeaponTemplate]
+FriendlyName="Посох-клинок архонта"
+BriefSummary="Посох архонта обладает впечатляющим клинком. Придумать улучшение для него будет непросто."
+TacticalText="<Bullet/> Рубящий компонент посоха архонта. \n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов!"
+AbilityDescName="клинок"
+
+[PA_ArchonEliteBayonet X2WeaponTemplate]
+FriendlyName="Титановый посох-клинок архонта"
+BriefSummary="Усиление не только клинка, но и рукояти посоха, материалами взятыми из останков сектопода, позволяет архонтам использовать всю свою силу, чтобы размахивать посохом сильнее и быстрее. Предоставляет способность \"Молниеносное рассечение\", позволяющую архонту совершать рукопашную атаку в пределах синего диапазона передвижения, не завершая ход. Ограниченно только перезарядкой."
+TacticalText="<Bullet/> Рубящий компонент посоха архонта. \n<Bullet/> Не может использоваться людьми: конструкция слишком громоздкая для гуманоидов!"
+AbilityDescName="клинок"
+
+[SectoidAmp_CV X2WeaponTemplate]
+FriendlyName="Усилитель сектоида"
+FriendlyNamePlural="Усилители сектоида"
+BriefSummary="Базовый пси-усилитель, которым обладают все сектоиды и морозные некроманты."
+TacticalText="<Bullet/> Хоть сектоиды и получили усиление пси-силы после внедрения человеческой ДНК, им по прежнему нужны пси-усилители, разработанные специально для них, для эффективного использования своих способностей.\n<Bullet/> Подобно солдатам-псионикам, пси-способности сектоидов позволяют им быстрее проникать на миссии."
+AbilityDescName="усилитель сектоида"
+
+[SectoidAmp_MG X2WeaponTemplate]
+FriendlyName="Улучшенный усилитель сектоида"
+FriendlyNamePlural="Улучшенные усилители сектоида"
+BriefSummary="Улучшенный пси-усилитель для сектоидов и морозных некромантов, основанный на последних псионических достижениях \"Адвента\"."
+TacticalText="<Bullet/> Хоть сектоиды и получили усиление пси-силы после внедрения человеческой ДНК, им по прежнему нужны пси-усилители, разработанные специально для них, для эффективного использования своих способностей.\n<Bullet/> Подобно солдатам-псионикам, пси-способности сектоидов позволяют им быстрее проникать на миссии."
+AbilityDescName="усилитель сектоида"
+
+[SectoidAmp_BM X2WeaponTemplate]
+FriendlyName="Превосходный усилитель сектоида"
+FriendlyNamePlural="Превосходные усилители сектоида"
+BriefSummary="Совершенный пси-усилитель для сектоидов и морозных некромантов, основанный на исследовании привратника."
+TacticalText="<Bullet/> Хоть сектоиды и получили усиление пси-силы после внедрения человеческой ДНК, им по прежнему нужны пси-усилители, разработанные специально для них, для эффективного использования своих способностей.\n<Bullet/> Подобно солдатам-псионикам, пси-способности сектоидов позволяют им быстрее проникать на миссии."
+AbilityDescName="усилитель сектоида"
+
+;armors
+
+[ArchonArmor X2ArmorTemplate]
+FriendlyName="Броня архонта"
+BriefSummary="Стандартная броня архонта, которую мы возможно сможем улучшить с помощью новых технологий."
+TacticalText="<Bullet/> Броня архонтов имеет как внешнюю, так и внутреннюю часть, из-за их кибернетической природы."
+AbilityDescName="броня архонта"
+
+[PlatedArchonArmor X2ArmorTemplate]
+FriendlyName="Броня архонта из сплавов"
+BriefSummary="Улучшенная броня архонта, созданная из большего количества инопланетных сплавов пришельцев, основанная на нашей технологии листовой брони."
+TacticalText="<Bullet/> Броня архонтов имеет как внешнюю, так и внутреннюю часть, из-за их кибернетической природы."
+AbilityDescName="броня архонта"
+
+[PoweredArchonArmor X2ArmorTemplate]
+FriendlyName="Силовая броня архонта"
+BriefSummary="Совершенная броня архонта, которую нам удалось создать, благодаря технологии силовой брони."
+TacticalText="<Bullet/> Броня архонтов имеет как внешнюю, так и внутреннюю часть, из-за их кибернетической природы."
+AbilityDescName="броня архонта"
+
+[AndromedonArmor X2ArmorTemplate]
+FriendlyName="Поврежденный скафандр андромедона"
+BriefSummary="Поврежденный в боях скафандр андромедона - мы с трудом можем поддерживать его функционал."
+TacticalText="<Bullet/> Универсальный скафандр, предназначенный для поддержания жизни андромедона, в опасной для него среде, например на поверхности Земли."
+AbilityDescName="скафандр андромедона"
+
+[PlatedAndromedonArmor X2ArmorTemplate]
+FriendlyName="Восстановленный скафандр андромедона"
+BriefSummary="Скафандр андромедона, который нам удалось восстановить, с помощью инопланетных сплавов и лучшего понимания технологии брони врагов. Включает в себя защитные наколенники из сплава, увеличивающие урон Андромедона в ближнем бою."
+TacticalText="<Bullet/> Универсальный скафандр, предназначенный для поддержания жизни андромедона, в опасной для него среде, например на поверхности Земли."
+AbilityDescName="скафандр андромедона"
+
+[PoweredAndromedonArmor X2ArmorTemplate]
+FriendlyName="Элериевый скафандр андромедона"
+BriefSummary="Скафандр андромедона, который удалось еще больше улучшить, благодаря технологии силовой брони, которую мы внедрили и для наших солдат. Включает в себя наколенники из Элериума, которые еще больше увеличивают урон Андромедона в ближнем бою."
+TacticalText="<Bullet/> Универсальный скафандр, предназначенный для поддержания жизни андромедона, в опасной для него среде, например на поверхности Земли."
+AbilityDescName="скафандр андромедона"
+
+[SectoidArmor X2ArmorTemplate]
+FriendlyName="Кожа сектоида"
+BriefSummary="Голая кожа сектоида. Почему-то они отказываются носить броню."
+TacticalText="<Bullet/> Кожа сектоида сама по себе мало от чего защищает. Надеюсь, проведя достаточно исследований, нам удастся найти способ чтобы лучше защитить их и с ними все будет в порядке."
+AbilityDescName="кожа сектоида"
+
+[PlatedSectoidArmor X2ArmorTemplate]
+FriendlyName="Подкожное плетение сектоида из сплавов"
+BriefSummary="Заменитель брони, вшитый под кожу специальными нитями из сплавов. Как только первоначальное внедрение будет завершено, они смогут по своему желанию снимать и заменять их, благодаря своим псионическим способностям."
+TacticalText="<Bullet/> Сектоиды предпочли иметь кучу швов по всему тело, чем носить броню."
+AbilityDescName="кожа сектоида"
+
+[PoweredSectoidArmor X2ArmorTemplate]
+FriendlyName="Элериевое подкожное плетение сектоида"
+BriefSummary="Заменитель брони, вшитый под кожу специальными нитями из сплавов, с добавлением элерия. Как только первоначальное внедрение будет завершено, они смогут по своему желанию снимать и заменять их, благодаря своим псионическим способностям."
+TacticalText="<Bullet/> Сектоиды предпочли иметь кучу швов по всему тело, чем носить броню."
+AbilityDescName="кожа сектоида"
+
+[ViperArmor X2ArmorTemplate]
+FriendlyName="Броня вайпера"
+BriefSummary="Стандартная броня вайпера и родственных ему видов, которую мы возможно сможем улучшить с помощью новых технологий."
+TacticalText="<Bullet/> Броня вайпера создана с упором на легкость и подвижность, чем на защитные свойства."
+AbilityDescName="броня вайпера"
+
+[PlatedViperArmor X2ArmorTemplate]
+FriendlyName="Броня вайпера из сплавов"
+BriefSummary="Улучшенная броня вайпера и родственных ему видов, на основе нашей листовой брони. Сходство между формой человека и змеи. облегчило адаптацию."
+TacticalText="<Bullet/> Броня вайпера создана с упором на легкость и подвижность, чем на защитные свойства."
+AbilityDescName="броня вайпера"
+
+[PoweredViperArmor X2ArmorTemplate]
+FriendlyName="Силовая броня вайпера"
+BriefSummary="Совершенная броня вайпера и родственных ему видов, которую нам удалось создать с помощью технологии силовой брони для наших солдат. Потребовались минимальные изменения."
+TacticalText="<Bullet/> Броня вайпера создана с упором на легкость и подвижность, чем на защитные свойства."
+AbilityDescName="броня вайпера"
+
+[MutonArmor X2ArmorTemplate]
+FriendlyName="Броня мутона"
+BriefSummary="Стандартная броня мутона и морозного бомбардировщика, которую мы возможно сможем улучшить с помощью новых технологий."
+TacticalText="<Bullet/> Каждый мутон-оперативник нанес на свою личную броню небольшие, но отчетливые отметины."
+AbilityDescName="броня мутона"
+
+[PlatedMutonArmor X2ArmorTemplate]
+FriendlyName="Броня мутона из сплавов"
+BriefSummary="Броня мутонов и морозных бомбардировщиков, созданная из большего количества инопланетных сплавов пришельцев, что делает ее по прочности, сопоставимой с броней мутона-центуриона."
+TacticalText="<Bullet/> Каждый мутон-оперативник нанес на свою личную броню небольшие, но отчетливые отметины."
+AbilityDescName="броня мутона"
+
+[PoweredMutonArmor X2ArmorTemplate]
+FriendlyName="Силовая броня мутона"
+BriefSummary="Броня мутонов и морозных бомбардировщиков, которую нам удалось создать, благодаря технологии силовой брони, что делает ее по прочности, сопоставимой с броней элитного мутона."
+TacticalText="<Bullet/> Каждый мутон-оперативник нанес на свою личную броню небольшие, но отчетливые отметины."
+AbilityDescName="броня мутона"
+
+[MutonStalkerArmor X2ArmorTemplate]
+FriendlyName="Охотничья броня мутона"
+BriefSummary="Стандартная броня мутона-охотника и мутона-мародера, которую мы возможно сможем улучшить с помощью новых технологий."
+TacticalText="<Bullet/> Позволяет быстрее проникать на задания. У каждого мутона-охотника и мутона-мародера есть свои аксессуары для брони."
+AbilityDescName="охотничья броня мутона"
+
+[PlatedMutonStalkerArmor X2ArmorTemplate]
+FriendlyName="Охотничья броня мутона из сплавов"
+BriefSummary="Улучшенная версия брони для мутона-охотника и мутона-мародера, с дополнительными слоями инопланетных сплавов для лучшей защиты, при этом сохраняет свою главную функцию - помогает владельцу вести себя более скрытно."
+TacticalText="<Bullet/> Позволяет быстрее проникать на задания. У каждого мутона-охотника и мутона-мародера есть свои аксессуары для брони."
+AbilityDescName="охотничья броня мутона"
+
+[PoweredMutonStalkerArmor X2ArmorTemplate]
+FriendlyName="Силовая охотничья броня мутона"
+BriefSummary="Совершенный вариант брони мутона-охотника и мутона-мародера, который включает в себя технологию силовой брони без ущерба для скорости и диапазона обнаружения владельца."
+TacticalText="<Bullet/> Позволяет быстрее проникать на задания. У каждого мутона-охотника и мутона-мародера есть свои аксессуары для брони."
+AbilityDescName="охотничья броня мутона"
+
+[MutonStrikerArmor X2ArmorTemplate]
+FriendlyName="Ударная броня мутона"
+BriefSummary="Стандартная броня мутона-разорителя и осадного мутона, которую мы возможно сможем улучшить с помощью новых технологий."
+TacticalText="<Bullet/> Требует столько же времени на проникновение, сколько и обычная броня мутона. У каждого мутона-разорителя и осадного мутона есть свои аксессуары для брони."
+AbilityDescName="ударная броня мутона"
+
+[PlatedMutonStrikerArmor X2ArmorTemplate]
+FriendlyName="Ударная броня мутона из сплавов"
+BriefSummary="Улучшенная версия брони для мутона-разорителя и осадного мутона, с дополнительными слоями инопланетных сплавов для лучшей защиты, при этом сохраняет свою главную функцию - помогает владельцу вести себя более скрытно."
+TacticalText="<Bullet/> Требует столько же времени на проникновение, сколько и обычная броня мутона. У каждого мутона-разорителя и осадного мутона есть свои аксессуары для брони."
+AbilityDescName="ударная броня мутона"
+
+[PoweredMutonStrikerArmor X2ArmorTemplate]
+FriendlyName="Силовая ударная броня мутона"
+BriefSummary="Совершенный вариант брони мутона-разорителя и осадного мутона, который включает в себя технологию силовой брони без ущерба для скорости и диапазона обнаружения владельца."
+TacticalText="<Bullet/> Требует столько же времени на проникновение, сколько и обычная броня мутона. У каждого мутона-разорителя и осадного мутона есть свои аксессуары для брони."
+AbilityDescName="ударная броня мутона"
+
+[BerserkerArmor X2ArmorTemplate]
+FriendlyName="Тело берсерка"
+BriefSummary="У берсерков настолько крепкие тела, что им на самом деле не нужна броня, поэтому Старейшины бросают их в бой без какой-либо защиты."
+TacticalText="<Bullet/> Хоть берсерков и трудно убить, им требуется восстановление от ран, как и обычным солдатам. Если мы сможем разработать новую технологию брони, нет смысла их игнорировать."
+AbilityDescName="тело берсерка"
+
+[PlatedBerserkerArmor X2ArmorTemplate]
+FriendlyName="Панцирь берсерка из сплавов"
+BriefSummary="Дополнительный уровень защиты для берсерка. Теоретически, можно сделать броню более подходящей и толстой, но стоимость, сделает ее непрактичной. Панцирь также имеет защитный кожух из сплавов для кулаков, для увеличения урона берсерка в ближнем бою."
+TacticalText="<Bullet/> Защитные характеристики предоставляемые панцирем берсерка из сплавов, идентичны броне хищника у наших солдат."
+AbilityDescName="тело берсерка"
+
+[PoweredBerserkerArmor X2ArmorTemplate]
+FriendlyName="Покрытый элерием панцирь берсерка"
+BriefSummary="Совершенный вариант панциря берсерка. Как и его предшественник, минималистический подход обеспечивает баланс, между защитой и стоимостью. Панцирь также имеет элериевый защитный кожух для кулаков, которые еще больше увеличивают урон берсерка в ближнем бою"
+TacticalText="<Bullet/> Защитные характеристики идентичны броне стража у наших солдат. В сочетании с нашими тренировками, позволяет берсеркам жить намного дольше, чем при служении Старейшинам."
+AbilityDescName="тело берсерка"
+
+[FacelessArmor X2ArmorTemplate]
+FriendlyName="Тело безликого"
+BriefSummary="Безликий с его врожденной способностью к регенерации и странной физиологией, никогда не нуждался в броне."
+TacticalText="<Bullet/> Врожденные способности безликих к изменению формы, делают их идеальными, инопланетными диверсантами. Возможно мы сможем придумать способ повысить их выживаемость, с помощью технологий брони."
+AbilityDescName="тело безликого"
+
+[PlatedFacelessArmor X2ArmorTemplate]
+FriendlyName="Подкожные пластины из сплавов безликого"
+BriefSummary="Это простой набор пластин, сделанных из сплавов пришельцев, которые безликий впитывает и распределяет по всему телу. Он может... извлекать их обратно, для передачи другому безликому. Панцирь также покрывает сплавом их когти, позволяя безликому наносить больше урона в ближнем бою."
+TacticalText="<Bullet/> Защитные характеристики предоставляемые подкожными пластинами из сплавов, идентичны броне хищника у наших солдат. Даже с броней, безликие также быстро проникают на задания."
+AbilityDescName="тело безликого"
+
+[PoweredFacelessArmor X2ArmorTemplate]
+FriendlyName="Элериевые подкожные пластины безликого"
+BriefSummary="Совершенный вариант подкожных пластин безликого. Как и их предшественник, это набор пластин, сделанных из сплавов пришельцев с добавлением элериевой пыли, которые безликий распределяет по всему телу. Он все еще может... извлекать их обратно для передачи другому безликому. Панцирь также покрывает элерием их когти, позволяя безликому наносить еще больше урона в ближнем бою."
+TacticalText="<Bullet/> Защитные характеристики идентичны броне стража у наших солдат. В сочетании с нашими тренировками, позволяет безликим жить намного дольше, чем при служении Старейшинам. Даже с броней, безликий также быстро проникает на задания."
+AbilityDescName="тело безликого"
+
+[FrostNecromancerArmor X2ArmorTemplate]
+FriendlyName="Бронежилет морозного некроманта"
+BriefSummary="В отличии от сектоидов, морозные некроманты не ходят обнаженными. Они носят броню, не слишком отличающуюся от нашей."
+TacticalText="<Bullet/> Скорее всего, мы сможем применить улучшения для нашей брони, к броне морозного некроманта."
+AbilityDescName="броня морозного некроманта"
+
+[PlatedFrostNecromancerArmor X2ArmorTemplate]
+FriendlyName="Листовая броня морозного некроманта"
+BriefSummary="Комплект брони для морозного некроманта. Выглядит также, как и обычная броня, но была усиленна листовыми накладками из сплавов пришельцев."
+TacticalText="<Bullet/> Защитные характеристики, идентичны броне хищника у наших солдат. Возможно, мы сможем улучшить броню еще больше, если проведем дополнительные исследования."
+AbilityDescName="броня морозного некроманта"
+
+[PoweredFrostNecromancerArmor X2ArmorTemplate]
+FriendlyName="Силовая броня морозного некроманта"
+BriefSummary="Совершенная броня морозного некроманта. Выглядит также, как и обычная броня, но была усиленна листовыми накладками из сплавов с добавлением элериевой пыли."
+TacticalText="<Bullet/> Защитные характеристики идентичны броне стража у наших солдат."
+AbilityDescName="броня морозного некроманта"
+
+;abilities
+[PA_PoisonSpit X2AbilityTemplate]
+LocFriendlyName="Ядовитый плевок"
+LocLongDescription="Выплюнуть облако яда, наносящее 3 ед. урона пораженным целям, в течении нескольких ходов."
+LocHelpText="Выплюнуть облако яда, наносящее 3 ед. урона пораженным целям, в течении нескольких ходов."
+LocFlyOverText="Ядовитый плевок"
+LocPromotionPopupText="<Bullet/> Выплюнуть облако яда, наносящее 3 ед. урона.\n<Bullet/> Длиться от 1 до 5 ходов."
+
+[PA_EnhancedSpit X2AbilityTemplate]
+LocFriendlyName="Улучшенный плевок"
+LocLongDescription="Выплюнуть облако яда, наносящее 5 ед. урона пораженным целям, в течении нескольких ходов и накладывает дополнительные, негативные эффекты. Изучение этой способности, также усилит другие способности, основанные на яде."
+LocHelpText="Выплюнуть облако яда, наносящее 5 ед. урона пораженным целям, в течении нескольких ходов и накладывает дополнительные, негативные эффекты."
+LocFlyOverText="Улучшенный плевок"
+LocPromotionPopupText="<Bullet/> Выплюнуть облако яда, наносящее 5 ед. урона и дополнительные негативные, эффекты.\n<Bullet/> Длится от 1 до 5 ходов.\n<Bullet/> Способность \"Улучшенный плевок\" также добавляет дополнительный урон и эффекты, к способностям \"Змеиный укус\", \"Злобный укус\", и \"Сжать челюсти\"."
+
+[PA_ViperMolt X2AbilityTemplate]
+LocFriendlyName="Линька"
+LocLongDescription="Вы сбрасываете старую кожу, удаляя эффекты ожога, кислотного ожога и яда."
+LocHelpText="Вы сбрасываете старую кожу, удаляя эффекты ожога, кислотного ожога и яда."
+LocFlyOverText="Линька"
+LocPromotionPopupText="<Bullet/> Удаляет огонь, кислоту и яд.\n<Bullet/> Перезарядка 3 хода."
+
+[PA_ViperBlendIn X2AbilityTemplate]
+LocFriendlyName="Слиться с окружением"
+LocLongDescription="Ведите себя спокойно... Пока никто не вас не замечает, вы можете пробираться рядом с вражескими войсками."
+LocHelpText="Немедленно войти в режим маскировки, если нет прямого контакта с вражескими войсками."
+LocFlyOverText="Слиться с окружением"
+LocPromotionPopupText="<Bullet/> Вы можете скрыться в любом месте, но вас все равно могут обнаружить если вы попадете в радиус обнаружения вражеских войск."
+
+[PA_ViperSlither X2AbilityTemplate]
+LocFriendlyName="Скользящий"
+LocLongDescription="Получите бонус к мобильности и защите на 2 хода, позволяя вайперу лучше избегать вражеских атак."
+LocHelpText="Предоставляет +4 к мобильности и +20 к защите на 2 хода."
+LocFlyOverText="Скользящий"
+LocPromotionPopupText="<Bullet/> Способность \"Скользящий\" в сочетании с рывком, отлично подходит для того, чтобы заставить вайпера активировать \"наблюдение\" врага, чтобы расчистить путь другим солдатам."
+
+[SwitchToRobot X2AbilityTemplate]
+LocFriendlyName="Роботизированный боевой скафандр"
+LocLongDescription="Скафандр андромедона может работать без пилота. Это не спасет андромедона от смерти, но может помочь остальной части отряда, отвлекая огонь на себя."
+LocHelpText="Скафандр андромедона активируется и начнет работать самостоятельно, после смерти пилота."
+LocFlyOverText="Роботизированный боевой скафандр"
+LocPromotionPopupText="<Bullet/> Скафандр андромедона обладает огромным запасом здоровья: используйте его для впитывания атак, которые вполне могли бы убить оставшихся солдат."
+
+[PA_EndBind X2AbilityTemplate]
+LocFriendlyName="Прекратить опутывание"
+LocLongDescription="В случае изменения тактической обстановки вайпер может выпустить цель из своих колец, прежде чем убить ее."
+LocHelpText="Освободите цель из колец вайпера"
+LocFlyOverText="Освобождение"
+
+[BlasterMaster X2AbilityTemplate]
+LocFriendlyName="Взрывной мастер"
+LocLongDescription="Предоставляет бесплатную гранату мутона в ваш инвентарь."
+LocHelpText="Предоставляет бесплатную гранату мутона в ваш инвентарь."
+LocFlyOverText="Взрывной мастер"
+
+[SuckerPunch X2AbilityTemplate]
+LocFriendlyName="Запрещенный прием"
+LocLongDescription="Удар в жизненно важное место, оглушающий цель на 2 действия, с перезарядкой в 3 хода. Можно применять против роботов и органических целей. Можно использовать с рывком."
+LocHelpText="Удар в жизненно важное место, оглушающий цель на 2 действия, с перезарядкой в 3 хода. Можно применять против роботов и органических целей."
+LocFlyOverText="Запрещенный прием"
+LocPromotionPopupText="<Bullet/> В отличии от способности \"Нокдаун\", \"Запрещенный прием\" не имеет ограничений по типу врагов и может использоваться против бронированных врагов. Однако попадание не гарантируется."
+
+[CrossOut X2AbilityTemplate]
+LocFriendlyName="Вычеркнуть"
+LocLongDescription="Добейте врага безжалостным ударом. Способность можно применить только против раненых врагов, у которых 6 или менее ОЗ. Требует одно действие и не завершает ход, даже при использовании с рывком."
+LocHelpText="Добейте врага безжалостным ударом. Способность можно применить только против раненых врагов, у которых 6 или менее ОЗ."
+LocFlyOverText="Вычеркнуть"
+LocPromotionPopupText="<Bullet/> Как и способность \"Прирезать\", эта способность не имеет перезарядки, никогда не промахивается и не наносит царапин, требует одно действие и не завершает ход, даже при использовании с рывком.\n<Bullet/> В отличии от способности \"Прирезать\", практически никакая броня или другое снижение урона, не спасет цель от способности \"Вычеркнуть\"."
+
+[Pugilistic X2AbilityTemplate]
+LocFriendlyName="Кулачник"
+LocLongDescription="Предоставляет +30 к меткости, для всех рукопашных атак."
+LocHelpText="Предоставляет +30 к меткости, для всех рукопашных атак."
+LocFlyOverText="Кулачник"
+LocPromotionPopupText="<Bullet/> Бонуса к меткости достаточно, чтобы компенсировать штраф и добавить еще немного к меткости, для удара кулаком андромедона, а берсерки станут удивительно точными."
+
+[Grandstand X2AbilityTemplate]
+LocFriendlyName="Игра на публику"
+LocLongDescription="Спровоцируйте врага на атаку, что бы предвосхитить его действия. До начала вашего следующего хода, получите штраф -50 к защите и бонус +2 ед. брони и +70 к уклонению. Завершает ход берсерка при использовании."
+LocHelpText="Спровоцируйте врага на атаку, что бы предвосхитить его действия. До начала вашего следующего хода, получите штраф -50 к защите и бонус +2 ед. брони и +70 к уклонению."
+LocFlyOverText="Игра на публику"
+LocPromotionPopupText="<Bullet/> Способность \"Игра на публику\" завершает ход берсерка.\n<Bullet/> Используйте способность \"Игра на публику\", чтобы активировать \"Ярость берсерка\" и защитить остальную часть отряда."
+
+[MutonTaunt X2AbilityTemplate]
+LocFriendlyName="Провокация"
+LocLongDescription="Спровоцируйте врага на атаку, что бы предвосхитить его действия. До начала вашего следующего хода, получите штраф -50 к защите и бонус +70 к уклонению. <Ability:ClassName/> заканчивает свой ход при использовании."
+LocHelpText="Спровоцируйте врага на атаку, что бы предвосхитить его действия. До начала вашего следующего хода, получите штраф -50 к защите и бонус +70 к уклонению."
+LocFlyOverText="Провокация"
+LocPromotionPopupText="<Bullet/> При использовании \"Провокации\", <Ability:ClassName/> завершает свой ход.\n<Bullet/> Используйте \"Провокацию\" чтобы потенциально активировать такие способности как \"Контратака штыком\" и \"Исступление\", а также, для защиты остальной части отряда."
+
+[ExcessiveForce X2AbilityTemplate]
+LocFriendlyName="Чрезмерная сила"
+LocLongDescription="Получите способность \"Мародер\" при использовании винтовки мутона, либо способность \"Плотный огонь\", при использовании пушки мутона."
+LocHelpText="Получите способность \"Мародер\" при использовании винтовки мутона, либо способность \"Плотный огонь\", при использовании пушки мутона."
+LocFlyOverText="Чрезмерная сила"
+LocPromotionPopupText="<Bullet/> Использование винтовки мутона, позволит вам стрелять и перемещаться, либо стрелять 2 раз за ход.\n<Bullet/> Использование пушки мутона позволит вам после выстрела первым действием, совершить еще одно действие без движения."
+
+[ChargeIn X2AbilityTemplate]
+LocFriendlyName="Задай им!"
+LocLongDescription="Предоставляет способность \"Стрельба на бегу\". Дополнительно, получите способность \"Крепкое здоровье\", при использовании винтовки мутона."
+LocHelpText="Предоставляет способность \"Стрельба на бегу\". Дополнительно, получите способность \"Крепкое здоровье\", при использовании винтовки мутона."
+LocFlyOverText="Задай им!"
+LocPromotionPopupText="<Bullet/> Использование винтовки мутона позволит чаще пользоваться способностью \"Стрельба на бегу\", т.к. время перезарядки будет уменьшено на 1 ход."
+
+[BayonetMaster X2AbilityTemplate]
+LocFriendlyName="Варвар"
+LocLongDescription="Предоставляет +15% к меткости, при атаках ближнего боя. Дополнительно получите +15% к шансу критического попадания, при атаках ближнего боя, если используется винтовка мутона."
+LocHelpText="Предоставляет +15% к меткости, при атаках ближнего боя. Дополнительно получите +15% к шансу критического попадания, при атаках ближнего боя, если используется винтовка мутона."
+LocFlyOverText="Варвар"
+LocPromotionPopupText="<Bullet/> Повышение характеристик с помощью способности \"Варвар\", принесет пользу штыковым атакам и атакам кулаками мутона."
+
+[BayonetMasterRifle X2AbilityTemplate]
+LocFriendlyName="Варвар"
+LocLongDescription="Предоставляет +15% к меткости и шансу критического попадания, при атаках в ближнем бою."
+LocHelpText="Предоставляет +15% к меткости и шансу критического попадания, при атаках в ближнем бою."
+LocFlyOverText="Варвар"
+
+[BayonetMasterCannon X2AbilityTemplate]
+LocFriendlyName="Варвар"
+LocLongDescription="Предоставляет +15% к меткости, при атаках в ближнем бою."
+LocHelpText="Предоставляет +15% к меткости, при атаках в ближнем бою."
+LocFlyOverText="Варвар"
+
+[HuntDown X2AbilityTemplate]
+LocFriendlyName="Выслеживание"
+LocLongDescription="Предоставляет способности \"Паркур\" и \"Разведчик\", позволяя взбираться по стенам и увеличить дальность обзора."
+LocHelpText="Предоставляет способности \"Паркур\" и \"Разведчик\", позволяя взбираться по стенам и увеличить дальность обзора."
+LocFlyOverText="Выслеживание"
+LocPromotionPopupText="<Bullet/> Постоянный радиус обзора составляет +3 клетки. Один заряд на миссию. Свободное действие. Можно увеличить бонус на +9 клеток (макс. +12 клеток)."
+
+[Necromancer X2AbilityTemplate]
+LocFriendlyName="Некромант"
+LocLongDescription="Улучшает способность \"Пси-реанимация\", позволяя вашим пси-зомби атаковать после рывка, предоставляет им способности \"Нокдаун\" и \"Вытеснение\" и улучшает их характеристики."
+LocHelpText="Улучшает способность \"Пси-реанимация\", позволяя вашим пси-зомби атаковать после рывка, предоставляет им способности \"Нокдаун\" и \"Вытеснение\" и улучшает их характеристики."
+LocFlyOverText="Некромант"
+LocPromotionPopupText="<Bullet/> Бонусы способности \"Некромант\", действуют только на пси-зомби, поднятых способностью \"Пси-реанимация\".\n<Bullet/> Не влияет на способность \"Массовая реанимация\".\n<Bullet/> Пси-зомби получают +2 к здоровью, +2 к мобильности и +5 к меткости.\n<Bullet/> Способность \"Нокдаун\", позволяет пси-зомби совершить специальную, рукопашную атаку против небронированных, органических целей, которая наносит небольшой урон, но оглушает цель.\n<Bullet/> Способность \"Вытеснение\", позволяет пси-зомби совершить специальную, рукопашную атаку даже в рывке, которая наносит небольшой урон, но может отбросить цель, выбив ее из укрытия."
+
+[PsiReanimationMP X2AbilityTemplate]
+LocFriendlyName="Пси-реанимация"
+LocLongDescription="Поднимите улучшенного пси-зомби из трупа гуманоида, который будет сражаться за вас. Эти пси-зомби могут использовать рукопашную атаку с рывком, обладают способностями \"Нокдаун\" и \"Вытеснение\", а также улучшенными характеристиками."
+LocHelpText="Поднимите улучшенного пси-зомби, который имеет дополнительные способности и улучшенные характеристики, из трупа гуманоида, который будет сражаться за вас."
+LocFlyOverText="Пси-реанимация"
+
+[MassReanimation_LW X2AbilityTemplate]
+LocFriendlyName="Массовая реанимация"
+LocFlyOverText="Массовая реанимация"
+LocHelpText="Поднимите всех ближайших, мертвый гуманоидов, превратив их в пси-зомби."
+LocLongDescription="Поднимите всех ближайших, мертвый гуманоидов, превратив их в пси-зомби. Не получает улучшения от способности \"Некромант\"."
+LocPromotionPopupText="<Bullet/> Имеет перезарядку в 5 ходов для сектоида и 2 хода для командира сектоидов.\n<Bullet/> Способность \"Массовая реанимация\", не получает улучшения пси-зомби от способности \"Некромант\"."
+
+[MassMindspin X2AbilityTemplate]
+LocFriendlyName="Массовое безумие"
+LocFlyOverText="Массовое безумие"
+LocLongDescription="Примените способность \"Безумие\" по нескольким целям, в конусной зоне."
+LocHelpText="Проведите псионическую атаку против нескольких целей, которая может вызвать различные ментальные эффекты, включая \"Контроль над разумом\"."
+LocPromotionPopupText="<Bullet/> Имеет перезарядку в 5 ходов для сектоида и 2 хода для командира сектоидов."
+LocMissMessage="Сопротивление безумию!"
+
+[ThrashB X2AbilityTemplate]
+LocFriendlyName="Взбучка"
+LocLongDescription="Свободные атаки кулаком против целей, которые подходят или атакуют с дистанции ближнего боя. Пораженные цели могут быть выведены из строя."
+LocHelpText="Свободные атаки кулаком против целей, которые подходят или атакуют с дистанции ближнего боя. Пораженные цели могут быть выведены из строя."
+LocFlyOverText="Взбучка"
+LocPromotionPopupText="<Bullet/> Если противник начинает ход на соседней клетке, способность \"Взбучка\" активируется, когда будет атакован <Ability:ClassName/>.\n<Bullet/> Если противник начинает ход не на соседней клетке, способность \"Взбучка\" активируется, когда он подойдет на дистанцию ближнего боя.\n<Bullet/> Может дезориентировать, оглушить, или лишить сознания при попадании."
+
+[ThrashA X2AbilityTemplate]
+LocFriendlyName="Взбучка"
+LocLongDescription="Свободные атаки кулаком против целей, которые подходят или атакуют с дистанции ближнего боя."
+LocHelpText="Свободные атаки кулаком против целей, которые подходят или атакуют с дистанции ближнего боя."
+LocFlyOverText="Взбучка"
+LocPromotionPopupText="<Bullet/> Если противник начинает ход на соседней клетке, способность \"Взбучка\" активируется, когда будет атакован <Ability:ClassName/>.\n<Bullet/> Если противник начинает ход не на соседней клетке, способность \"Взбучка\" активируется, когда он подойдет на дистанцию ближнего боя.\n<Bullet/> Получает штраф -15 к меткости, сверх обычных штрафов атак по реакции, как и \"Удар кулаком\".\n<Bullet/> Будьте осторожны при выборе позиции - \"Взбучка\" как и \"Удар кулаком\" разрушает окружение, поэтому андромедон может остаться без укрытия."
+
+[ThrashF X2AbilityTemplate]
+LocFriendlyName="Взбучка"
+LocLongDescription="Свободные атаки когтями против целей, которые подходят или атакуют с дистанции 3-х клеток."
+LocHelpText="Свободные атаки когтями против целей, которые подходят или атакуют с дистанции 3-х клеток."
+LocFlyOverText="Взбучка"
+LocPromotionPopupText="<Bullet/> Если противник находится в пределах 3-х клеток, способность \"Взбучка\" активируется, когда будет атакован <Ability:ClassName/>.\n<Bullet/> Если противник начинает ход не в пределах 3-х клеток, \"Взбучка\" сработает когда враг переместиться в этот диапазон.\n<Bullet/> Будьте осторожны при выборе позиции - \"Взбучка\" как и \"Косящие когти\" разрушает окружение, поэтому вы можете оставить союзников без укрытий."
+
+[ThrashBAttack X2AbilityTemplate]
+LocFriendlyName="Взбучка"
+LocLongDescription="Свободные атаки кулаком против целей, которые подходят или атакуют с дистанции ближнего боя. Пораженные цели могут быть выведены из строя."
+LocHelpText="Свободные атаки кулаком против целей, которые подходят или атакуют с дистанции ближнего боя. Пораженные цели могут быть выведены из строя."
+LocFlyOverText="Взбучка"
+LocPromotionPopupText="<Bullet/> Если противник начинает ход на соседней клетке, способность \"Взбучка\" активируется, когда будет атакован <Ability:ClassName/>.\n<Bullet/> Если противник начинает ход не на соседней клетке, способность \"Взбучка\" активируется, когда он подойдет на дистанцию ближнего боя."
+
+[ThrashAAttack X2AbilityTemplate]
+LocFriendlyName="Взбучка"
+LocLongDescription="Свободные атаки кулаком против целей, которые подходят или атакуют с дистанции ближнего боя."
+LocHelpText="Свободные атаки кулаком против целей, которые подходят или атакуют с дистанции ближнего боя."
+LocFlyOverText="Взбучка"
+LocPromotionPopupText="<Bullet/> Если противник начинает ход на соседней клетке, способность \"Взбучка\" активируется, когда будет атакован <Ability:ClassName/>.\n<Bullet/> Если противник начинает ход не на соседней клетке, способность \"Взбучка\" активируется, когда он подойдет на дистанцию ближнего боя."
+
+[ThrashFAttack X2AbilityTemplate]
+LocFriendlyName="Взбучка"
+LocLongDescription="Свободные атаки когтями против целей, которые подходят или атакуют с дистанции 3-х клеток."
+LocHelpText="Свободные атаки когтями против целей, которые подходят или атакуют с дистанции 3-х клеток."
+LocFlyOverText="Взбучка"
+LocPromotionPopupText="<Bullet/> Если противник находится в пределах 3-х клеток, способность \"Взбучка\" активируется, когда будет атакован <Ability:ClassName/>.\n<Bullet/> Если противник начинает ход не в пределах 3-х клеток, \"Взбучка\" сработает когда враг переместиться в этот диапазон.\n<Bullet/> Будьте осторожны при выборе позиции - \"Взбучка\" как и \"Косящие когти\" разрушает окружение, поэтому вы можете оставить союзников без укрытий."
+
+[PsiBombStage1 X2AbilityTemplate]
+LocFriendlyName="Пси-бомба"
+LocLongDescription="Создает пси-разлом, выводящий из строя все оружие в радиусе действия и наносящий урон в том же радиусе через 1 ход."
+LocHelpText="Создает пси-разлом, выводящий из строя все оружие в радиусе действия и наносящий урон в том же радиусе через 1 ход."
+LocFlyOverText="Пси-бомба"
+LocPromotionPopupText="<Bullet/> Урон способности не зависит от уровня пси-усилителя."
+
+[Apparition X2AbilityTemplate]
+LocFriendlyName="Явление"
+LocLongDescription="Размывайте границы между мирами. Получите способности \"Телепорт\", \"Хамелеон\" и \"Призрак\"."
+LocHelpText="Размывайте границы между мирами. Получите способности \"Телепорт\", \"Хамелеон\" и \"Призрак\"."
+LocFlyOverText="Явление"
+LocPromotionPopupText="<Bullet/> Способность \"Телепорт\" позволяет переместиться в любое место в пределах диапазона \"общего вида\" за одно действие, не завершая ход.\n<Bullet/> Способность \"Хамелеон\" позволяет получить маскировку в полном укрытии, которая будет потеряна при передвижении.\n<Bullet/> Способность \"Призрак\", позволяет сектоиду проходить сквозь стены, как солдаты в костюме призрак."
+
+[MutonGrenadePocket X2AbilityTemplate]
+LocFriendlyName="Обращение с взрывчаткой"
+LocLongDescription="Этот пришелец научился обращаться с взрывчаткой также хорошо, как и человек-гренадер, что дало ему слот для гранат."
+LocHelpText="Предоставляет слот для гранат."
+LocFlyOverText="Обращение с взрывчаткой"
+
+[PABayonet X2AbilityTemplate]
+LocFriendlyName="Штык"
+LocLongDescription="Лучевое оружие мутонов оснащено штыками, поэтому оно может использоваться как в рукопашном бою, так и на расстоянии."
+LocHelpText="Атаковать ближайшего врага штыком мутона. Эта атака может дезориентировать, оглушить, или лишить сознания."
+LocFlyOverText="Штык"
+
+[PABayonetCharge X2AbilityTemplate]
+LocFriendlyName="Штыковой натиск"
+LocLongDescription="Атакуйте врага в диапазоне передвижения с помощью оружия: <Ability:SecondaryWeaponName/>. Может использоваться с рывком. Эта атака может дезориентировать, оглушить, или лишить сознания."
+LocHelpText="Атакуйте врага в диапазоне передвижения с помощью оружия: <Ability:SecondaryWeaponName/>. Эта атака может дезориентировать, оглушить, или лишить сознания."
+LocPromotionPopupText="<Bullet/> В отличии от вражеских мутонов, наши мутоны не подвержены псионическому влиянию Старейшин. Это позволяет им использовать \"Штыковой натиск\" без перезарядки. Кроме того, наши тренировки позволили мутонам устранить штраф к защите, который обычно применялся к этой способности."
+
+[PAIcarusDropGrab X2AbilityTemplate]
+LocFriendlyName="Падение \"Икара\""
+LocLongDescription="Подлетите к гуманоидному врагу, схватите его и поднимите в воздух, потратив одно действие. Следующим действием можно сбросить его на землю."
+LocHelpText="Двух-этапная атака - сперва поднимаете врага в воздух, затем сбросте его на землю."
+LocFlyOverText="Падение \"Икара\""
+LocPromotionPopupText="<Bullet/> Захват цели имеет перезарядку 3 хода и может быть выполнен с рывком, в качестве первого действия. Захват цели и бросок цели - способности требующие одно действие и не заканчивают ход.\n<Bullet/> Вместо того чтобы сразу сбросить врага на землю, вы можете отказаться от любых действий после захвата, оставив архонта в покое. Архонт будет удерживать цель в воздухе, не допуская ее участия в битве, пока не будет отдан приказ сбросить цель, даже спустя несколько ходов. Удерживая врага в воздухе, архонт получает бонус к защите."
+
+[FrenzyDamageListener X2AbilityTemplate]
+LocFriendlyName="Боевое безумие"
+LocLongDescription="Архонт способен привести себя в состояние ужасного боевого безумия и тем самым получить дополнительное действие. Продолжительность действия: <Ability:FRENZYDURATION/> ход(а)."
+LocHelpText="Боевое безумие добавляет дополнительное действие."
+LocFlyOverText="Боевое безумие"
+
+[WarCry X2AbilityTemplate]
+LocFriendlyName="Боевой клич"
+LocLongDescription="Предоставляет бонус к меткости, воле и мобильности, всем союзным мутонам и берсеркам, но не себе. Все остальные биологические и кибернетические союзники, получают меньший бонус. Не действует на механических юнитов и действует 2 хода. Перезарядка 5 ходов. Не завершает ход при использовании первым действием. Нарушает маскировку при использовании."
+LocHelpText="Предоставляет бонус к меткости, воле и мобильности, всем союзным мутонам и берсеркам, но не себе. Все остальные союзники, не являющиеся полностью механическими, получают меньший бонус."
+LocFlyOverText="Боевой клич"
+LocPromotionPopupText="<Bullet/> Способность предоставляет 20 меткости, 20 воли и 4 мобильности всем союзным мутонам и берсеркам. Остальные органические и кибернетические союзники, такие как Солдат МЭК, получают 50% от этих бонусов. Полностью механические юниты, такие как \"Искра\", не получают бонусов.\n<Bullet/> Длится 2 хода, включая ход на котором способность была использована, не завершает ход при использовании первым действием и имеет перезарядку в 5 ходов.\n<Bullet/> Сам боец, криссалиды, пси-зомби, копии Храмовников, а также оглушенные и паникующие цели, также не получают бонусы.\n<Bullet/> В отличии от способностей \"Взбудоражить\" и \"Страшный нападающий\", \"Боевой клич\" можно использовать в режиме маскировки, но маскировка будет нарушена."
+
+[BlazingPinionsStage1MP X2AbilityTemplate]
+LocFriendlyName="Пылающие перья"
+LocLongDescription="Заберитесь как можно выше и обстреляйте территорию разрывными ракетами. В помещении сделать это невозможно. Перезарядка 3 хода."
+LocHelpText="Обстреляйте указанную зону разрывными ракетами."
+LocFlyOverText="Пылающие перья"
+LocPromotionPopupText="<Bullet/> Будьте осторожны, используя эту способность рядом с врагами, которые могут отбрасывать цели, такими как ящер-коммандос. Архонта могут сбить в воздухе и поразить его же собственными перьями."
+
+[Battlelord X2AbilityTemplate]
+LocFriendlyName="Повелитель битвы"
+LocLongDescription="Добавляет действие после того, как каждый противник в поле зрения делает свой ход. Очки действий не возвращаются (например от способности \"Стрельба на бегу\")."
+LocHelpText="Добавляет действие после того, как каждый противник в поле зрения делает свой ход. Очки действий не возвращаются (например от способности \"Стрельба на бегу\")."
+LocPromotionPopupText="<Bullet/> Способность \"Повелитель битвы\" позволяет вам выбираться из самых отчаянных ситуаций.<br/><Bullet/> Перезарядка <Ability:SelfCooldown/> ход(а).<br/><Bullet/> Ходы странников и обнаруженных врагов не добавляют действие.<br/><Bullet/> Способности предоставляющие дополнительные действия, такие как \"Безжалостность\" и \"Стрельба на бегу\", не работает во время \"Повелителя битвы\"."
+
+[PAShakeUp X2AbilityTemplate]
+LocFriendlyName="Взбудоражить"
+LocLongDescription="<Ability:ClassName/> издает устрашающий рев, затрагивающий всех врагов в пределах прямой видимости, пытаясь вызвать панику. Чем больше целей видит <Ability:ClassName/>, тем меньше вероятность успеха. Враги которых <Ability:ClassName/> не видит, не будут затронуты этой способностью. Требует одно действие и не завершает ход. Перезарядка 4 хода."
+LocHelpText="Попытка вызвать панику, у всех врагов в прямой видимости, устрашающим ревом. Не завершает ход."
+LocFlyOverText="Взбудоражить"
+LocPromotionPopupText="<Bullet/> Способность \"Взбудоражить\" всегда будет срабатывать на одного врага и в половине случаев, против 4 врагов. Против 8 и более врагов, попытка всегда будет провальной.\n<Bullet/> Нельзя использовать из маскировки.\n<Bullet/> Способность \"Взбудоражить\" подсвечивает цели в радиусе действия, но только враги которых видит <Ability:ClassName/>, будут затронуты способностью.\n<Bullet/> Воля не влияет на успех или провал этой способности.\n<Bullet/> Каждый враг делает индивидуальный бросок на успех или провал.\n<Bullet/> Берсерки считают попытки мутонов запугать их жалкими и получают иммунитет против этой способности."
+
+[PAFearStriker X2AbilityTemplate]
+LocFriendlyName="Страшный нападающий"
+LocLongDescription="Берсерк издает устрашающий рев, затрагивающий всех врагов в пределах прямой видимости, пытаясь вызвать панику. Чем больше целей видит берсерк, тем меньше вероятность успеха. Враги которых берсерк не видит, не будут затронуты этой способностью. Требует одно действие и не завершает ход. Перезарядка 6 ходов. имеет больше шансов на успех, чем у способности \"Взбудоражить\"."
+LocHelpText="Попытка вызвать панику, у всех врагов в прямой видимости, устрашающим ревом. Не завершает ход."
+LocFlyOverText="Страшный нападающий"
+LocPromotionPopupText="<Bullet/> Способность \"Страшный нападающий\" всегда будет срабатывать против 3 или менее врагов и в половине случаев, против 7 врагов. Против 11 и более врагов, попытка всегда будет провальной.\n<Bullet/> Нельзя использовать из маскировки.\n<Bullet/> Способность \"Страшный нападающий\" подсвечивает цели в радиусе действия, но только враги которых видит берсерк, будут затронуты способностью.\n<Bullet/> Воля не влияет на успех или провал этой способности.\n<Bullet/> Каждый враг делает индивидуальный бросок на успех или провал."
+
+[PABrandishClaws X2AbilityTemplate]
+LocFriendlyName="Помахать когтями"
+LocLongDescription="Безликий протягивает руку и машет когтями, пытаясь вызвать панику у всех врагов, находящихся в прямой видимости. Чем больше целей видит безликий, тем меньше вероятность успеха. Враги которых безликий не видит, не будут затронуты этой способностью. Требует одно действие и не завершает ход. Перезарядка 3 хода."
+LocHelpText="Попытка вызвать панику, у всех врагов в прямой видимости, взмахом когтей. Не завершает ход."
+LocFlyOverText="Помахать когтями"
+LocPromotionPopupText="<Bullet/> Способность \"Помахать когтями\" всегда будет срабатывать на одного врага и в половине случаев, против 3 врагов. Против 6 и более врагов, попытка всегда будет провальной.\n<Bullet/> Нельзя использовать из маскировки.\n<Bullet/> Способность \"Помахать когтями\" подсвечивает цели в радиусе действия, но только враги которых видит <Ability:ClassName/>, будут затронуты способностью.\n<Bullet/> Воля не влияет на успех или провал этой способности.\n<Bullet/> Каждый враг делает индивидуальный бросок на успех или провал."
+
+[PAPainTrainB X2AbilityTemplate]
+LocFriendlyName="Локомотив боли"
+LocLongDescription="Все на борт! Улучшает способность \"Разрушительный удар\" берсерка, позволяя использовать ее с рывком."
+LocHelpText="Улучшает способность \"Разрушительный удар\" берсерка, позволяя использовать ее с рывком."
+LocFlyOverText="Локомотив боли"
+
+[DevastatingPunchMP X2AbilityTemplate]
+LocFriendlyName="Разрушительный удар (Локомотив боли)"
+LocLongDescription="Силы берсерка достаточно, чтобы забить врага насмерть голыми руками. Эта атака может оглушить или дезориентировать врага, а также может использоваться в рывке."
+LocHelpText="Атакуйте цель в ближнем бою, имея шанс оглушить ее. Можно использовать в рывке."
+LocFlyOverText="Разрушительный удар (Локомотив боли)"
+
+[PAPainTrainA X2AbilityTemplate]
+LocFriendlyName="Локомотив боли"
+LocLongDescription="Все на борт! Улучшает способность \"Удар кулаком\" андромедона, позволяя использовать ее с рывком."
+LocHelpText="Улучшает способность \"Удар кулаком\" андромедона, позволяя использовать ее с рывком."
+LocFlyOverText="Локомотив боли"
+
+[BigDamnPunchMP X2AbilityTemplate]
+LocFriendlyName="Удар кулаком (Локомотив боли)"
+LocLongDescription="Боевой скафандр андромедона необычайно прочен. В рукопашном бою он не очень точен, но разрушителен. Может использоваться с рывком"
+LocHelpText="Удар по врагу в ближнем бою. Может использоваться с рывком."
+LocFlyOverText="Удар кулаком (Локомотив боли)"
+
+[BattleSuitGolem X2AbilityTemplate]
+LocFriendlyName="Голем в боевом скафандре"
+LocLongDescription="Соберите разрушенный скафандр андромедона и управляйте им с помощью своей псионики, наделяя при этом его новыми способностями."
+LocHelpText="Восстановите разрушенный скафандр андромедона и управляйте им, с помощью своих псионических способностей."
+LocFlyOverText="Голем в боевом скафандре"
+LocPromotionPopupText="<Bullet/> Эта способность работает также, как и \"Пси-реанимация\": длиться бесконечно, пока <Ability:ClassName/> не будет убит или выведен из строя, или пока скафандр андромедона не потеряет все свои ОЗ. Перезарядка 6 ходов.\n<Bullet/> <Ability:ClassName/> может контролировать 3 скафандра одновременно - при попытке контроля 4-х, первый скафандр взятый под контроль, будет потерян.\n<Bullet/> Управляемые скафандры получают возможность совершать рукопашные атаки в рывке, а также совершать свободные атаки кулаком против целей, которые движутся или атакуют с дистанции ближнего боя, во время хода врага."
+
+[PAChargeServos X2AbilityTemplate]
+LocFriendlyName="Заряд сервоприводов"
+LocLongDescription="Потратьте 2 действия, чтобы получить 3 действия передвижения. Перезарядка 1 ход."
+LocHelpText="Потратьте 2 действия, чтобы получить 3 действия передвижения. Перезарядка 1 ход."
+LocFlyOverText="Заряд сервоприводов"
+LocPromotionPopupText="<Bullet/> Способность \"Заряд сервоприводов\" отлично подходит не только для того, чтобы <Ability:ClassName/> не отставал от остального отряда, но также для того, чтобы отмечать ящики с припасами и спасать мирных жителей.\n<Bullet/> Можно использовать каждый второй ход.\n<Bullet/> Помните: после активации способности, <Ability:ClassName/> не сможет атаковать, до конца этого хода."
+
+[PARecklessCharge X2AbilityTemplate]
+LocFriendlyName="Опрометчивая нагрузка"
+LocLongDescription="Потратьте 2 действия, чтобы получить 3 действия передвижения. Перезарядка 1 ход."
+LocHelpText="Потратьте 2 действия, чтобы получить 3действия передвижения. Перезарядка 1 ход."
+LocFlyOverText="Опрометчивая нагрузка"
+LocPromotionPopupText="<Bullet/> Способность \"Опрометчивая нагрузка\" отлично подходит не только для того, чтобы <Ability:ClassName/> не отставал от остального отряда, но также для того, чтобы отмечать ящики с припасами и спасать мирных жителей.\n<Bullet/> Можно использовать каждый второй ход.\n<Bullet/> Помните: после активации способности, <Ability:ClassName/> не сможет атаковать, до конца этого хода."
+
+[PATurboBoost X2AbilityTemplate]
+LocFriendlyName="Турбоускорение"
+LocLongDescription="Потратьте 2 действия, чтобы получить 3 действия передвижения. Перезарядка 1 ход."
+LocHelpText="Потратьте 2 действия, чтобы получить 3 действия передвижения. Перезарядка 1 ход."
+LocFlyOverText="Турбоускорение"
+LocPromotionPopupText="<Bullet/> Способность \"Турбоускорение\" отлично подходит не только для того, чтобы <Ability:ClassName/> не отставал от остального отряда, но также для того, чтобы отмечать ящики с припасами и спасать мирных жителей.\n<Bullet/> Можно использовать каждый второй ход.\n<Bullet/> Способность \"Турбоускорение\" хоть и стоит 2 действия, она не завершает ход. Это позволяет комбинировать его с \"Боевым безумием\", для усиления эффекта."
+
+[PAWakeUpCall X2AbilityTemplate]
+LocFriendlyName="Суровый рык"
+LocFlyOverText="Суровый рык"
+LocLongDescription="Берсерк рычит на союзника настолько сильно, что пугает его и помогает избавиться от всех ментальных эффектов, кроме контроля над разумом. Можно использовать 1 раз за ход и не завершает ход при использовании. Кроме того, способность разрушительного удара Берсеркера больше не завершает ход при использовании в качестве первого действия"
+LocHelpText="Рычите на подверженного ментальным эффектом союзника, чтобы помочь ему избавиться от них."
+LocPromotionPopupText="<Bullet/> Избавляет от дезориентации, оглушения, паники и бессознательного состояния, но не избавляет от контроля над разумом и других эффектов. Можно использовать 1 раз за ход и не завершает ход при использовании.<br/>"
+
+[PAOmen X2AbilityTemplate]
+LocFriendlyName="Предзнаменование"
+LocLongDescription="Способность \"Пылающие перья\" теперь не заканчивает ход, при использовании, даже если используется с рывком."
+LocHelpText="Способность \"Пылающие перья\" теперь не заканчивает ход, при использовании, даже если используется с рывком."
+LocFlyOverText="Предзнаменование"
+LocPromotionPopupText="<Bullet/> Способность \"Предзнаменование\" позволяет использовать \"Пылающие перья\" подобно способности \"Стрельба на бегу\".\n<Bullet/> Хорошо сочетается со способностями \"Господствующая высота\" и \"Смерть с небес\", позволяя архонту хорошо реализовать свое положение в воздухе.\n<Bullet/> Постарайтесь не переместить архонта в зону поражения своих же \"Пылающих перьев\" вторым действием.<br/>"
+
+[PABenkeisSwiftness X2AbilityTemplate]
+LocFriendlyName="Скорость Бэнкэя"
+LocLongDescription="Убивайте сотнями. Ваша стандартная рукопашная атака больше не завершает ход и вы также получаете способность \"Молния\", которая позволяет совершить рукопашную атаку в рывке, наносящая дополнительный урон, в зависимости от пройденного расстояния."
+LocHelpText="Предоставляет способность \"Молния\" и ваша стандартная рукопашная атака больше не завершает ход."
+LocFlyOverText="Скорость Бэнкэя"
+LocPromotionPopupText="<Bullet/> Хоть и стандартная рукопашная атака больше не завершает ход, использование способности \"Молния\", всегда завершает ход этого юнита. Помните об этом когда архонт находится под действием \"Боевого безумия\", чтобы получить максимальную выгоду, от дополнительных действий."
+
+[PASeriousBomber X2AbilityTemplate]
+LocFriendlyName="Серьезный бомбардировщик"
+LocLongDescription="Способность \"Пылающие перья\", больше не имеет время восстановления."
+LocHelpText="Способность \"Пылающие перья\", больше не имеет время восстановления."
+LocFlyOverText="Серьезный бомбардировщик"
+LocPromotionPopupText="<Bullet/> В сочетании с \"Предзнаменованием\", \"Серьезный бомбардировщик\" позволяет архонту покрыть большую область пылающими перьями, а затем обстреливать оставшихся без укрытий врагов."
+
+[PADangerZone X2AbilityTemplate]
+LocFriendlyName="Опасный каскад"
+LocLongDescription="Увеличивает радиус вашей брошенной гранаты и способности \"Кислотная бомба\" на 2 клетки. Также, использование \"Кислотной бомбы\" или огнемета первым действием, не завершает ход."
+LocHelpText="Увеличивает радиус вашей брошенной гранаты и способности \"Кислотная бомба\" на 2 клетки. Также, использование \"Кислотной бомбы\" или огнемета первым действием, не завершает ход."
+LocFlyOverText="Опасный каскад"
+LocPromotionPopupText="<Bullet/> Способность \"Опасный каскад\" может складываться с другими способностями, увеличивающие радиус поражения гранат, такими как \"Гремучая смесь\".\n<Bullet/> Способность \"Опасный каскад\" не влияет на область поражения огнемета."
+
+[PAPackAlpha X2AbilityTemplate]
+LocFriendlyName="Альфа-пакет"
+LocLongDescription="Напомните товарищу по отряду, кто тут настоящий босс и возможно, он будет стараться изо всех сил. Потратьте действие, чтобы дать товарищу по отряду 2 действия. Перезарядка 5 ходов и не завершает ход берсерка при использовании."
+LocHelpText="Предоставьте союзнику 2 действия. Требует одно действия, не завершает ход и перезаряжается 5 ходов."
+LocFlyOverText="Альфа-пакет"
+LocPromotionPopupText="<Bullet/> Способность \"Альфа-пакет\" - один из немногих способов для берсерка, вносить свой вклад на поле боя с дистанции."
+
+[PARumblingTank X2AbilityTemplate]
+LocFriendlyName="Грохочущий танк"
+LocLongDescription="Получите дополнительные 1 ед. брони и 3 ед. щита. Способность \"Удар кулаком\" больше не завершает ход, при использовании в качестве первого действие андромедона."
+LocHelpText="Получите дополнительные 1 ед. брони и 3 ед. щита. Способность \"Удар кулаком\" больше не завершает ход, при использовании в качестве первого действие андромедона."
+LocFlyOverText="Грохочущий танк"
+LocPromotionPopupText="<Bullet/> Обратите внимание, что \"Удар кулаком\" не завершает ход только при использовании БЕЗ движения, даже если у вас есть способность \"Локомотив боли\"."
+
+[PACombatReadinessA X2AbilityTemplate]
+LocFriendlyName="В напряжении"
+LocLongDescription="Получите суммируемый бонус 5 уклонения и 2 мобильности, до конца следующего хода XCOM. Требует одно действие и завершает ход. Можно использовать только из режима маскировки, при этом не нарушая ее. Может складываться бесконечно."
+LocHelpText="Получите суммируемый бонус 5 уклонения и 2 мобильности, до конца следующего хода XCOM. Не нарушает маскировку андромедона. Требует маскировку для использования."
+LocFlyOverText="В напряжении"
+LocPromotionPopupText="<Bullet/> Андромедон может накапливать бонусы способности \"В напряжении\" в ожидании, пока остальная команда займет позицию, не раскрывая отряд."
+
+[PACombatReadinessB X2AbilityTemplate]
+LocFriendlyName="Нагнетание"
+LocLongDescription="Получите суммируемый бонус 5 уклонения и 2 мобильности, до конца следующего хода XCOM. Требует одно действие и завершает ход. Можно использовать только из режима маскировки, при этом не нарушая ее. Может складываться бесконечно."
+LocHelpText="Получите суммируемый бонус 5 уклонения и 2 мобильности, до конца следующего хода XCOM. Не нарушает маскировку берсерка. Требует маскировку для использования."
+LocFlyOverText="Нагнетание"
+LocPromotionPopupText="<Bullet/> Берсерк может накапливать бонусы способности \"Нагнетание\" в ожидании, пока остальная команда займет позицию, не раскрывая отряд."
+
+[Serpentine X2AbilityTemplate]
+LocFriendlyName="Змеевидный"
+LocLongDescription="Превратите свою специальность в искусство. Способности \"Ядовитый плевок\", \"Пометка цели\" и \"Меткий глаз\" возвращают действия после использования."
+LocHelpText="Способности \"Ядовитый плевок\", \"Пометка цели\" и \"Меткий глаз\" возвращают действия после использования."
+LocFlyOverText="Змеевидный"
+LocPromotionPopupText="<Bullet/> Фактически, это свободные действия, но вы все равно должны иметь необходимые очки действия, чтобы использовать способности в первую очередь. Все эти способности, по прежнему имеют время перезарядки."
+
+[PAPuppetShow X2AbilityTemplate]
+LocFriendlyName="Кукольный театр"
+LocLongDescription="Теперь ты контролируешь струны разума. Способности \"Ментальный штопор\", \"Массовое безумие\", \"Пси-реанимация\" и \"Массовая реанимация\" больше не завершают ход при использовании в качестве первого действия. Кроме того, способности \"Ментальный штопор\" и \"Пси-реанимация\" можно использовать один раз за ход."
+LocHelpText="Способности \"Ментальный штопор\", \"Массовое безумие\", \"Пси-реанимация\" и \"Массовая реанимация\" больше не завершают ход при использовании в качестве первого действия. Кроме того, способности \"Ментальный штопор\" и \"Пси-реанимация\" можно использовать один раз за ход."
+LocFlyOverText="Кукольный театр"
+LocPromotionPopupText="<Bullet/> Способность \"Кукольный театр\" влияет и на стандартную \"Пси-реанимацию\" и на версию, предоставленную некромантом."
+
+[PAAbductor X2AbilityTemplate]
+LocFriendlyName="Похищение"
+LocLongDescription="Заведите новых друзей. Возьмите под контроль врага на время миссии. Способность \"Похищение\" имеет 2 заряда на миссию и перезаряжается 6 ходов между использованием, независимо от успеха или неудачи. При неудачной попытке, заряд не расходуется."
+LocHelpText="Постоянный контроль над разумом врага. При неудачной попытке, заряд не расходуется. Перезарядка начинается независимо от успеха или неудачи."
+LocFlyOverText="Похищение"
+LocPromotionPopupText="<Bullet/> Способность \"Похищение\" представляет собой борьбу пси-силы, которую имеет <Ability:ClassName/> и воли его жертвы.<br/><Bullet/> Перезарядка 6 ходов независимо от успеха или неудачи. Тратит заряд только при успешном \"Похищении\".<br/><Bullet/> Если <Ability:ClassName/> будет убит, эвакуируется с миссии или подвергнется ментальным воздействиям, \"Похищение\" прерывается.<br/>"
+
+[Domination X2AbilityTemplate]
+LocFriendlyName="Доминирование"
+LocLongDescription="Постоянный контроль над разумом врага. В ходе задания возможно лишь одно успешное доминирование. При неудачной попытке, заряд не расходуется."
+LocHelpText="Постоянный контроль над разумом врага. При неудачной попытке, заряд не расходуется."
+LocFlyOverText="Доминирование"
+LocMissMessage="Доминирование не удалось"
+LocPromotionPopupText="<Bullet/> Способность \"Доминирование\" представляет собой борьбу пси-силы, которую имеет <Ability:ClassName/> и воли его жертвы.<br/><Bullet/> При успешной или неудачной попытке, в дополнению к ограничению зарядов, между использованиями существует перезарядка в 6 ходов.<br/><Bullet/> Если <Ability:ClassName/> будет убит, эвакуируется с миссии или подвергнется ментальным воздействиям, \"Доминирование\" прерывается.<br/>"
+
+[PAVoidFlood X2AbilityTemplate]
+LocFriendlyName="Потоп пустоты"
+LocLongDescription="Станьте непредсказуемым, как сама пустота. Предоставляет способность \"Черный разлом\". Кроме того, радиус \"Черного разлома\" и \"Пси-бомбы\" увеличен на 2 клетки."
+LocHelpText="Предоставляет способность \"Черный разлом\". Кроме того, радиус \"Черного разлома\" и \"Пси-бомбы\" увеличен на 2 клетки."
+LocFlyOverText="Потоп пустоты"
+LocPromotionPopupText="<Bullet/> Увеличение радиуса \"Черного разлома\" и \"Пси-бомбы\", делает их идеальными способностями, для поражения групп врагов, даже после того как они разбежались."
+
+[PAVoidFloodEffect X2AbilityTemplate]
+LocFriendlyName="Потоп пустоты"
+LocLongDescription="Станьте непредсказуемым, как сама пустота. Предоставляет способность \"Черный разлом\". Кроме того, радиус \"Черного разлома\" и \"Пси-бомбы\" увеличен на 2 клетки."
+LocHelpText="Предоставляет способность \"Черный разлом\". Кроме того, радиус \"Черного разлома\" и \"Пси-бомбы\" увеличен на 2 клетки."
+LocFlyOverText="Потоп пустоты"
+LocPromotionPopupText="<Bullet/> Увеличение радиуса \"Черного разлома\" и \"Пси-бомбы\", делает их идеальными способностями, для поражения групп врагов, даже после того как они разбежались."
+
+[PARangeFinder X2AbilityTemplate]
+LocFriendlyName="Дальномер"
+LocLongDescription="Обновление оптики, предоставляет способности \"Общий вид\" и \"Дальнее наблюдение\"."
+LocHelpText="Обновление оптики, предоставляет способности \"Общий вид\" и \"Дальнее наблюдение\"."
+LocFlyOverText="Дальномер"
+LocPromotionPopupText="<Bullet/> Хоть \"Дальнее наблюдение\" и предназначено для основного оружия, \"общий вид\" можно использовать для таких способностей как \"Пометка цели\" или \"Этот мой!\"."
+
+[PA_NoScope X2AbilityTemplate]
+LocFriendlyName="Без прицела"
+LocLongDescription="Сделайте стандартный выстрел, который тратит одно действие и не завершает ход. Не может использовать \"общий вид\" или наносить критический урон. Можно использовать только один раз за ход."
+LocHelpText="Сделайте стандартный выстрел, который тратит одно действие и не завершает ход. Не может использовать \"общий вид\" или наносить критический урон."
+LocFlyOverText="Без прицела"
+LocPromotionPopupText="<Bullet/> Способность \"Без прицела\", не завершает ход и требует одно действие, что хорошо сочетается со способностями ная, такими как \"Ядовитый плевок\" или \"Выстрел на вскидку\"."
+
+[AlloyKnuckleGuards X2AbilityTemplate]
+LocFriendlyName="Защитный кожух из сплава"
+LocLongDescription="Получите +3 ед. урона для всех рукопашных атак."
+LocHelpText="Получите +3 ед. урона для всех рукопашных атак."
+LocFlyOverText="Защитный кожух из сплава"
+
+[EleriumKnuckleGuards X2AbilityTemplate]
+LocFriendlyName="Элериевый защитный кожух"
+LocLongDescription="Получите +6 ед. урона для всех рукопашных атак."
+LocHelpText="Получите +6 ед. урона для всех рукопашных атак."
+LocFlyOverText="Элериевый защитный кожух"
+
+[AlloyClawCovers X2AbilityTemplate]
+LocFriendlyName="Покрытие из сплавов для когтей"
+LocLongDescription="Получите +3 ед. урона для всех рукопашных атак."
+LocHelpText="Получите +3 ед. урона для всех рукопашных атак."
+LocFlyOverText="Покрытие из сплавов для когтей"
+
+[EleriumClawCovers X2AbilityTemplate]
+LocFriendlyName="Элериевое покрытие для когтей"
+LocLongDescription="Получите +6 ед. урона для всех рукопашных атак."
+LocHelpText="Получите +6 ед. урона для всех рукопашных атак."
+LocFlyOverText="Элериевое покрытие для когтей"
+
+[GetOverHere X2AbilityTemplate]
+LocFriendlyName="Притягивание языком"
+LocLongDescription="<Ability:ClassName/> невероятно силен и может издали притянуть с помощью языка взрослого гуманоида. В случае успеха, сразу использует \"Опутывание и раздавливание\". Противник должен быть не ближе 3-х клеток и не дальше 12-ти клеток. Можно использовать один раз за ход. Может промахнуться"
+LocHelpText="Захватите гуманоидного врага своим языком и притяните его на дистанцию ближнего боя. В случае успеха, сразу использует \"Опутывание и раздавливание\". Противник должен быть не ближе 3-х клеток и не дальше 12-ти клеток."
+LocFlyOverText="Притягивание языком"
+LocMissMessage="Притягивание не удалось!"
+LocPromotionPopupText="<Bullet/> Не завершает ход при использовании, но это не имеет значения если способность попадает, т.к. сразу используется \"Опутывание и раздавливание\".\n<Bullet/> Некоторых крупных гуманоидных врагов нельзя притянуть или опутать, таких как блюстители."
+
+[GetOverHereAlly X2AbilityTemplate]
+LocFriendlyName="Подтягивание"
+LocLongDescription="<Ability:ClassName/> невероятно силен и может издали притянуть с помощью языка, товарища по отряду, на соседнюю клетку. Союзник должен быть не ближе 3-х клеток и не дальше 12-ти клеток. Не нарушает маскировку. Требует одно действие, не завершает ход и не имеет перезарядки."
+LocHelpText="Захватите союзника гуманоида своим языком и подтяните его на соседнюю клетку. Союзник должен быть не ближе 3-х клеток и не дальше 12-ти клеток. Не нарушает маскировку."
+LocFlyOverText="Подтягивание"
+LocMissMessage="Подтягивание не удалось!"
+LocPromotionPopupText="<Bullet/> Не завершает ход при использовании.\n<Bullet/> В отличии от \"Притягивания языком\", \"Подтягивание\" не опутывает цель, применяется только к союзникам и не может промахнуться.\n<Bullet/> Вы не можете контролировать, на какой клетке окажется союзник, поэтому имейте ввиду , что они могут остаться без укрытия.\n<Bullet/> Использование способности не нарушает маскировку, однако враги могут заметить союзника во время подтягивания, поэтому будьте внимательны с дальностью обзора врага.\n<Bullet/> Механиков, негуманоидных пришельцев, Солдат МЭК и солдатов в чрезвычайно тяжелых доспехах, таких как броня метион, притянуть нельзя."
+
+[Bind X2AbilityTemplate]
+LocFriendlyName="Опутывание и раздавливание"
+LocLongDescription="Кольца вайпера обладают нечеловеческой силой и могут опутать и раздавить ближайшего врага-гуманоида. Некоторых крупных гуманоидных врагов нельзя опутать, таких как блюстители."
+LocHelpText="Опутать и раздавить ближайшего врага-гуманоида. Некоторых крупных гуманоидных врагов нельзя опутать, таких как блюстители."
+LocFlyOverText="Опутывание"
+LocMissMessage="Опутывание не удалось!"
+
+[PABullRushMuton X2AbilityTemplate]
+LocFriendlyName="Бычий натиск"
+LocLongDescription="Атака ближнего боя, против любого врага в диапазоне передвижения, которая наносит небольшой урон но оглушает цель на 1 ход."
+LocHelpText="Атака ближнего боя, против любого врага в диапазоне передвижения, которая наносит небольшой урон но оглушает цель на 1 ход."
+LocPromotionPopupText="<Bullet/> Способность \"Бычий натиск\" также работает против механических целей."
+
+[PAMutonPunch X2AbilityTemplate]
+LocFriendlyName="Перекрестный удар"
+LocLongDescription="Удар по соседней цели, который не завершает ход при использовании первым действием."
+LocHelpText="Удар по соседней цели, который не завершает ход при использовании первым действием."
+LocPromotionPopupText="<Bullet/> Способность \"Перекрестный удар\" - хороший способ начать ход, если врагу удалось приблизится на расстояние ближнего боя."
+
+[PABullRushViper X2AbilityTemplate]
+LocFriendlyName="Бычий натиск"
+LocLongDescription="Стандартная атака в ближнем бою, против любого врага в диапазоне передвижения, которая наносит небольшой урон но оглушает цель на 1 ход."
+LocHelpText="Стандартная атака в ближнем бою, против любого врага в диапазоне передвижения, которая наносит небольшой урон но оглушает цель на 1 ход."
+LocPromotionPopupText="<Bullet/> Способность \"Бычий натиск\" также работает против механических целей."
+
+[PAViperBash X2AbilityTemplate]
+LocFriendlyName="Удар прикладом"
+LocLongDescription="Удар прикладом оружия по соседней цели. Не завершает ход при использовании, в качестве первого действия."
+LocHelpText="Удар прикладом оружия по соседней цели. Не завершает ход при использовании, в качестве первого действия."
+LocPromotionPopupText="<Bullet/> Способность \"Удар прикладом\" - хороший способ начать ход, если врагу удалось приблизится на расстояние ближнего боя."
+
+[PAFacelessRegen X2AbilityTemplate]
+LocFriendlyName="Регенерация"
+LocLongDescription="У безликого восстанавливается <Ability:FACELESSREGEN/> ОЗ в начале каждого его хода."
+LocHelpText="Безликий восстанавливает небольшое количество ОЗ начале каждого хода."
+LocFlyOverText="Регенерация"
+LocPromotionPopupText="<Bullet/> В отличии от других источников регенерации, таких как стазисный жилет, нет ограничений на количество ОЗ, которая может исцелить эта способность."
+
+[BakhtakTalons X2AbilityTemplate]
+LocFriendlyName="Когти бакхтака"
+LocLongDescription="Специальная атака косящими когтями, которая оглушает всех пораженных врагов на 1 ход. Перезарядка 3 хода."
+LocHelpText="Удар когтями с близкого расстояния по одной или нескольким целям, которая может оглушить на 1 ход при попадании."
+LocFlyOverText="Когти бакхтака"
+LocPromotionPopupText="<Bullet/> Если вы сможете поставить безликого в хорошую позицию, способность \"Когти бакхтака\" будет хорошим средством для открытия засад."
+
+[PAHaze X2AbilityTemplate]
+LocFriendlyName="Туман"
+LocLongDescription="Безликий получает возможность выпускать дым из своего тела, через хранящиеся внутри дымовые гранаты. Радиус меньше, чем у обычной дымовой гранаты, а также имеет перезарядку в 4 хода. Не завершает ход при использовании в качестве первого действия."
+LocHelpText="Выпустить облако дыма в радиусе 3-х клеток от безликого."
+LocFlyOverText="Туман"
+LocPromotionPopupText="<Bullet/> Способность \"Туман\", не нарушает маскировку безликого."
+
+[PAJackTheRipper X2AbilityTemplate]
+LocFriendlyName="Джек-потрошитель"
+LocLongDescription="Косящие когти больше не завершают ход при использовании в качестве первого действия."
+LocHelpText="Косящие когти больше не завершают ход при использовании в качестве первого действия."
+LocFlyOverText="Джек-потрошитель"
+LocPromotionPopupText="<Bullet/> Сочетание косящих когтей и способности \"Джек-потрошитель\", делает безликого чрезвычайно полезным в устранении странников и криссалидов, либо например сперва ударом разрушить стену и потом переместиться."
+
+[PAScythingClaws X2AbilityTemplate]
+LocFriendlyName="Косящие когти"
+LocLongDescription="Способности безликого менять форму, позволяет отращивать гигантские когти, способные поражать врага на расстоянии."
+LocHelpText="Удар когтями безликого с близкого расстояния."
+LocFlyOverText="Косящие когти"
+
+[PABungeeSlime X2AbilityTemplate]
+LocFriendlyName="Эластичная слизь"
+LocLongDescription="Тело безликого обладает свойствами резины и слизи. Используя эту черту, безликий способен увеличивать конус поражения способности \"Косящие когти\" и аналогичных способностей на 2 клетки в длину и 2 клетки в ширину."
+LocHelpText="Увеличьте размер конуса рукопашных атак безликого на 2 клетки."
+LocFlyOverText="Эластичная слизь"
+LocPromotionPopupText="<Bullet/> Способность \"Эластичная слизь\" влияет на \"Косящие когти\", а также на способности \"Когти бакхтака\" и \"Разрывающий выпад\". Не влияет на способность \"Взбучка\"."
+
+[PARippingSlash X2AbilityTemplate]
+LocFriendlyName="Разрывающий выпад"
+LocLongDescription="Специальная атака косящими когтями, которая накладывает 2 ед. разрыва на всех пораженных целей. Перезарядка 4 хода."
+LocHelpText="Удар когтями с близкого расстояния по одной или нескольким целям, накладывающая 2 ед. разрыва пораженным целям."
+LocFlyOverText="Разрывающий выпад"
+
+[MissionSource_Council X2MissionSourceTemplate]
+MissionExpiredText="Командир, инопланетный беглец  из <XGParam:StrValue0/!WorldRegionName/> был схвачен \"Адвентом\". Мы не можем расследовать это дело дальше."
+
+[PA_RussianRoulette X2AbilityTemplate]
+LocFriendlyName="Русская рулетка"
+LocLongDescription="Если в режиме \"наблюдения\" ваш выстрел промахнется, будет произведен еще один выстрел, пока есть боеприпасы. Влияет только на основное оружие, не на дополнительное оружие или пистолеты."
+LocHelpText="Если в режиме \"наблюдения\" ваш выстрел промахнется, будет произведен еще один выстрел, пока есть боеприпасы."
+LocFlyOverText="Русская рулетка"
+LocPromotionPopupText="<Bullet/> Выстрелы будут производиться до тех пор, пока не будет нанесен урон, не закончатся боеприпасы или не будет больше целей для стрельбы.\n<Bullet/> Критические попадания и царапины считаются \"попаданиями\" для целей этой способности.\n<Bullet/> Действует только в обычном режиме \"наблюдения\", способность \"Ответный огонь\" и аналогичные ей, которые дают другие виды ответных выстрелов, не затронуты.\n<Bullet/> Действие способности прекратиться, если солдат выйдет из режима \"наблюдения\", например, из-за получения урона, подавления или дезориентации."
+
+[PAHarrierGrenade X2AbilityTemplate]
+LocFriendlyName="Выстрел из гранатомета разорителя"
+LocLongDescription="Выстрел из гранатомета разорителя. Стреляет боеголовками воздушного подрыва, которые игнорируют укрытия, но могут промахнуться. В качестве цели выбирается один враг, но может поражать рядом стоящих юнитов."
+LocHelpText="Выстрел из гранатомета разорителя. Стреляет боеголовками воздушного подрыва, которые игнорируют укрытия, но могут промахнуться."
+
+[PAHarrierFireGrenade X2AbilityTemplate]
+LocFriendlyName="Зажигательные боеголовки"
+LocLongDescription="Вариация стандартных боеголовок разорителя, которые поджигают пораженную цель и окружение. Перезарядка 4 хода. Радиус поражения на 1 клетку меньше, чем у стандартных боеголовок разорителя."
+LocHelpText="Выстрел зажигательной боеголовкой, прямого поражения, которая поджигает цель и местность при попадании. Игнорирует укрытия, но может промахнуться."
+LocPromotionPopupText="<Bullet/> Стандартный и лазерный уровень гранатомета разорителя, могут поразить только одну цель, с помощью этой способности. Улучшайте оружие до магнитного уровня и выше, если хотите поразить несколько целей, при засаде."
+
+[PAHarrierPoisonGrenade X2AbilityTemplate]
+LocFriendlyName="Чумные боеголовки"
+LocLongDescription="Вариация стандартных боеголовок разорителя, которые отравляют пораженную цель и оставляют ядовитое облако при поражении. Перезарядка 4 хода. Радиус поражения на 1 клетку больше, чем у стандартных боеголовок разорителя."
+LocHelpText="Выстрел чумной боеголовкой, прямого поражения, которая отравляет цель и оставляет ядовитое облако при попадании. Игнорирует укрытия, но может промахнуться."
+LocPromotionPopupText="<Bullet/> Магнитный, Гаусс и лучевой уровень гранатомета разорителя, еще больше улучшают радиус поражения чумных боеголовок."
+
+[PAEndOfGeneva X2AbilityTemplate]
+LocFriendlyName="Конец Женеве"
+LocLongDescription="Это не военное преступление, если ты победишь. Выстрелы из гранатомета разорителя первым действием, больше не завершает ход, а ручные гранаты можно бросать без перезарядки. Вы также получаете способность \"Артиллерийский залп\"."
+LocHelpText="Выстрелы из гранатомета разорителя первым действием, больше не завершает ход, а ручные гранаты можно кидать без перезарядки. Вы также получаете способность \"Артиллерийский залп\"."
+LocPromotionPopupText="<Bullet/> Способность \"Артиллерийский залп\", позволяет вам бросать гранаты, не завершая ход.\n<Bullet/> Способность \"Конец Женеве\", влияет на все выстрелы из гранатомета, включая способности, такие как \"Зажигательные боеголовки\" и им подобные.\n<Bullet/> Гранаты, которые можно было бросать каждый второй ход, теперь можно бросать без перезарядки с этой способностью."
+
+[Beam_Sweep X2AbilityTemplate]
+LocFriendlyName="Лучевая метла"
+LocLongDescription="Выстрелите мощным лучом, опустошающим и сметающим все в области поражения, перед осадным мутоном. Требует одно действие. Перезарядка 3 хода."
+LocHelpText="Опустошающая атака по большой области, с помощью разрушительного луча."
+LocPromotionPopupText="<Bullet/> Наносит урон окружению каждому врагу в зоне поражения. Может промахнуться и делает бросок на попадание против каждого врага индивидуально.\n<Bullet/> Зона поражения составляет 8 клеток в длину и 18 клеток в ширину.\n<Bullet/> Требует одно действие и завершает ход осадного мутона при использовании."
+
+[PAFeint X2AbilityTemplate]
+LocFriendlyName="Финт"
+LocLongDescription="Автоматический вход в режим \"наблюдения\" после использования способности \"Спугнуть\"."
+LocHelpText="Автоматический вход в режим \"наблюдения\" после использования способности \"Спугнуть\"."
+LocPromotionPopupText="<Bullet/> Если цель способности \"Спугнуть\" не игнорирует ответные выстрелы, ответные выстрелы способности \"Финт\" всегда будет направлены на эту цель.\n<Bullet/> Не применяйте эту способность на врагах, которые имеют \"Молниеносные рефлексы\"."
+
+[PACountingOnYou X2AbilityTemplate]
+LocFriendlyName="Я рассчитываю на тебя!"
+LocLongDescription="Способность \"Прикрой меня!\" больше не имеет время восстановления."
+LocHelpText="Способность \"Прикрой меня!\" больше не имеет время восстановления."
+LocPromotionPopupText="<Bullet/> Способность \"Прикрой меня!\" по прежнему завершает ход при использовании."
+
+[ShadowOps_CoverMe X2AbilityTemplate]
+LocFriendlyName="Прикрой меня!"
+LocLongDescription="Предоставляет союзнику бонусный выстрел из режима \"наблюдения\" и способность \"Абсолютное спокойствие\". Перезарядка 3 хода."
+LocHelpText="Предоставляет союзнику бонусный выстрел из режима \"наблюдения\" и способность \"Абсолютное спокойствие\"."
+LocFlyOverText="Прикрой меня!"
+LocPromotionPopupText="<Bullet/> Режим \"наблюдения\" и способность \"Абсолютное спокойствие\", длится до начала вашего следующего хода.<br/><Bullet/> Способность \"Абсолютное спокойствие\" дает +<Ability:COOLUNDERPRESSUREBONUS/> к меткости в режиме \"наблюдения\" и ко всем ответным выстрелам, а также позволяет им наносить критический урон.<br/>"
+
+[PAHarrierLauncherRestoration X2AbilityTemplate]
+LocFriendlyName="Восстановление генератора нагрузки"
+LocLongDescription="Ограничитель мощности гранатомета был удален, увеличив радиус поражения боеголовок на +1 и аналогичных способностей."
+LocHelpText="Ограничитель мощности гранатомета был удален, увеличив радиус поражения боеголовок на +1 и аналогичных способностей."
+
+[PAHarrierLauncherIntensifier X2AbilityTemplate]
+LocFriendlyName="Улучшение генератора нагрузки"
+LocLongDescription="Истинная мощь гранатомета была достигнута, увеличив радиус поражения боеголовок на +2 и аналогичных способностей."
+LocHelpText="Истинная мощь гранатомета была достигнута, увеличив радиус поражения боеголовок на +2 и аналогичных способностей."
+
+[PALockjaw X2AbilityTemplate]
+LocFriendlyName="Сжать челюсти"
+LocLongDescription="Свободная атака укусом любого врага, который входит или атакует с дистанции ближнего боя. Наносит урон, отравляет и оглушает цель на одно действие. Эта атака будет срабатывать столько раз, сколько есть целей, до первого попадания в течении данного хода. Не работает против механических целей."
+LocHelpText="Свободная атака укусом любого врага, который входит или атакует с дистанции ближнего боя."
+LocFlyOverText="Сжать челюсти"
+LocPromotionPopupText="<Bullet/> Если противник начинает ход на соседней клетке, способность \"Сжать челюсти\" активируется, когда будет атакован <Ability:ClassName/>.\n<Bullet/> Если противник начинает ход не на соседней клетке, способность \"Сжать челюсти\" активируется, когда он подойдет на дистанцию ближнего боя.\n<Bullet/> Наносит 4-6 ед. урона, отравляет и оглушает цель на одно действие. Считается ответным огнем и не может наносить критический урон.\n<Bullet/> Только одна успешная атака(царапина) может быть сделана за ход, но промах не активирует перезарядку. На каждого врага будет одна попытка укуса за ход.\n<Bullet/> Способность не работает, во время вашего хода.\n<Bullet/> Наносимый урон ядом такой же, как и у \"Ядовитого плевка\", а способность \"Улучшенный плевок\", также усиливает \"Сжать челюсти\".\n<Bullet/> Не работает против механических целей."
+
+[PALockjawAttack X2AbilityTemplate]
+LocFriendlyName="Сжать челюсти"
+LocLongDescription="Свободная атака укусом любого врага, который входит или атакует с дистанции ближнего боя. Наносит урон, отравляет и оглушает цель на одно действие. Эта атака будет срабатывать столько раз, сколько есть целей, до первого попадания в течении данного хода. Не работает против механических целей."
+LocHelpText="Свободная атака укусом любого врага, который входит или атакует с дистанции ближнего боя."
+LocFlyOverText="Сжать челюсти"
+LocPromotionPopupText="<Bullet/> Если противник начинает ход на соседней клетке, способность \"Сжать челюсти\" активируется, когда будет атакован <Ability:ClassName/>.\n<Bullet/> Если противник начинает ход не на соседней клетке, способность \"Сжать челюсти\" активируется, когда он подойдет на дистанцию ближнего боя.\n<Bullet/> Наносит 4-6 ед. урона, отравляет и оглушает цель на одно действие. Считается ответным огнем и не может наносить критический урон.\n<Bullet/> Только одна успешная атака (попадание или царапина) может быть сделана за ход, но промах не активирует перезарядку. На каждого врага будет одна попытка укуса за ход.\n<Bullet/> Способность не работает, во время вашего хода.\n<Bullet/> Наносимый урон ядом такой же, как и у \"Ядовитого плевка\", а способность \"Улучшенный плевок\", также усиливает \"Сжать челюсти\".\n<Bullet/> Не работает против механических целей."
+
+[PAViciousBite X2AbilityTemplate]
+LocFriendlyName="Злобный укус"
+LocLongDescription="Мощный укус соседней цели. Наносит большой урон, отравляет цель и накладывает 2 ед. разрыва. Свободное действие. Перезарядка 5 ходов. Невозможно применить против механических целей."
+LocHelpText="Мощный укус соседней цели. Наносит большой урон, отравляет цель и накладывает эффект разрыва. Невозможно применить против механических целей."
+LocPromotionPopupText="<Bullet/> Способность \"Злобный укус\" наноси 7-9 ед. урона, 3 ед. критического урона, отравляет цель и накладывает 2 ед. разрыва.\n<Bullet/> Наносимый урон ядом такой же, как и у \"Ядовитого плевка\", а способность \"Улучшенный плевок\", также усиливает \"Злобный укус\".\n<Bullet/> Способность \"Злобный укус\" - свободное действие, но вы должны находиться рядом с целью, чтобы применить ее.\n<Bullet/> Способность имеет бонус +20% к меткости и +10% к шансу критического попадания.\n<Bullet/> Нельзя использовать против механических целей."
+
+[PA_SlugShot X2AbilityTemplate]
+LocFriendlyName="Выстрел пулей"
+LocFlyOverText="Выстрел пулей"
+LocLongDescription="<Ability:ClassName/> может сделать особый выстрел из основного оружия класса \"дробовик\", пробивающий <Ability:SLUG_SHOT_PIERCE/> ед. брони и не имеет штрафа за дистанцию. Требует <Ability:SelfAmmoCost/> ед. боеприпасов. Перезарядка <Ability:SelfCooldown_LW/> ход(а)."
+LocHelpText="Пробивающий броню выстрел из дробовика без штрафа за дистанцию."
+LocPromotionPopupText="<Bullet/> Особый выстрел из основного оружия класса \"дробовик\" без штрафа за дистанцию.<br/><Bullet/> Выстрел пробивает <Ability:SLUG_SHOT_PIERCE/> ед. брони.<br/><Bullet/> Перезарядка <Ability:SelfCooldown_LW/> ход(а).<br/><Bullet/> Требует <Ability:SelfAmmoCost/> ед. боеприпасов.<br/>"
+
+[PA_TrenchGun X2AbilityTemplate]
+LocFriendlyName="Траншейное ружье"
+LocFlyOverText="Траншейное ружье"
+LocLongDescription="<Ability:ClassName/> может сделать особый выстрел малой дальности из основного оружия класса \"дробовик\" с конической зоной поражения. Перезарядка <Ability:SelfCooldown_LW/> ход(а)."
+LocHelpText="Выстрел из дробовика, с конической зоной поражения. Перезарядка <Ability:SelfCooldown_LW/> ход(а)."
+LocPromotionPopupText="<Bullet/> Особый выстрел малой дальности из основного оружия класса \"дробовик\" с конической зоной поражения.<br/><Bullet/> Перезарядка <Ability:SelfCooldown_LW/> ход(а).<br/><Bullet/> Требует <Ability:SelfAmmoCost/> ед. боеприпасов.<br/><Bullet/> Блокируется полными укрытиями, поэтому лучше всего использовать с фланга.<br/><Bullet/>  Может причинить вред союзникам.<br/>"
+
+[PA_StreetSweeper X2AbilityTemplate]
+LocFriendlyName="Уличная метла"
+LocFlyOverText="Уличная метла"
+LocLongDescription="Выстрел из дробовика с конической зоной поражения, наносящий дополнительный урон врагам без брони. Блокируется высокими укрытиями."
+LocHelpText="Выстрел из дробовика с конической зоной поражения, наносящий дополнительный урон врагам без брони. Блокируется высокими укрытиями."
+LocPromotionPopupText="<Bullet/> Выстрел из дробовика средней дальности с конической зоной поражения.<br/><Bullet/> Высокие укрытия перекрывают разлет дроби.<br/><Bullet/> Расходует одно действие и <Ability:SelfAmmoCost/> ед. боеприпаса.<br/><Bullet/> Перезарядка <Ability:SelfCooldown_LW/> ход(а).<br/><Bullet/> Наносит дополнительно <Ability:PA_STREET_SWEEPER_UNARMORED_DAMAGE_BONUS_LW/> ед. урона небронированным целям в зоне поражения.<br/><Bullet/>  Может причинить вред союзникам.<br/>"
+
+[MZ_FDMarkTarget X2AbilityTemplate]
+LocFriendlyName="Морозная метка"
+LocLongDescription="Пометьте цель, охладив ее и предоставив союзникам бонус +<Ability:MARKTARGETAIMBONUS/> к меткости при стрельбе по ней. Не заканчивает ход при использовании первым действием. Перезарядка 2 хода."
+LocHelpText="Помечает цель, охлаждая ее. Союзники получают бонус +<Ability:MARKTARGETAIMBONUS/> к меткости при стрельбе по ней."
+LocFlyOverText="Морозная метка"
+LocPromotionPopupText="<Bullet/> Эффект охлаждения и бонус к меткости, позволяет \"Морозной метке\" легко охладить, или даже заморозить цель, с помощью последующих выстрелов по ней."
+
+[PA_Entwine X2AbilityTemplate]
+LocFriendlyName="Сжимание"
+LocLongDescription="Плотно окутывает опутанную цель, повышает защиту вайпера и наносимый урон от сдавливания."
+LocHelpText="Предоставляет бонус +<Ability:EntwineDefense/> к защите во время опутывания, а также, способность \"Притягивание языком\" получает бонус +<Ability:EntwineAim/> к меткости."
+LocFlyOverText="Сжимание"
+LocPromotionPopupText="<Bullet/> Способность \"Сжимание\" увеличивает сдавливающий урон способности \"Опутывание и раздавливание\" на <Ability:EntwineDamage/> ед. который игнорирует броню, а также, предоставляет бонус +<Ability:EntwineDefense/> к защите, при опутывании цели.<br><Bullet/> Способность \"Притягивание языком\" получает бонус +<Ability:EntwineAim/> к меткости.<br><Bullet/> Способность \"Сжимание\" НЕ увеличивает стартовый урон опутывания, только последующие тики сдавливания."
+
+[MZ_FDAdderRushAndBind X2AbilityTemplate]
+LocFriendlyName="Ринуться и опутать"
+LocLongDescription="Сила сдавливающих колец морозного змея не имеет себе равных, даже у других видов вайперов. Они могут быстро сократить расстояние до цели и опутать ее, даже с использованием рывка. Помимо этого, получив урон во время сдавливания, морозный змей не выпустит цель из своих объятий. Некоторых крупных гуманоидных врагов нельзя опутать, таких как блюстители."
+LocHelpText="Примените способность \"Опутывание и раздавливание\" в пределах диапазона передвижения. Некоторых крупных гуманоидных врагов нельзя опутать, таких как блюстители."
+LocFlyOverText="Опутывание"
+LocMissMessage="Опутывание не удалось!"
+LocPromotionPopupText="<Bullet/> Хотя опутывание морозного змея нельзя снять обычным нанесением урона, такие эффекты как дезориентация, оглушение, или поджог, заставят змея выпустить свою цель."
+
+[PA_CCSBomber X2AbilityTemplate]
+LocFriendlyName="Оставаться холодным"
+LocLongDescription="Один раз за ход, сделайте ответный выстрел из основного оружия по вражеской цели, которая приблизится на дистанцию 2-х клеток. Требует 1 ед. боеприпаса и не срабатывает в ваш ход."
+LocHelpText="Один раз за ход, сделайте ответный выстрел из основного оружия по вражеской цели, которая приблизится на дистанцию 2-х клеток."
+LocFlyOverText="Оставаться холодным"
+LocPromotionPopupText="<Bullet/> Способность \"Оставаться холодным\" складывается со способностью \"Специалист ближнего боя\", позволяя второму выстрелу нанести дополнительный урон, если первого выстрела не хватило для убийства особо живучего врага."
+
+[MZ_FDFrostCorress_M3 X2AbilityTemplate]
+LocFriendlyName="Морозная благодать"
+LocLongDescription="Мгновенно создайте трех превосходных призрачных морозных зомби. Требует одно действие и завершает ход при использовании. Перезарядка 6 ходов, хотя время восстановления на 4 хода быстрее у вражеских морозных некромантов, которые находятся под влиянием Старейшин."
+LocHelpText="Мгновенно создайте трех превосходных призрачных морозных зомби."
+LocFlyOverText="Морозная благодать"
+LocPromotionPopupText="<Bullet/> Способность \"Обезумевшие морозные зомби\" не дает преимуществ для зомби, вызванных способностью \"Морозная благодать\" - они уже наивысшего уровня.<br/><Bullet/> Завершает ход при использовании.<br/><Bullet/> Перезарядка 6 ходов для морозных некромантов XCOM. Для морозных некромантов под влиянием Старейшин время восстановления на 4 хода быстрее."
+
+[PAJackedFrostZombies X2AbilityTemplate]
+LocFriendlyName="Обезумевшие морозные зомби"
+LocLongDescription="Повышает качество способности \"Реанимация морозного призрака\", увеличивая здоровье, урон, критический урон и пробивание брони созданных зомби. Также, уменьшает время восстановления способности \"Реанимация морозного призрака\" на 2 хода."
+LocHelpText="Повышает качество способности \"Реанимация морозного призрака\"."
+LocFlyOverText="Обезумевшие морозные зомби"
+LocPromotionPopupText="<Bullet/> Морозные зомби получают дополнительные 2 ОЗ, 2 ед. урона, 2 ед. критического урона и 2 ед. пробивания брони.<br/><Bullet/> Перезарядка способности \"Реанимация морозного призрака\" сокращена на 2 хода.<br/><Bullet/> Влияет только на способность \"Реанимация морозного призрака\". Способность \"Морозная благодать\" изначально призывает зомби такого качества."
+
+[MZBitterFrostFreeze X2AbilityTemplate]
+LocFriendlyName="Модификация \"Лютый мороз\""
+LocLongDescription="это оружие имеет обширные модификации \"Морозного легиона\" и накладывает эффект лютого мороза при попадании."
+LocHelpText="При попадании накладывает эффект лютого мороза."
+LocFlyOverText="Лютый мороз"
+
+
+[BigAlienWallBreak X2AbilityTemplate]
+LocFriendlyName="Разрушение стен"
+LocLongDescription="Активируйте эту способность как бесплатное действие, чтобы позволить <Ability:ClassName/> разрушать стены и другие укрытия, перемещаясь через них, только для этого хода. Это приведет к <Ability:ClassName/> к снятии маскировки при перемещении."
+LocHelpText="Активируйте эту способность как бесплатное действие, чтобы позволить <Ability:ClassName/> разрушать стены и другие укрытия, перемещаясь через них, только для этого хода. Это приведет к <Ability:ClassName/> к снятии маскировки при перемещении."
+LocFlyOverText="Разрушение стен"
+[DefaultGatherSurvivors X2MissionNarrativeTemplate]
+ObjectiveTextPools[0]="Вызволите ВИП-инопланетянина из убежища"
+ObjectiveTextPools[1]="Вызволите ВИП-инопланетянина из убежища"
+ObjectiveTextPools[2]="Некоторые освобожденные инопланетяне сражаются с \"Адвентом\", но не спешат присоединятся к XCOM"
+ObjectiveTextPools[3]="Сопроводите ВИП-инопланетянина в точку эвакуации"
+ObjectiveTextPools[4]="Эвакуируйте всех солдат XCOM"

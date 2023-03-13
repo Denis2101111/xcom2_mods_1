@@ -1,0 +1,206 @@
+[F_Pharmacist X2SoldierClassTemplate]
++DisplayName="<font color='#ffffff'>Фармацевт</font>"
++ClassSummary="<font color='#ffffff'>Фармацевт</font> - эксперт по поддержанию жизни наших солдат. Когда они не заняты лечением раненых, они проводят свое время, оказывая изнурительное воздействие на силы противника."
++LeftAbilityTreeTitle="Доктор"
++RightAbilityTreeTitle="Дилер"
++AbilityTreeTitles[0]="Доктор"
++AbilityTreeTitles[1]="Помощник"
++AbilityTreeTitles[2]="Дилер"
+;NICKNAMES
++RandomNickNames[0]="Док"
++RandomNickNames[1]="Праздник"
++RandomNickNames[2]="Палочки"
++RandomNickNames[3]="Пилообразные кости"
++RandomNickNames[4]="Таблетка"
++RandomNickNames[5]="Клиника"
++RandomNickNames[6]="Слайсер"
++RandomNickNames[7]="Турнир"
++RandomNickNames[8]="Медик"
++RandomNickNames[9]="Шарлатан"
++RandomNickNames[10]="Боль"
++RandomNickNames[11]="Плата"
++RandomNickNames[12]="Руки"
++RandomNickNames[13]="Преследователь"
++RandomNickNames[14]="Отбивная"
++RandomNickNames[15]="Чрезвычайная ситуация"
++RandomNickNames[16]="Череп"
++RandomNickNames[17]="Толкач"
++RandomNickNames[18]="Франкенштейн"
++RandomNickNames[19]="Джекил"
++RandomNickNames[20]="Хайд"
++RandomNickNames[21]="Мясник"
++RandomNickNames[22]="Пасть"
++RandomNickNames[23]="Псих"
++RandomNickNames[24]="Лаб"
++RandomNickNames[25]="Кубок"
++RandomNickNames[26]="Дре"
+219 / 5 000
+Результаты перевода
++RandomNickNames[27]="Наркоман"
++RandomNickNames[28]="Страховщик"
++RandomNickNames[29]="Хиллбот"
++RandomNickNames[30]="Целитель"
++RandomNickNames[31]="Исправление"
++RandomNickNames_Male[0]="Кости"
++RandomNickNames_Male[1]="Игла"
++RandomNickNames_Male[2]="Mac"
++RandomNickNames_Male[3]="Медбрат"
++RandomNickNames_Female[0]="Белый халат"
++RandomNickNames_Female[1]="Сердцебиение"
++RandomNickNames_Female[2]="Глазки"
++RandomNickNames_Female[3]="Ягненок"
++RandomNickNames_Female[4]="Хохотунья"
+
+; Items
+
+[StimGun_CV X2WeaponTemplate]
+FriendlyName="Стим-пистолет"
+FriendlyNamePlural="Стим-пистолеты"
+BriefSummary="Стим-пистолет - это устройство, способное стрелять маленькими дротиками. Эти дротики могут быть заряжены восстановительными химикатами или пронизаны смертельным ядом."
+TacticalText="<Bullet/> Стим требует одно действие, и они не заканчивают действие если был применен на первом ходу.\n<Bullet/> Благодаря надлежащему обучению возможности восстановления и отравления ядами могут быть значительно расширены.\n<Bullet/> Увеличивает исцеление вами на <Ability:RECOVERYSTIM_BONUS_HEAL_CV/> очков.\n"
+AbilityDescName="стим-пистолет"
+
+[StimGun_MG X2WeaponTemplate]
+FriendlyName="Стим-бластер"
+FriendlyNamePlural="Стим-бластеры"
+BriefSummary="Стим-бластер - это улучшенная версия Стим-пистолета, способная убирать более сильные химические смеси."
+TacticalText="<Bullet/> Стим требует одно действие, и они не заканчивают действие если был применен на первом ходу.\n<Bullet/> Благодаря надлежащему обучению возможности восстановления и отравления ядами могут быть значительно расширены.\n<Bullet/> Увеличивает исцеление вами на <Ability:RECOVERYSTIM_BONUS_HEAL_MG/> очков.\n<Bullet/> Предоставляет одно дополнительное использование Recovery Stim и Venom Stim.\n"
+AbilityDescName="стим-бластер"
+
+[StimGun_BM X2WeaponTemplate]
+FriendlyName="Лучевой Стим"
+FriendlyNamePlural="Лучевые Стимы"
+BriefSummary="Stim Ray - наш самый мощный инструмент поддержки. Он использует передовые лучевые технологии для передачи своих эффектов непосредственно на цель."
+TacticalText="<Bullet/> Стим требует одно действие, и они не заканчивают действие если был применен на первом ходу.\n<Bullet/> Благодаря надлежащему обучению возможности восстановления и отравления ядами могут быть значительно расширены.\n<Bullet/> Увеличивает исцеление вами на <Ability:RECOVERYSTIM_BONUS_HEAL_BM/> очков.\n<Bullet/> Предоставляет два дополнительных использования Recovery Stim и Venom Stim.\n"
+AbilityDescName="лучевой Стим"
+
+; Schematics
+
+[StimGun_MG_Schematic X2SchematicTemplate]
+m_strClassLabel="ФАРМАЦЕВТ"
+[StimGun_BM_Schematic X2SchematicTemplate]
+m_strClassLabel="ФАРМАЦЕВТ"
+
+; Abilities
+
+[SG_RecoveryStim X2AbilityTemplate]
+LocFriendlyName="Стимулятор восстановления"
+LocFlyOverText="Стимулятор восстановления"
+LocLongDescription="Выстрел в союзника с Stim, восстанавливает здоровье и удаляет жжение, яд и кислоту."
+LocHelpText="Выстрел в союзника из Стима, восстанавливает здоровье и удаляет жжение, яд и кислоту."
+LocPromotionPopupText="<Bullet/> Восстанавливающий Стим эффективно применяет лечение к дальнему союзнику.<br/><Bullet/> Начинается с <Ability:RECOVERYSTIM_BASE_CHARGES> использовать, каждая Аптечка предоставляет дополнительное использование.<br/><Bullet/> Требуется одно действие и не заканчивается ходом пользователя.<br/><Bullet/> Вы должны иметь прямую видимость цели, и она должна быть в пределах обычного диапазона оружия.<br/>"
+
+[SG_RecoveryStim_Passive X2AbilityTemplate]
+LocFriendlyName="Стимулятор восстановления"
+LocFlyOverText="Стимулятор восстановления"
+LocLongDescription="Выстрел в союзника с Stim, восстанавливает здоровье и удаляет жжение, яд и кислоту."
+LocHelpText="Выстрел в союзника из Стима, восстанавливает здоровье и удаляет жжение, яд и кислоту."
+LocPromotionPopupText="<Bullet/> Восстанавливающий Стим эффективно применяет лечение к дальнему союзнику.<br/><Bullet/> Начинается с <Ability:RECOVERYSTIM_BASE_CHARGES> использовать, каждая Аптечка предоставляет дополнительное использование.<br/><Bullet/> Требуется одно действие и не заканчивается ходом пользователя.<br/><Bullet/> Вы должны иметь прямую видимость цели, и она должна быть в пределах обычного диапазона оружия.<br/>"
+
+[SG_VenomStim X2AbilityTemplate]
+LocFriendlyName="Ядовитый Стим"
+LocFlyOverText="Ядовитые Стимы"
+LocLongDescription="Выстрел в противника не наносит урона, но накладывает яд. Эта атака не может промазать."
+LocHelpText="Выстрел в противника не наносит урона, но накладывает яд. Эта атака не может промазать."
+LocPromotionPopupText="<Bullet/> Ядовитый Стим нельзя использовать против целей, неуязвимых для яда.<br/><Bullet/> Начинается с <Ability:VENOMSTIM_BASE_CHARGES> использовать, каждая Аптечка предоставляет дополнительное использование.<br/><Bullet/> Требуется одно действие и не заканчивается ходом пользователя.<br/><Bullet/> Вы должны иметь прямой видимости к цели, и она должна быть в пределах обычного диапазона оружия.<br/>"
+
+[SG_VenomStim_Passive X2AbilityTemplate]
+LocFriendlyName="Ядовитый Стим"
+LocFlyOverText="Ядовитые Стимы"
+LocLongDescription="Выстрел в противника не наносит урона, но накладывает яд. Эта атака не может промазать."
+LocHelpText="Выстрел в противника не наносит урона, но накладывает яд. Эта атака не может промазать."
+LocPromotionPopupText="<Bullet/> Ядовитый Стим нельзя использовать против целей, неуязвимых для яда.<br/><Bullet/> Начинается с <Ability:VENOMSTIM_BASE_CHARGES> использовать, каждая Аптечка предоставляет дополнительное использование.<br/><Bullet/> Требуется одно действие и не заканчивается ходом пользователя.<br/><Bullet/> Вы должны иметь прямой видимости к цели, и она должна быть в пределах обычного диапазона оружия.<br/>"
+
+[SG_PinsAndNeedles X2AbilityTemplate]
+LocFriendlyName="Дротики и иглы"
+LocFlyOverText="Дротики и иглы"
+LocLongDescription="Ваш Ядовитый Стим теперь наносит небольшое количество гарантированного урона цели."
+LocHelpText="Ваши Ядовитые стрелы теперь наносят небольшое количество гарантированного урона цели."
+LocPromotionPopupText="<Bullet/> Ядовитый Стим можно использовать только против целей, которые уязвимы для яда.<br/><Bullet/> Более продвинутые Стим-пистолеты будут наносить больше урона.<br/>"
+
+[SG_Neurotoxin X2AbilityTemplate]
+LocFriendlyName="Нейротоксин"
+LocFlyOverText="Нейротоксин"
+LocLongDescription="Ядовитый Стим теперь также дезориентирует цель."
+LocHelpText="Ядовитый Стим теперь также дезориентирует цель."
+LocPromotionPopupText="<Bullet/> Ядовитый Стим можно использовать только против целей, которые уязвимы для яда.<br/>"
+
+[SG_LingeringEffects X2AbilityTemplate]
+LocFriendlyName="Затяжные эффекты"
+LocFlyOverText="Затяжные эффекты"
+LocLongDescription="Восстанавливающие Стимы дают регенерацию здоровья на несколько ходов."
+LocHelpText="Восстанавливающие Стимы дают регенерацию здоровья на несколько ходов."
+LocPromotionPopupText="<Bullet/> Эта способность восстановит <Ability:LINGERINGEFFECTS_HEAL_PER_TURN> здоровье в начале каждого хода, максимум <Ability:LINGERINGEFFECTS_MAX_HEALTH>.<br/><Bullet/> Эффект регенерации может быть предоставлен только один раз каждому союзнику в миссии.<br/>"
+
+[SG_OverTheCounter X2AbilityTemplate]
+LocFriendlyName="Бонус к лечению"
+LocFlyOverText="Бонус к лечению"
+LocLongDescription="Дает <Ability:OVERTHECOUNTER_BONUS_RECOVERY_STIMS> на дополнительное использование Стимулятора восстановления."
+LocHelpText="Дает <Ability:OVERTHECOUNTER_BONUS_RECOVERY_STIMS> на дополнительное использование Стимулятора восстановления."
+LocPromotionPopupText="<Bullet/> Дает <Ability:OVERTHECOUNTER_BONUS_RECOVERY_STIMS> дополнительное использование Стимулятора восстановления.<br/>"
+
+[SG_UnderTheTable X2AbilityTemplate]
+LocFriendlyName="Бонус к яду"
+LocFlyOverText="Бонус к Яду"
+LocLongDescription="Дает <Ability:UNDERTHECOUNTER_BONUS_VENOM_STIMS> на дополнительное использование Ядовитого Стима."
+LocHelpText="Дает <Ability:UNDERTHECOUNTER_BONUS_VENOM_STIMS>  на дополнительное использование Ядовитого Стима."
+LocPromotionPopupText="<Bullet/> Дает <Ability:UNDERTHECOUNTER_BONUS_VENOM_STIMS> на дополнительное использование Ядовитого Стима.<br/>"
+
+[SG_CombatClinic X2AbilityTemplate]
+LocFriendlyName="Боевая клиника"
+LocFlyOverText="Боевая клиника"
+LocLongDescription="Выстреливает Восстанавливающий дротик во всех союзников, которых вы можете видеть, включая себя."
+LocHelpText="Выстреливает Восстанавливающий дротик во всех союзников, которых вы можете видеть, включая себя."
+LocPromotionPopupText="<Bullet/> Один заряд за миссию.<br/><Bullet/> Бонусы от Спасения и Затяжного эффекта распространяются на Боевую Клинику.<br/>"
+
+[SG_QuickStim X2AbilityTemplate]
+LocFriendlyName="Быстрый Стим"
+LocFlyOverText="Быстрый Стим"
+LocLongDescription="Активируйте эту способность, чтобы ваша способность Стим-пистолет в этот ход не стоила очков действия."
+LocHelpText="Активируйте эту способность, чтобы ваша способность Стим-пистолет в этот ход не стоила очков действия."
+LocPromotionPopupText="<Bullet/> <Ability:QUICKSTIM_COOLDOWN> время перезарядки.<br/><Bullet/> Применяется к Восстановление Стим, Яд Стим, Боевая клиника и Токсичное облако.<br/>"
+
+[SG_ToxicCloud X2AbilityTemplate]
+LocFriendlyName="Токсичное облако"
+LocFlyOverText="Токсичное облако"
+LocLongDescription="Выстрелите специальным ядовитым дротиком, который действует как обычный Яд против цели, а также выпускает большое облако яда в область вокруг них."
+LocHelpText="Выстрелите специальным ядовитым дротиком, который действует как обычный Яд против цели, а также выпускает большое облако яда в область вокруг них."
+LocPromotionPopupText="<Bullet/> Один заряд за миссию.<br/><Bullet/> Бонусы от Дротики и иглы и Нейротоксин применяются как к основной цели, так и к целям в зоне действия.<br/>"
+
+[SG_IncreasedDosage X2AbilityTemplate]
+LocFriendlyName="Увеличенная дозировка"
+LocFlyOverText="Увеличенная дозировка"
+LocLongDescription="Применяемый вами яд наносит больше урона с течением времени."
+LocHelpText="Применяемый вами яд наносит больше урона с течением времени."
+LocPromotionPopupText="<Bullet/> Увеличение урона с течением времени <Ability:INCREASEDDOSAGE_DOT_BONUS>.<br/><Bullet/> Относится ко всем видам яда, которые вы применяете, в том числе от Ядовитого Стима и Газовых гранат.<br/>"
+
+[SG_NitroStim X2AbilityTemplate]
+LocFriendlyName="Нитро-Стим"
+LocFlyOverText="Нитро-Стим"
+LocLongDescription="Применить Стим на союзника, который дает ему +<Ability:NITROSTIM_CRIT_BONUS/> Крит шанс и +<Ability:NITROSTIM_MOBILITY_BONUS/> Мобильность <Ability:NITROSTIM_DURATION/> до конца хода."
+LocHelpText="Применить Стим на союзника, который дает ему +<Ability:NITROSTIM_CRIT_BONUS/> Крит шанс и +<Ability:NITROSTIM_MOBILITY_BONUS/> Мобильность до <Ability:NITROSTIM_DURATION/> до конца хода."
+LocPromotionPopupText="<Bullet/> Многократное использование способности не накладывается.<br/><Bullet/> Начинается с <Ability:NITROSTIM_BASE_CHARGES> использовать, но получает одно дополнительное использование с каждой зарядкой Стим-пистолета.<br/><Bullet/> Требуется одно действие и не заканчивается ходом пользователя.<br/><Bullet/> Вы должны иметь прямую видимости цели, и она должны быть в пределах обычного диапазона оружия.<br/>"
+
+[SG_FocusStim X2AbilityTemplate]
+LocFriendlyName="Фокус-стим"
+LocFlyOverText="Фокус-стим"
+LocLongDescription="Применить Стим на союзника, который дает ему +<Ability:FOCUSSTIM_AIM_BONUS/> прицел(Aim) <Ability:FOCUSSTIM_DURATION/> до конца хода."
+LocHelpText="Стреляй в союзника, который дает им стимул +<Ability:FOCUSSTIM_AIM_BONUS/> прицел(Aim) <Ability:FOCUSSTIM_DURATION/> до конца хода."
+LocPromotionPopupText="<Bullet/> Многократное использование способности не накладывается.<br/><Bullet/> Начинается с <Ability:FOCUSSTIM_BASE_CHARGES> использовать, но получает одно дополнительное использование с каждой перезарядкой Стим-пистолета.<br/><Bullet/> Требуется одно действие и не заканчивается ходом пользователя.<br/><Bullet/> Вы должны иметь прямую видимость цели, и она должны быть в пределах обычного диапазона оружия.<br/>"
+
+[SG_StabilizeStim X2AbilityTemplate]
+LocFriendlyName="Стабилизирующий Стим"
+LocFlyOverText="Стабилизирующий Стим"
+LocLongDescription="Останавливает кровотечения у солдат (стабилизирует солдата, не дав ему умиреть), стреляя в него из дротика с расстояния. Потребляет один заряд (который делится с Восстанавливающим Стимом)."
+LocHelpText="Останавливает кровотечения у солдат (стабилизирует солдата, не дав ему умиреть)."
+
+[SG_Savior X2AbilityTemplate]
+LocFriendlyName="Спаситель"
+LocFlyOverText="Спаситель"
+LocLongDescription="Лечящие умения востанавливают <Ability:SAVIOR_BONUS_HEAL_AMMOUNT> дополнительные очки жизни."
+LocHelpText="Лечящие умения востанавливают <Ability:SAVIOR_BONUS_HEAL_AMMOUNT> дополнительные очки жизни."
+LocPromotionPopupText="<Bullet/> Эффект распространяется на способности Лекарство Гремлина, Аптечки, Восстанавливающий Стим и Реставрация.<br/>"
+
+
+
+

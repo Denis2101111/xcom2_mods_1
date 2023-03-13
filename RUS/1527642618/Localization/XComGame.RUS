@@ -1,0 +1,547 @@
+
+[fbshivclass X2SoldierClassTemplate]
+DisplayName="Легкая Т-БМП"
+ClassSummary="Тяжелая Боевая Машина Пехоты или Т-БМП, - это передовая оружейная платформа, которая может быть развернута вместо человека. Несмотря на то, что в большинстве боевых сценариев эта боевая машина чрезвычайно эффективна, любое повреждение Т-БМП потребует длительного ремонта."
+LeftAbilityTreeTitle="Тип A"
+RightAbilityTreeTitle="Тип B"
+AbilityTreeTitles[0]="Тип A"
+AbilityTreeTitles[1]="Тип B"
+
+RankNames[0]="База"
+RankNames[1]="Улучшение 1"
+RankNames[2]="Улучшение 2"
+RankNames[3]="Улучшение 3"
+RankNames[4]="Улучшение 4"
+RankNames[5]="Улучшение 5"
+RankNames[6]="Улучшение 6"
+RankNames[7]="Улучшение 7"
+
+ShortNames[0]="У-0."
+ShortNames[1]="У-1."
+ShortNames[2]="У-2."
+ShortNames[3]="У-3."
+ShortNames[4]="У-4."
+ShortNames[5]="У-5."
+ShortNames[6]="У-6."
+ShortNames[7]="У-7."
+
+
+[fbshivclass2 X2SoldierClassTemplate]
+DisplayName="Т-БМП из сплавов"
+ClassSummary="Тяжелая Боевая Машина Пехоты или Т-БМП, - это передовая оружейная платформа, которая может быть развернута вместо человека. Несмотря на то, что в большинстве боевых сценариев эта боевая машина чрезвычайно эффективна, любое повреждение Т-БМП потребует длительного ремонта."
+LeftAbilityTreeTitle="Тип A"
+RightAbilityTreeTitle="Тип B"
+AbilityTreeTitles[0]="Тип A"
+AbilityTreeTitles[1]="Тип B"
+
+RankNames[0]="База"
+RankNames[1]="Улучшение 1"
+RankNames[2]="Улучшение 2"
+RankNames[3]="Улучшение 3"
+RankNames[4]="Улучшение 4"
+RankNames[5]="Улучшение 5"
+RankNames[6]="Улучшение 6"
+RankNames[7]="Улучшение 7"
+
+ShortNames[0]="У-0."
+ShortNames[1]="У-1."
+ShortNames[2]="У-2."
+ShortNames[3]="У-3."
+ShortNames[4]="У-4."
+ShortNames[5]="У-5."
+ShortNames[6]="У-6."
+ShortNames[7]="У-7."
+
+[shiv_m1 X2CharacterTemplate]
+strCharacterName="Т-БМП XCOM"
+
+[shiv_m2 X2CharacterTemplate]
+strCharacterName="Т-БМП XCOM из сплавов"
+
+[SHIV_tesla X2CharacterTemplate]
+strCharacterName="Шип Тесла"
+
+[shivmissitem X2WeaponTemplate]
+FriendlyName="Вспомогательное оружие Т-БМП"
+BriefSummary="Вспомогательное оружие Т-БМП"
+LongDescription="Вспомогательное оружие Т-БМП"
+TacticalText="<Bullet/> Вспомогательное оружие Т-БМП"
+
+
+[shivgrapitem X2WeaponTemplate]
+FriendlyName="Вспомогательное оружие Т-БМП"
+BriefSummary="Вспомогательное оружие Т-БМП"
+LongDescription="Вспомогательное оружие Т-БМП"
+TacticalText="<Bullet/> Вспомогательное оружие Т-БМП"
+
+[shivstandardshot X2AbilityTemplate]
+LocFriendlyName="Обычный выстрел"
+LocLongDescription="Выстрелить по цели."
+LocHelpText="Выстрелить по цели."
+LocFlyOverText="Обычный выстрел"
+LocPromotionPopupText="Выстрелить по цели."
+
+[Country_fbshiv X2CountryTemplate]
++DisplayName = "Т-БМП"
++DisplayNameWithArticle = "Т-БМП"
++DisplayNameWithArticleLower = "Т-БМП"
++DisplayNamePossessive = "Т-БМП"
++DisplayAdjective = "Т-БМП"
+
+[fbnamer2]
+fbSparkFirstName="Т-БМП-"
+fbSparkLastNamePrefix="000"
+
+[fbnamer3]
+fbSparkFirstName="Т-БМП-"
+fbSparkLastNamePrefix="000"
+
+[PlatedShivArmor_Schematic X2SchematicTemplate]
+m_strClassLabel="Т-БМП"
+[PoweredShivArmor_Schematic X2SchematicTemplate]
+m_strClassLabel="Т-БМП"
+
+
+
+[shivgun_MG_Schematic X2SchematicTemplate]
+m_strClassLabel="Т-БМП"
+[shivgun_BM_Schematic X2SchematicTemplate]
+m_strClassLabel="Т-БМП"
+
+[Cannon_SHIV_M1 X2WeaponTemplate]
+FriendlyName="Пушка Т-БМП"
+FriendlyNamePlural="Пушки Т-БМП"
+BriefSummary="Пушка Т-БМП."
+LongDescription="Пушка Т-БМП"
+TacticalText="Пушка Т-БМП."
+AbilityDescName="Пушка Т-БМП"
+
+[Cannon_SHIV_M2 X2WeaponTemplate]
+FriendlyName="Пушка Т-БМП MK2"
+FriendlyNamePlural="Пушки Т-БМП MK2"
+BriefSummary="Пушка Т-БМП MK2"
+LongDescription="Пушка Т-БМП MK2"
+TacticalText="Пушка Т-БМП MK2"
+AbilityDescName="Пушка Т-БМП MK2"
+
+[Cannon_SHIV_M3 X2WeaponTemplate]
+FriendlyName="Пушка Т-БМП MK3"
+FriendlyNamePlural="Пушки Т-БМП MK3"
+BriefSummary="Пушка Т-БМП MK3"
+LongDescription="Пушка Т-БМП MK3"
+TacticalText="Пушка Т-БМП MK3"
+AbilityDescName="Пушка Т-БМП MK3"
+
+
+
+[ShivSprint X2AbilityTemplate]
+LocFriendlyName="Системы закиси азота"
+LocLongDescription="Т-БМП активирует закись азота, для ускорения и большей маневренности в зоне боевых действий. Предоставляет +4 к мобильности и +10 к шансу критического попадания при использовании. Свободное действие. Перезарядка 3 хода."
+LocHelpText="Т-БМП активирует закись азота, для ускорения и большей маневренности в зоне боевых действий. Предоставляет +4 к мобильности и +10 к шансу критического попадания при использовании. Свободное действие. Перезарядка 3 хода."
+LocFlyOverText="Системы закиси азота"
+LocPromotionPopupText="<Bullet/> Т-БМП активирует закись азота, для ускорения и большей маневренности в зоне боевых действий. Предоставляет +4 к мобильности и +10 к шансу критического попадания при использовании. Свободное действие. Перезарядка 3 хода.<br/>"
+
+
+[ShivBulldoze X2AbilityTemplate]
+LocFriendlyName="Протокол \"Бульдозер\""
+LocLongDescription="Т-БМП активирует протокол \"Бульдозер\", который позволяет машине пробивать стены и укрытия при перемещении. Перезарядка: 2 хода."
+LocHelpText="Т-БМП активирует протокол \"Бульдозер\", который позволяет машине пробивать стены и укрытия при перемещении. Перезарядка: 2 хода."
+LocFlyOverText="Протокол \"Бульдозер\""
+LocPromotionPopupText="<Bullet/>Т-БМП активирует протокол \"Бульдозер\", который позволяет машине пробивать стены и укрытия при перемещении. Перезарядка: 2 хода.<br/>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[intshiv X2TechTemplate]
+DisplayName="Построить легкую Т-БМП"
+Summary="Постройте Т-БМП - оружейную платформу, которую можно изготовить в зоне испытаний. Т-БМП могут быть использованы в качестве замены наших солдат на миссиях и требуют места в казармах штаба XCOM."
+CodeName="Т-БМП"
+LongDescription="Постройте Т-БМП - оружейную платформу, которую можно изготовить в зоне испытаний. Т-БМП могут быть использованы в качестве замены наших солдат на миссиях и требуют места в казармах штаба XCOM."
+UnlockedDescription="Легкая Т-БМП была построена"
+
+
+
+[intshiv2 X2TechTemplate]
+DisplayName="Построить Т-БМП из сплавов"
+Summary="Постройте Т-БМП из сплавов - оружейную платформу, которую можно изготовить в зоне испытаний. Этот вариант модели стандартного Т-БМП, имеет превосходную броню и является мобильным прикрытием для солдат."
+CodeName="Т-БМП"
+LongDescription="Постройте Т-БМП из сплавов - оружейную платформу, которую можно изготовить в зоне испытаний. Этот вариант модели стандартного Т-БМП, имеет превосходную броню и является мобильным прикрытием для солдат."
+UnlockedDescription="Т-БМП из сплавов была построена"
+
+
+[ShivHpmodule X2TechTemplate]
+DisplayName="Т-БМП: Прочность"
+Summary="Проект позволяет увеличить прочность Т-БМП из сплавов."
+CodeName="Крепость"
+LongDescription="Проект увеличивает здоровье Т-БМП из сплавов, увеличивая здоровье на +4."
+UnlockedDescription="Т-БМП из сплавов повысили свою живучесть."
+
+[ShivAimmodule X2TechTemplate]
+DisplayName="Т-БМП: Автоприцеливание"
+Summary="Проект повышает точность у всех Т-БМП."
+CodeName="Стрелок"
+LongDescription="Проект увеличивает меткость всех Т-БМП на +5." 
+UnlockedDescription="Т-БМП улучшили меткость."
+
+[ShivDodgemodule X2TechTemplate]
+DisplayName="Т-БМП: Уклонение"
+Summary="Проект позволяет легкому Т-БМП лучше уклоняться от атак."
+CodeName="Уклонение"
+LongDescription="Проект улучшает легкие Т-БМП, увеличивая уклонение на +15." 
+UnlockedDescription="Легкие Т-БМП теперь лучше уклоняются от атак."
+
+[ShivSpeedmodule X2TechTemplate]
+DisplayName="Т-БМП: Нитро"
+Summary="Проект позволяет легким Т-БМП улучшить перемещения."
+CodeName="Мобильность"
+LongDescription="Проект улучшает легкие Т-БМП, увеличивая мобильность на +2." 
+UnlockedDescription="Легкие Т-БМП повысили свою скоростью."
+
+[ShivShieldmodule X2TechTemplate]
+DisplayName="Т-БМП: Эгида"
+Summary="Проект позволяет Т-БМП развертываться с защитным экраном."
+CodeName="Щит"
+LongDescription="Проект Т-БМП дает энергетическую защиту. Т-БМП из сплавов получает больше защиты, чем легкий Т-БМП." 
+UnlockedDescription="Т-БМП получили энергетические щиты."
+
+[ShivArmormodule X2TechTemplate]
+DisplayName="Т-БМП: Тяжелая броня"
+Summary="Проект Т-БМП из сплавов улучшает броню."
+CodeName="Броня"
+LongDescription="Проект улучшает Т-БМП из сплавов, увеличивая броню на +2." 
+UnlockedDescription="Т-БМП из сплавов нарастили броню."
+
+
+[fbshivclass X2SoldierClassTemplate]
++DisplayName = "Легкая Т-БМП XCOM"
++ClassSummary = "Т-БМП (Тяжелая Боевая Машина Пехоты) - это оружейная платформа, которая может быть изготовлена в зоне испытаний. Т-БМП могут быть использованы в качестве замены солдат на миссиях и требуют места в казармах штаба XCOM."
++LeftAbilityTreeTitle = "Легкая Т-БМП"
++RightAbilityTreeTitle = "Легкая Т-БМП"
+
+[fbshivclass2 X2SoldierClassTemplate]
++DisplayName = "Т-БМП XCOM из сплавов"
++ClassSummary = "Т-БМП из сплавов - это оружейная платформа, которая может быть изготовлена в зоне испытаний. Этот вариант модели стандартного Т-БМП, имеет превосходную броню и является мобильным прикрытием для солдат."
++LeftAbilityTreeTitle = "Т-БМП из сплавов"
++RightAbilityTreeTitle = "Т-БМП из сплавов"
+
+
+
+
+[Cannon_fake1 X2WeaponTemplate]
+FriendlyName="Пушка Т-БМП MK2"
+FriendlyNamePlural="Пушки Т-БМП MK2"
+BriefSummary="Это повысит урон основного оружия наших Т-БМП"
+LongDescription="Это повысит урон основного оружия наших Т-БМП"
+TacticalText="Это повысит урон основного оружия наших Т-БМП"
+AbilityDescName="Пушка Т-БМП MK2"
+
+
+[Cannon_fake2 X2WeaponTemplate]
+FriendlyName="Пушка Т-БМП MK3"
+FriendlyNamePlural="Пушки Т-БМП MK3"
+BriefSummary="Это повысит урон основного оружия наших Т-БМП"
+LongDescription="Это повысит урон основного оружия наших Т-БМП"
+TacticalText="Это повысит урон основного оружия наших Т-БМП"
+AbilityDescName="Пушка Т-БМП MK3"
+
+
+
+
+[TargetDefinitionshiv X2AbilityTemplate]
+LocFriendlyName="Определение цели"
+LocLongDescription="Любой замеченный Т-БМП боец постоянно остается видимым."
+LocHelpText="Любой замеченный Т-БМП боец постоянно остается видимым."
+LocPromotionPopupText="<Bullet/> Разведка силами Т-БМП позволяет отслеживать врагов даже после их отхода в \"туман войны\".<br/>"
+
+[TargetDefinitionPassiveshiv X2AbilityTemplate]
+LocFriendlyName="Определение цели"
+LocLongDescription="Любой замеченный Т-БМП боец постоянно остается видимым."
+LocHelpText="Любой замеченный Т-БМП боец постоянно остается видимым."
+
+
+
+
+
+
+[SHIV_M1Immunities X2AbilityTemplate]
+LocFriendlyName="Иммунитет Т-БМП"
+LocLongDescription="Т-БМП не может быть подвержен ментальным воздействиям."
+LocHelpText="Т-БМП не может быть подвержен ментальным воздействиям."
+LocFlyOverText="Т-БМП не может быть подвержен ментальным воздействиям."
+LocPromotionPopupText="Т-БМП не может быть подвержен ментальным воздействиям."
+
+
+[SHIV_M2Immunities X2AbilityTemplate]
+LocFriendlyName="Т-БСП Программное обеспечение"
+LocLongDescription="Т-БМП не подвергаются ментальным атакам."
+LocHelpText="Т-БМП не подвергаются ментальным атакам."
+LocFlyOverText="Т-БМП не подвергаются ментальным атакам."
+LocPromotionPopupText="Т-БМП не подвергаются ментальным атакам."
+
+[Shivaimboost X2AbilityTemplate]
+LocFriendlyName="Модуль прицеливания"
+LocLongDescription="Т-БМП имеет повышенную меткость."
+LocHelpText="Т-БМП имеет повышенную меткость."
+LocFlyOverText="Т-БМП имеет повышенную меткость."
+LocPromotionPopupText="Т-БМП имеет повышенную меткость."
+
+[ShivArmorAbility X2AbilityTemplate]
+LocFriendlyName="Модуль брони"
+LocLongDescription="Т-БМП имеет +2 брони."
+LocHelpText="Т-БМП имеет +2 брони."
+LocFlyOverText="Т-БМП имеет +2 брони."
+LocPromotionPopupText="Т-БМП имеет +2 брони."
+
+[ShivShieldAbility X2AbilityTemplate]
+LocFriendlyName="Модуль щита"
+LocLongDescription="Т-БМП имеет +4 щита."
+LocHelpText="Т-БМП имеет +4 щита."
+LocFlyOverText="Т-БМП имеет +4 щита."
+LocPromotionPopupText="Т-БМП имеет +4 щита."
+
+[Shiv2ShieldAbility X2AbilityTemplate]
+LocFriendlyName="Модуль Эгида"
+LocLongDescription="Т-БМП имеет +6 щита."
+LocHelpText="Т-БМП имеет +6 щита."
+LocFlyOverText="Т-БМП имеет +6 щита."
+LocPromotionPopupText="Т-БМП имеет +6 щита."
+
+[ShivSpeedboost X2AbilityTemplate]
+LocFriendlyName="Модуль Нитро"
+LocLongDescription="Т-БМП имеет +2 к мобильности."
+LocHelpText="Т-БМП имеет +2 к мобильности."
+LocFlyOverText="Т-БМП имеет +2 к мобильности."
+LocPromotionPopupText="Т-БМП имеет +2 к мобильности."
+
+[ShivDodgeboost X2AbilityTemplate]
+LocFriendlyName="Avoidance Module"
+LocLongDescription="Т-БМП имеет+15 к уклонению."
+LocHelpText="Т-БМП имеет +15 к уклонению."
+LocFlyOverText="Т-БМП имеет +15 к уклонению."
+LocPromotionPopupText="Т-БМП имеет +15 к уклонению."
+
+[Shivhpboost X2AbilityTemplate]
+LocFriendlyName="Модуль прочности"
+LocLongDescription="Т-БМП имеет +4 к здоровью."
+LocHelpText="Т-БМП имеет +4 к здоровью."
+LocFlyOverText="Т-БМП имеет +4 к здоровью."
+LocPromotionPopupText="Т-БМП имеет +4 к здоровью."
+
+[shivflush X2AbilityTemplate]
+LocFriendlyName="Вывести из строя"
+LocLongDescription="Выстрел с высоким шансом попасть по врагу. Наносит низкий урон и имеет шанс выбить его из укрытия."
+LocHelpText="Выстрел с высоким шансом попасть по врагу. Наносит низкий урон и имеет шанс выбить его из укрытия."
+LocFlyOverText="Вывести из строя"
+LocPromotionPopupText="Выстрел с высоким шансом попасть по врагу. Наносит низкий урон и имеет шанс выбить его из укрытия."
+
+
+
+
+[shivshielden X2AbilityTemplate]
+LocFriendlyName="Энергетический щит"
+LocLongDescription="Предоставляет Т-БМП 3 ед. регенерирующего щита, который восполняется в начале хода."
+LocHelpText="Предоставляет Т-БМП 3 ед. регенерирующего щита, который восполняется в начале хода."
+LocFlyOverText="Щит"
+LocPromotionPopupText="Предоставляет Т-БМП 3 ед.цы регенерирующего щита, который восполняется в начале хода."
+
+[shivtrishot X2AbilityTemplate]
+LocFriendlyName="Огненный шторм"
+LocLongDescription="Сделайте 3 обычных выстрела по цели одновременно за счет перегрева и повреждения Т-БМП."
+LocHelpText="Сделайте 3 обычных выстрела по цели одновременно за счет перегрева и повреждения Т-БМП."
+LocFlyOverText="Огненный шторм"
+LocPromotionPopupText="Сделайте 3 обычных выстрела по цели одновременно за счет перегрева и повреждения Т-БМП."
+
+[shivdamagecontrol X2AbilityTemplate]
+LocFriendlyName="Контроль повреждений"
+LocLongDescription="Когда Т-БМП поврежден, он временно усиливает свою броню на 3 ед. повышая свою защиту от последующего урона до конца хода."
+LocHelpText="Когда Т-БМП поврежден, он временно усиливает свою броню на 3 ед. повышая свою защиту от последующего урона до конца хода."
+LocFlyOverText="Контроль повреждений"
+LocPromotionPopupText="Когда Т-БМП поврежден, он временно усиливает свою броню на 3 ед. повышая свою защиту от последующего урона до конца хода."
+
+[barrageStrike X2AbilityTemplate]
+LocFriendlyName="Удар копья"
+LocLongDescription="Запуск в воздух шквал ракет дальнего радиуса действия. На следующем ходу ракеты обрушиваются на цель, нанося огромный урон всем врагам, находящимся в зоне поражения."
+LocHelpText="Запуск в воздух шквал ракет дальнего радиуса действия. На следующем ходу ракеты обрушиваются на цель, нанося огромный урон всем врагам, находящимся в зоне поражения."
+LocFlyOverText="Удар копья"
+LocPromotionPopupText="Запуск в воздух шквал ракет дальнего радиуса действия. На следующем ходу ракеты обрушиваются на цель, нанося огромный урон всем врагам, находящимся в зоне поражения."
+
+[barrageStrike2 X2AbilityTemplate]
+LocFriendlyName="Удар копья"
+LocLongDescription="Запуск в небо шквал ракет дальнего радиуса действия. На следующем ходу ракеты обрушиваются на цель, нанося огромный урон всем врагам, находящимся в зоне поражения."
+LocHelpText="Запуск в небо шквал ракет дальнего радиуса действия. На следующем ходу ракеты обрушиваются на цель, нанося огромный урон всем врагам, находящимся в зоне поражения."
+LocFlyOverText="Удар копья"
+LocPromotionPopupText="Запуск в небо шквал ракет дальнего радиуса действия. На следующем ходу ракеты обрушиваются на цель, нанося огромный урон всем врагам, находящимся в зоне поражения."
+
+[shivimmolate X2AbilityTemplate]
+LocFriendlyName="Пылающий шквал"
+LocLongDescription="Выстрел пылающими снарядами по позиции врага. Вызывает небольшой огненный взрыв в месте попадания. Наносит небольшое количество начального урона, за которым следует эффект горения."
+LocHelpText="Выстрел пылающими снарядами по позиции врага. Вызывает небольшой огненный взрыв в месте попадания. Наносит небольшое количество начального урона, за которым следует эффект горения."
+LocFlyOverText="Пылающий шквал"
+LocPromotionPopupText="Выстрел пылающими снарядами по позиции врага. Вызывает небольшой огненный взрыв в месте попадания. Наносит небольшое количество начального урона, за которым следует эффект горения."
+
+[shivjustice X2AbilityTemplate]
+LocFriendlyName="Выстрел крюком"
+LocLongDescription="Выстрел крюком по вражеской цели, позволяющий притянуть ее к позиции Т-БМП. Стоит 1 действие."
+LocHelpText="Выстрел крюком по вражеской цели, позволяющий притянуть ее к позиции Т-БМП. Стоит 1 действие."
+LocFlyOverText="Выстрел крюком"
+LocPromotionPopupText="Выстрел крюком по вражеской цели, позволяющий притянуть ее к позиции Т-БМП. Стоит 1 действие."
+
+[shivshield X2AbilityTemplate]
+LocFriendlyName="Кинетический барьер"
+LocLongDescription="Т-БМП создает щит, который действует 1 ход и блокирует все повреждения. Стоит 1 действие."
+LocHelpText="Т-БМП создает щит, который действует 1 ход и блокирует все повреждения. Стоит 1 действие."
+LocFlyOverText="Кинетический барьер"
+LocPromotionPopupText="Т-БМП создает щит, который действует 1 ход и блокирует все повреждения. Стоит 1 действие."
+
+
+
+[teslaattack X2AbilityTemplate]
+LocFriendlyName="Удар Тесла"
+LocLongDescription="Т-БМП высвобождает электрический всплеск в области вокруг Т-БМП. Наносит большое количество бронебойного урона."
+LocHelpText="Т-БМП высвобождает электрический всплеск в области вокруг Т-БМП. Наносит большое количество бронебойного урона."
+LocFlyOverText="Удар Тесла"
+LocPromotionPopupText="Т-БМП высвобождает электрический всплеск в области вокруг Т-БМП. Наносит большое количество бронебойного урона."
+
+[teslalaunch X2AbilityTemplate]
+LocFriendlyName="Развернуть шипы Тесла"
+LocLongDescription="Запустите на поле боя 3 развертываемых шипа Тесла, которые действуют как постоянно активные мины, наносящие урон всем врагам, оказавшимся рядом. После получения урона, вражеская единица становится неуязвимой для последующий ударов других Тесла шипов на 1 ход. Силы \"Адвента\" постарается уничтожить мины, в случае их обнаружения."
+LocHelpText="Запустите на поле боя 3 развертываемых шипа Тесла, которые действуют как постоянно активные мины, наносящие урон всем врагам, оказавшимся рядом. После получения урона, вражеская единица становится неуязвимой для последующий ударов других Тесла шипов на 1 ход. Силы \"Адвента\" постарается уничтожить мины, в случае их обнаружения."
+LocFlyOverText="Развернуть шипы Тесла"
+LocPromotionPopupText="Запустите на поле боя 3 развертываемых шипа Тесла, которые действуют как постоянно активные мины, наносящие урон всем врагам, оказавшимся рядом. После получения урона, вражеская единица становится неуязвимой для последующий ударов других Тесла шипов на 1 ход. Силы \"Адвента\" постарается уничтожить мины, в случае их обнаружения."
+
+
+
+
+
+
+
+[shivmodule2 X2AbilityTemplate]
+LocFriendlyName="Дополнительная броня"
+LocLongDescription="Предоставляет Т-БМП 1 дополнительную ед. брони."
+LocHelpText="Предоставляет Т-БМП 1 дополнительную ед. брони."
+LocFlyOverText="Дополнительная броня"
+LocPromotionPopupText="Предоставляет Т-БМП 1 дополнительную ед. брони."
+
+[shivmodule1 X2AbilityTemplate]
+LocFriendlyName="Удар копья"
+LocLongDescription="Запуск в небо шквал ракет дальнего радиуса действия. На следующем ходу ракеты обрушиваются на цель, нанося огромный урон всем врагам, находящимся в зоне поражения. Эта способность может быть использована дважды за миссию."
+LocHelpText="Запуск в небо шквал ракет дальнего радиуса действия. На следующем ходу ракеты обрушиваются на цель, нанося огромный урон всем врагам, находящимся в зоне поражения. Эта способность может быть использована дважды за миссию."
+LocFlyOverText="Удар копья"
+LocPromotionPopupText="Запуск в небо шквал ракет дальнего радиуса действия. На следующем ходу ракеты обрушиваются на цель, нанося огромный урон всем врагам, находящимся в зоне поражения. Эта способность может быть использована дважды за миссию."
+
+
+
+[Bladestormfb33z X2AbilityTemplate]
+LocFriendlyName="Автоматическая турель"
+LocLongDescription="Т-БМП производит ответные выстрелы по реакции в любого врага, который находится в непосредственной близости от него."
+LocHelpText="Т-БМП производит ответные выстрелы по реакции в любого врага, который находится в непосредственной близости от него."
+LocFlyOverText="Автоматическая турель"
+LocPromotionPopupText="Т-БМП производит ответные выстрелы по реакции в любого врага, который находится в непосредственной близости от него."
+
+[BladestormAttackfb33z X2AbilityTemplate]
+LocFriendlyName="Автоматическая турель"
+LocLongDescription="Т-БМП производит ответные выстрелы по реакции в любого врага, который находится в непосредственной близости от него."
+LocHelpText="Т-БМП производит ответные выстрелы по реакции в любого врага, который находится в непосредственной близости от него."
+LocFlyOverText="Автоматическая турель"
+LocPromotionPopupText="Т-БМП производит ответные выстрелы по реакции в любого врага, который находится в непосредственной близости от него."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[shivArmor X2ArmorTemplate]
+FriendlyName="Оборонные системы Т-БМП"
+FriendlyNamePlural="Оборонные системы Т-БМП"
+BriefSummary="Это стандартная броня Т-БМП."
+TacticalText="<Bullet/> Это стандартная броня Т-БМП."
+
+
+[PlatedshivArmor X2ArmorTemplate]
+FriendlyName="Оборонные системы Т-БМП MК2"
+FriendlyNamePlural="Оборонные системы Т-БМП MК2"
+BriefSummary="Это улучшенная броня Т-БМП."
+TacticalText="<Bullet/> Это улучшенная броня Т-БМП."
+
+
+[PoweredshivArmor X2ArmorTemplate]
+FriendlyName="Оборонные системы Т-БМП MК3"
+FriendlyNamePlural="Оборонные системы Т-БМП MК3"
+BriefSummary="Это улучшенная броня Т-БМП."
+TacticalText="<Bullet/> Это улучшенная броня Т-БМП."
+
+
+[PlatedshivArmorfake X2ArmorTemplate]
+FriendlyName="Оборонные системы Т-БМП MК2"
+FriendlyNamePlural="Оборонные системы Т-БМП MК2"
+BriefSummary="Это улучшит все защитные системы Т-БМП, повысив уровень брони и здоровья боевой единицы."
+TacticalText="<Bullet/> Это улучшит все защитные системы Т-БМП, повысив уровень брони и здоровья боевой единицы."
+
+
+[PoweredshivArmorfake X2ArmorTemplate]
+FriendlyName="Оборонные системы Т-БМП MК3"
+FriendlyNamePlural="Оборонные системы Т-БМП MК3"
+BriefSummary="Это улучшит все защитные системы Т-БМП, повысив уровень брони и здоровья боевой единицы."
+TacticalText="<Bullet/> Это улучшит все защитные системы Т-БМП, повысив уровень брони и здоровья боевой единицы."
+
+
+
+
+
+
+
+
+
+
+[teleportshiv X2AbilityTemplate]
+LocFriendlyName="Запуск Т-БМП"
+LocLongDescription="Перемещение на любую позицию на поле боя. Запуск не может быть активирован внутри помещения. Способность перезаряжается в течении 7 ходов."
+LocHelpText="Перемещение на любую позицию на поле боя. Запуск не может быть активирован внутри помещения. Способность перезаряжается в течении 7 ходов."
+LocFlyOverText="Запуск Т-БМП"
+LocPromotionPopupText="Перемещение на любую позицию на поле боя. Запуск не может быть активирован внутри помещения. Способность перезаряжается в течении 7 ходов."
+
+
+[shivBulwark X2AbilityTemplate]
+LocFriendlyName="Бастион"
+LocLongDescription="Т-БМП получает 1 ед. брони и обеспечивает высокое укрытие всем соседним членам отряда."
+LocHelpText="Т-БМП получает 1 ед. брони и обеспечивает высокое укрытие всем соседним членам отряда."
+LocPromotionPopupText="<Bullet/> Способность \"Бастион\" добавляет 1 ед. брони.<br/><Bullet/> Любой член отряда, стоящий рядом с Т-БМП, получит бонус к защите от высокого укрытия.<br/>"
